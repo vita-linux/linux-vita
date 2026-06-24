@@ -37,7 +37,7 @@ makepkg -sf
 
 **What happens:**
 1. Downloads kernel source from kernel.org
-2. Downloads Arch Linux patch
+2. Applies `patches/linux-v7.0.13-arch1.patch` (Arch Linux patch)
 3. Applies `patches/bore.patch`
 4. Enables `CONFIG_SCHED_BORE` via `scripts/config`
 5. Runs `olddefconfig` to finalize config
