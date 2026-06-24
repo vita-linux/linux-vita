@@ -1,0 +1,69 @@
+# Arch Linux build artifacts
+*.pkg.tar.*
+*.src.tar.*
+pkg/
+src/
+*.zst
+
+# Kernel build outputs
+*.o
+*.ko
+*.mod.c
+*.mod
+*.o.d
+*.symvers
+*.order
+vmlinux
+vmlinux.gz
+vmlinux.bin
+vmlinux.map
+
+# Kernel config backups
+.config.old
+*.old
+*~
+
+# Generated files
+linux-*/.tmp_versions
+linux-*/Module.symvers
+linux-*/Module.markers
+linux-*/modules.builtin
+linux-*/modules.order
+
+# Documentation build
+Documentation/output/
+
+# IDE/Editor files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Build logs
+*.log
+build-*.log
+
+# Modprobed-db files
+.modprobed.db
+
+# CDEmu/vhba module builds
+vhba-module-*/build/
+vhba.ko
+
+# External modules
+*/extramodules/
+
+# Debug symbols
+*.debug
+
+# Kernel tarballs (keep patches and configs, not source)
+linux-*.tar.*
+linux-*.tar.*
+v*.tar.*
+
+# Downloaded sources (comment out if you want to track them)
+# https://cdn.kernel.org/pub/linux/kernel/v7.x/linux-7.0.12.tar.xz
+
+# Localbuild versions
+localversion-*
