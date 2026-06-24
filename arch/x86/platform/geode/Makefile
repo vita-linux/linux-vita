@@ -1,5 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-obj-$(CONFIG_GEODE_COMMON)	+= geode-common.o
-obj-$(CONFIG_ALIX)		+= alix.o
-obj-$(CONFIG_NET5501)		+= net5501.o
-obj-$(CONFIG_GEOS)		+= geos.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:259055b312d8afd071f647d38b0f7389e167e59c7da9ff155ff5c04fef71bc78
+size 181

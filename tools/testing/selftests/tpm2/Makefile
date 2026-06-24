@@ -1,5 +1,3 @@
-# SPDX-License-Identifier: (GPL-2.0 OR BSD-3-Clause)
-include ../lib.mk
-
-TEST_PROGS := test_smoke.sh test_space.sh test_async.sh
-TEST_PROGS_EXTENDED := tpm2.py tpm2_tests.py
+version https://git-lfs.github.com/spec/v1
+oid sha256:cc96e68bd36e807f200c94df8150215eb2885000df0d7ff98fa8d94df7f9d12e
+size 173

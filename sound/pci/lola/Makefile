@@ -1,5 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-snd-lola-y := lola.o lola_pcm.o lola_clock.o lola_mixer.o
-snd-lola-$(CONFIG_SND_DEBUG) += lola_proc.o
-
-obj-$(CONFIG_SND_LOLA) += snd-lola.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:901f036dc24dc2ebfbf066bc38e5ffc673dda02a3330d9ce8ed379efa5cebe70
+size 180

@@ -1,9 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-or-later
-#
-# smbdirect configuration
-
-config SMBDIRECT
-	def_tristate n
-	depends on INFINIBAND && INFINIBAND_ADDR_TRANS
-	depends on m || INFINIBAND=y
-	select SG_POOL
+version https://git-lfs.github.com/spec/v1
+oid sha256:ace29fcaa0d3eceb49a25d52798ae958371507cb31851526df95d8cbad3c5612
+size 200

@@ -1,3 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-obj-$(CONFIG_CRYPTO_DEV_STM32_HASH) += stm32-hash.o
-obj-$(CONFIG_CRYPTO_DEV_STM32_CRYP) += stm32-cryp.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:6e728b7409af9e8e1b535d8e1f88a2919837f4ae36bfb33b6f7927ec747eff18
+size 144

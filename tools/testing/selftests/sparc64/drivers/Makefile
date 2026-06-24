@@ -1,15 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-INCLUDEDIR := -I.
-CFLAGS := $(CFLAGS) $(INCLUDEDIR) -Wall -O2 -g
-
-TEST_GEN_FILES := adi-test
-
-all: $(TEST_GEN_FILES)
-
-$(TEST_GEN_FILES): adi-test.c
-
-TEST_PROGS := drivers_test.sh
-
-include ../../lib.mk
-
-$(OUTPUT)/adi-test: adi-test.c
+version https://git-lfs.github.com/spec/v1
+oid sha256:6efa85381be5d79fbeaf94027afeede3b623b17090bc0e6cd5dcf3a94c460664
+size 268

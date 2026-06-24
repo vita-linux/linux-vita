@@ -1,8 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-
-config COMMON_CLK_PISTACHIO
-	bool "Support for IMG Pistachio SoC clock controllers"
-	depends on MIPS || COMPILE_TEST
-	help
-	  Support for the IMG Pistachio SoC clock controller.
-	  Say Y if you want to include clock support.
+version https://git-lfs.github.com/spec/v1
+oid sha256:42f79b8e1194a0ee74439797d71d44ff00edb4fd953b8044a4d468209223ac57
+size 261

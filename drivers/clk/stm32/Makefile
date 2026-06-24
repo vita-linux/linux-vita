@@ -1,4 +1,3 @@
-obj-$(CONFIG_COMMON_CLK_STM32MP135)	+= clk-stm32mp13.o clk-stm32-core.o reset-stm32.o
-obj-$(CONFIG_COMMON_CLK_STM32MP157)	+= clk-stm32mp1.o reset-stm32.o
-obj-$(CONFIG_COMMON_CLK_STM32MP215)	+= clk-stm32mp21.o clk-stm32-core.o reset-stm32.o
-obj-$(CONFIG_COMMON_CLK_STM32MP257)	+= clk-stm32mp25.o clk-stm32-core.o reset-stm32.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:b9db4ff2e27bbcac6a9d74928f7815d6bf0c31a92aaa8efc45e00253c29b0f8e
+size 326

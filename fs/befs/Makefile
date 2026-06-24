@@ -1,8 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-#
-# Makefile for the linux BeOS filesystem routines.
-#
- 
-obj-$(CONFIG_BEFS_FS) += befs.o
-ccflags-$(CONFIG_BEFS_DEBUG)    += -DDEBUG
-befs-objs := datastream.o btree.o super.o inode.o debug.o io.o linuxvfs.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:ce4348b8f4cce882fc5746069b3b1b1c882e7db95166bb8a34e84d81b86b8fb8
+size 246

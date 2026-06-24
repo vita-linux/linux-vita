@@ -1,10 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-or-later
-
-quiet_cmd_gen_ftrace_ool_stubs = GEN     $@
-	cmd_gen_ftrace_ool_stubs = $< "$(CONFIG_PPC_FTRACE_OUT_OF_LINE_NUM_RESERVE)" "$(CONFIG_64BIT)" \
-				   "$(OBJDUMP)" vmlinux.o $@
-
-$(obj)/vmlinux.arch.S: $(src)/ftrace-gen-ool-stubs.sh vmlinux.o FORCE
-	$(call if_changed,gen_ftrace_ool_stubs)
-
-targets += vmlinux.arch.S
+version https://git-lfs.github.com/spec/v1
+oid sha256:762d0330c762e9c8bc399bba66001561c3a6ac5dafa48ef728135673de5d1143
+size 359

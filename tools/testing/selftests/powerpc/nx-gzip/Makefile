@@ -1,9 +1,3 @@
-TEST_GEN_FILES := gzfht_test gunz_test
-TEST_PROGS := nx-gzip-test.sh
-
-include ../../lib.mk
-include ../flags.mk
-
-CFLAGS = -O3 -m64 -I./include -I../include
-
-$(TEST_GEN_FILES): gzip_vas.c ../utils.c
+version https://git-lfs.github.com/spec/v1
+oid sha256:e0752c897896fb04d52a927c08e93f55cbc31c3e3b0e58d0326757f14cbcf8f6
+size 197

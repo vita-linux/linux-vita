@@ -1,22 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-lib-y			+= delay.o
-lib-y			+= memcpy.o
-lib-y			+= memset.o
-lib-y			+= memmove.o
-ifeq ($(CONFIG_KASAN_GENERIC)$(CONFIG_KASAN_SW_TAGS),)
-lib-y			+= strcmp.o
-lib-y			+= strlen.o
-lib-y			+= strncmp.o
-lib-y			+= strnlen.o
-lib-y			+= strchr.o
-lib-y			+= strrchr.o
-endif
-lib-y			+= csum.o
-ifeq ($(CONFIG_MMU), y)
-lib-$(CONFIG_RISCV_ISA_V)	+= uaccess_vector.o
-endif
-lib-$(CONFIG_MMU)	+= uaccess.o
-lib-$(CONFIG_64BIT)	+= tishift.o
-lib-$(CONFIG_RISCV_ISA_ZICBOZ)	+= clear_page.o
-obj-$(CONFIG_FUNCTION_ERROR_INJECTION) += error-inject.o
-lib-$(CONFIG_RISCV_ISA_V)	+= riscv_v_helpers.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:8203a573f22fc0bd7d0788498eba72aef2bfe1976864b74cb6781539b4bb279c
+size 613

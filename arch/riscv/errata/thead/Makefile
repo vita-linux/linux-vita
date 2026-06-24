@@ -1,11 +1,3 @@
-ifdef CONFIG_RISCV_ALTERNATIVE_EARLY
-CFLAGS_errata.o := -mcmodel=medany
-ifdef CONFIG_FTRACE
-CFLAGS_REMOVE_errata.o = $(CC_FLAGS_FTRACE)
-endif
-ifdef CONFIG_KASAN
-KASAN_SANITIZE_errata.o := n
-endif
-endif
-
-obj-y += errata.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:c75f8ab3572037fa8724e45c17ec9bacf1cd5ade17cbf29aa5a31d15ecee6298
+size 221

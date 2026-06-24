@@ -1,6 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-#
-# Makefile for Linux filesystem routines that are shared by client and server.
-#
-
-obj-$(CONFIG_SMBFS) += cifs_md4.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:9b1d59fba7240c57bf5e09c04134eb56f395f2dfff4baa73afe457cb7e931b0e
+size 158

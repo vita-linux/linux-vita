@@ -1,7 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-# builds a module that calls various trace_printk routines
-# then to use one (as root):  insmod <module_name.ko>
-
-# This module can also be used to test the trace_printk code.
-
-obj-$(CONFIG_SAMPLE_TRACE_PRINTK) += trace-printk.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:c70720954c765b3f4f25ea604148d48730a5213ab84bb377d55812873eb76112
+size 269

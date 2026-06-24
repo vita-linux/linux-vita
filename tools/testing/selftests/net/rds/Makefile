@@ -1,19 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-
-all:
-	@echo mk_build_dir="$(shell pwd)" > include.sh
-
-TEST_PROGS := run.sh
-
-TEST_FILES := \
-	include.sh \
-	settings \
-	test.py \
-# end of TEST_FILES
-
-EXTRA_CLEAN := \
-	include.sh \
-	/tmp/rds_logs \
-# end of EXTRA_CLEAN
-
-include ../../lib.mk
+version https://git-lfs.github.com/spec/v1
+oid sha256:a8d39fcc75f00fc0f7212d16a9cdefb1035ee659ee75b06900b8cb4d3b702ec5
+size 277

@@ -1,9 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-
-obj-y				:= core.o
-obj-$(CONFIG_DAMON_VADDR)	+= ops-common.o vaddr.o
-obj-$(CONFIG_DAMON_PADDR)	+= ops-common.o paddr.o
-obj-$(CONFIG_DAMON_SYSFS)	+= sysfs-common.o sysfs-schemes.o sysfs.o
-obj-$(CONFIG_DAMON_RECLAIM)	+= modules-common.o reclaim.o
-obj-$(CONFIG_DAMON_LRU_SORT)	+= modules-common.o lru_sort.o
-obj-$(CONFIG_DAMON_STAT)	+= modules-common.o stat.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:aae6152c4e0817bc3ce9d1dd40d30a322596461ec3b5ecc2b05c68f4d590049e
+size 393

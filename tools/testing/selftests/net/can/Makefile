@@ -1,11 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-
-top_srcdir = ../../../../..
-
-CFLAGS += -Wall -Wl,--no-as-needed -O2 -g -I$(top_srcdir)/usr/include $(KHDR_INCLUDES)
-
-TEST_PROGS := test_raw_filter.sh
-
-TEST_GEN_FILES := test_raw_filter
-
-include ../../lib.mk
+version https://git-lfs.github.com/spec/v1
+oid sha256:2a69e6804a48ec077b74a15ece106a2ce09aede1e22dd819448d6d4fd60c89a0
+size 243

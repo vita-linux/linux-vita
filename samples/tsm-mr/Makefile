@@ -1,2 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-obj-$(CONFIG_SAMPLE_TSM_MR) += tsm_mr_sample.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:a2df6625b28e4ceac06beba6f1f0caf42d810379b4b96a4655bba59690314876
+size 87

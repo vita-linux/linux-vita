@@ -1,9 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-dtb-$(CONFIG_ARCH_NPCM7XX) += \
-	nuvoton-npcm730-gsj.dtb \
-	nuvoton-npcm730-gbs.dtb \
-	nuvoton-npcm730-kudo.dtb \
-	nuvoton-npcm750-evb.dtb \
-	nuvoton-npcm750-runbmc-olympus.dtb
-dtb-$(CONFIG_ARCH_WPCM450) += \
-	nuvoton-wpcm450-supermicro-x9sci-ln4f.dtb
+version https://git-lfs.github.com/spec/v1
+oid sha256:255e2e99c779ee999b433f40a68e1f2fc33b81744438a4595d658be2ef94d71f
+size 287

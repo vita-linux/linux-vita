@@ -1,4 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-
-HL_GAUDI2_FILES := gaudi2/gaudi2.o gaudi2/gaudi2_security.o \
-		gaudi2/gaudi2_coresight.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:6418e236e674ca935d2e2f3ca728ccc606ebc80c2a7d0878bcd37431b2a0ffd3
+size 131

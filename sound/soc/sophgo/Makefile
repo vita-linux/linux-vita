@@ -1,5 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-# Sophgo Platform Support
-obj-$(CONFIG_SND_SOC_CV1800B_TDM) += cv1800b-tdm.o
-obj-$(CONFIG_SND_SOC_CV1800B_ADC_CODEC) += cv1800b-sound-adc.o
-obj-$(CONFIG_SND_SOC_CV1800B_DAC_CODEC) += cv1800b-sound-dac.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:432f4875c80e3ebabcc63a115ed6a8a6841e4f1e4fa4ded5aba22ce188ba31ee
+size 238

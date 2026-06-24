@@ -1,9 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-#
-# Makefile for ALSA
-# Copyright (c) 2001 by Jaroslav Kysela <perex@perex.cz>
-#
-
-snd-vx-lib-y := vx_core.o vx_hwdep.o vx_pcm.o vx_mixer.o vx_cmd.o vx_uer.o
-
-obj-$(CONFIG_SND_VX_LIB) += snd-vx-lib.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:1caa8ecdff49e230d3f684c5976b36737225d50f15f7fea484dbfd5343f50a7d
+size 239

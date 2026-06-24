@@ -1,15 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-# Copyright (C) 2021 ARM Limited
-# Originally tools/testing/arm64/abi/Makefile
-
-# Additional include paths needed by kselftest.h and local headers
-CFLAGS += -std=gnu99 -I.
-
-TEST_GEN_FILES := mmap_default mmap_bottomup
-
-TEST_PROGS := run_mmap.sh
-
-include ../../lib.mk
-
-$(OUTPUT)/mm: mmap_default.c mmap_bottomup.c mmap_tests.h
-	$(CC) -o$@ $(CFLAGS) $(LDFLAGS) $^
+version https://git-lfs.github.com/spec/v1
+oid sha256:e6079b65ee3f88c1169845935b8aaf5f7c4e03117309a39f37389447ccb7df71
+size 397

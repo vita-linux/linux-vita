@@ -1,19 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-or-later
-#
-# Copyright (c) 2019 Oracle.
-# All Rights Reserved.
-#
-
-ccflags-y += -I $(src)		# needed for trace events
-
-obj-$(CONFIG_FS_IOMAP)		+= iomap.o
-
-iomap-y				+= trace.o \
-				   iter.o \
-				   buffered-io.o
-iomap-$(CONFIG_BLOCK)		+= direct-io.o \
-				   ioend.o \
-				   fiemap.o \
-				   seek.o \
-				   bio.o
-iomap-$(CONFIG_SWAP)		+= swapfile.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:fb01b01b5038acf7b7f20f6a3bbcf5793752ea2bcdd11be322e9d742de8847a2
+size 389

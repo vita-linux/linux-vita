@@ -1,5 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-# Makefile for Toshiba Visconti clock
-
-obj-y	+= clkc.o pll.o reset.o
-obj-y	+= pll-tmpv770x.o clkc-tmpv770x.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:638f0ab454ecf84f67d11fb30fa3340ff3eab1f04be399262f7726cacc460c35
+size 149

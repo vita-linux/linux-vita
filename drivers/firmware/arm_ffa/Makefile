@@ -1,8 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-ffa-bus-y = bus.o
-ffa-driver-y = driver.o
-ffa-transport-$(CONFIG_ARM_FFA_SMCCC) += smccc.o
-ffa-core-objs := $(ffa-bus-y)
-ffa-module-objs := $(ffa-driver-y) $(ffa-transport-y)
-obj-$(CONFIG_ARM_FFA_TRANSPORT)  = ffa-core.o
-obj-$(CONFIG_ARM_FFA_TRANSPORT) += ffa-module.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:7f3162318296ef78cbcf346721bcd09a6a3c19f3c33888d4368f04cb3c10b10d
+size 309

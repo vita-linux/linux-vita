@@ -1,17 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-
-
-generated-y += orc_hash.h
-generated-y += syscalls_32.h
-generated-y += syscalls_64.h
-generated-y += syscalls_x32.h
-generated-y += unistd_32_ia32.h
-generated-y += unistd_64_x32.h
-generated-y += xen-hypercalls.h
-generated-y += cpufeaturemasks.h
-
-generic-y += early_ioremap.h
-generic-y += fprobe.h
-generic-y += mcs_spinlock.h
-generic-y += mmzone.h
-generic-y += ring_buffer.h
+version https://git-lfs.github.com/spec/v1
+oid sha256:e6def32cbe8e30f165fde6f62dac0ed73f0ddf2568c88b6568cbdcd075c7ae42
+size 408

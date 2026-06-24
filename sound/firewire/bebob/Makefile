@@ -1,6 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-snd-bebob-y := bebob_command.o bebob_stream.o bebob_proc.o bebob_midi.o \
-		  bebob_pcm.o bebob_hwdep.o bebob_terratec.o \
-		  bebob_yamaha_terratec.o bebob_focusrite.o bebob_maudio.o \
-		  bebob.o
-obj-$(CONFIG_SND_BEBOB) += snd-bebob.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:64960da95a8af773beb4261e48a0a4ec6767b5416ce84ef9f7e7cdd6a57a3265
+size 272

@@ -1,15 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-#
-# SAE J1939 network layer core configuration
-#
-
-config CAN_J1939
-	tristate "SAE J1939"
-	depends on CAN
-	help
-	  SAE J1939
-	  Say Y to have in-kernel support for j1939 socket type. This
-	  allows communication according to SAE j1939.
-	  The relevant parts in kernel are
-	  SAE j1939-21 (datalink & transport protocol)
-	  & SAE j1939-81 (network management).
+version https://git-lfs.github.com/spec/v1
+oid sha256:24be40f3e91a6d56ad0a5e2470a99aa76a0747e478a819ab5b5f475ce29e840c
+size 394

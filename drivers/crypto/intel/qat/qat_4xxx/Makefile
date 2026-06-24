@@ -1,3 +1,3 @@
-# SPDX-License-Identifier: (BSD-3-Clause OR GPL-2.0-only)
-obj-$(CONFIG_CRYPTO_DEV_QAT_4XXX) += qat_4xxx.o
-qat_4xxx-y := adf_drv.o adf_4xxx_hw_data.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:a2ffec21a469cf5be70ffa22d6419390c9a2ae688a8c472f1a44d6f5183dc502
+size 149

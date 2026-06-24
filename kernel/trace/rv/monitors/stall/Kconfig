@@ -1,13 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-#
-config RV_MON_STALL
-	depends on RV
-	select HA_MON_EVENTS_ID
-	bool "stall monitor"
-	help
-	  Enable the stall sample monitor that illustrates the usage of hybrid
-	  automata monitors. It can be used to identify tasks stalled for
-	  longer than a threshold.
-
-	  For further information, see:
-	    Documentation/trace/rv/monitor_stall.rst
+version https://git-lfs.github.com/spec/v1
+oid sha256:705f525caa6a802bf2ccdb8536e83049ff38f0a039be9d15309e4a333ac55e7c
+size 377

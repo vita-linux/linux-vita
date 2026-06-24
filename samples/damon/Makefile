@@ -1,5 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-
-obj-$(CONFIG_SAMPLE_DAMON_WSSE) += wsse.o
-obj-$(CONFIG_SAMPLE_DAMON_PRCL) += prcl.o
-obj-$(CONFIG_SAMPLE_DAMON_MTIER) += mtier.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:25eda11390a43773a6588f01c3401b00f89e817265be76dd9c55fedf3109916d
+size 164

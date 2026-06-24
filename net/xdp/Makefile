@@ -1,4 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-obj-$(CONFIG_XDP_SOCKETS) += xsk.o xdp_umem.o xsk_queue.o xskmap.o
-obj-$(CONFIG_XDP_SOCKETS) += xsk_buff_pool.o
-obj-$(CONFIG_XDP_SOCKETS_DIAG) += xsk_diag.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:8a12977f87101f858239dd0bed2f09b61dc89045ae1a017ab83fc2897c65badd
+size 197

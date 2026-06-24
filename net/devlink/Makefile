@@ -1,4 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-
-obj-y := core.o netlink.o netlink_gen.o dev.o port.o sb.o dpipe.o \
-	 resource.o param.o region.o health.o trap.o rate.o linecard.o sh_dev.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:cab5957272e1673df6aeea33be1d45a5bbcb598e68b61fe172c08d287688d3c8
+size 177

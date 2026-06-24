@@ -1,32 +1,3 @@
-#
-# arch/nios2/boot/Makefile
-#
-# This file is subject to the terms and conditions of the GNU General Public
-# License.  See the file "COPYING" in the main directory of this archive
-# for more details.
-#
-
-UIMAGE_LOADADDR = $(shell $(NM) vmlinux | awk '$$NF == "_stext" {print $$1}')
-UIMAGE_ENTRYADDR = $(shell $(NM) vmlinux | awk '$$NF == "_start" {print $$1}')
-UIMAGE_COMPRESSION = gzip
-
-OBJCOPYFLAGS_vmlinux.bin := -O binary
-
-targets += vmlinux.bin vmlinux.gz vmImage
-
-$(obj)/vmlinux.bin: vmlinux FORCE
-	$(call if_changed,objcopy)
-
-$(obj)/vmlinux.gz: $(obj)/vmlinux.bin FORCE
-	$(call if_changed,gzip)
-
-$(obj)/vmImage: $(obj)/vmlinux.gz FORCE
-	$(call if_changed,uimage)
-	@$(kecho) 'Kernel: $@ is ready'
-
-$(obj)/zImage: $(obj)/compressed/vmlinux FORCE
-	$(call if_changed,objcopy)
-	@$(kecho) 'Kernel: $@ is ready'
-
-$(obj)/compressed/vmlinux: $(obj)/vmlinux.gz FORCE
-	$(Q)$(MAKE) $(build)=$(obj)/compressed $@
+version https://git-lfs.github.com/spec/v1
+oid sha256:78c0620d5cc2f5f4939f94250ca60a5e2ca64c9d05ef0363d8d4ef6acc666409
+size 907

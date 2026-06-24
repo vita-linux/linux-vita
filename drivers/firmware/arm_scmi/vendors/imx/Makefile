@@ -1,5 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-obj-$(CONFIG_IMX_SCMI_BBM_EXT) += imx-sm-bbm.o
-obj-$(CONFIG_IMX_SCMI_CPU_EXT) += imx-sm-cpu.o
-obj-$(CONFIG_IMX_SCMI_LMM_EXT) += imx-sm-lmm.o
-obj-$(CONFIG_IMX_SCMI_MISC_EXT) += imx-sm-misc.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:585abf1028b63e3795f6ddac669696bc43fc63b7864c94e8e2917b79b2ef90fa
+size 230

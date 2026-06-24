@@ -1,4 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-obj-$(CONFIG_BCM47XX_NVRAM)		+= bcm47xx_nvram.o
-obj-$(CONFIG_BCM47XX_SPROM)		+= bcm47xx_sprom.o
-obj-$(CONFIG_TEE_BNXT_FW)		+= tee_bnxt_fw.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:e953f84ab50b35c84832e972e1ea0eda08f6ff6a6265a7bf284713de611adcf4
+size 180

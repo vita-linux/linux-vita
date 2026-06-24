@@ -1,6 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-#
-# Makefile for the RTS7751R2D specific parts of the kernel
-#
-
-obj-y	 := setup.o irq.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:7ce52dfeecfd27179788c161e7559ee22065730895dab40d77b9d811c93f83eb
+size 123

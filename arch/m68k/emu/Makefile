@@ -1,10 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-#
-# Makefile for Linux arch/m68k/emu source directory
-#
-
-obj-y			+= natfeat.o
-
-obj-$(CONFIG_NFBLOCK)	+= nfblock.o
-obj-$(CONFIG_NFCON)	+= nfcon.o
-obj-$(CONFIG_NFETH)	+= nfeth.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:2e33a7b0d4c5efb6b719fe98eee225df110b71cbf149e4d64320bfdf7d9de3bd
+size 216

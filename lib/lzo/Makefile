@@ -1,6 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-lzo_compress-objs := lzo1x_compress.o lzo1x_compress_safe.o
-lzo_decompress-objs := lzo1x_decompress_safe.o
-
-obj-$(CONFIG_LZO_COMPRESS) += lzo_compress.o
-obj-$(CONFIG_LZO_DECOMPRESS) += lzo_decompress.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:6385e755a914009e80c9f2266f190f4c9fe0f02b614e28ee95adcb06e0c19948
+size 242

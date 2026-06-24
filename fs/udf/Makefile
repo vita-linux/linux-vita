@@ -1,10 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-#
-# Makefile for the linux udf-filesystem routines.
-#
-
-obj-$(CONFIG_UDF_FS) += udf.o
-
-udf-objs     := balloc.o dir.o file.o ialloc.o inode.o lowlevel.o namei.o \
-		partition.o super.o truncate.o symlink.o \
-		directory.o misc.o udftime.o unicode.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:8f31e0b19a035a747d7b534f232c0b59a494309184e6f96eb70b3a0e14e43b48
+size 288

@@ -1,5 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-obj-$(CONFIG_OCFS2_FS_O2CB) += ocfs2_dlm.o
-
-ocfs2_dlm-objs := dlmdomain.o dlmdebug.o dlmthread.o dlmrecovery.o \
-	dlmmaster.o dlmast.o dlmconvert.o dlmlock.o dlmunlock.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:9eac06561138f905d44145fc0a0bd0b5f5ab8efa8fbba8790a6ac9591b0abe5f
+size 210

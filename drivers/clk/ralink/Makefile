@@ -1,3 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-obj-$(CONFIG_CLK_MT7621) += clk-mt7621.o
-obj-$(CONFIG_CLK_MTMIPS) += clk-mtmips.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:ecf9235c137efc325633bef19b878f680cfbe9b54ac54b85c23fd8906d58f51f
+size 117

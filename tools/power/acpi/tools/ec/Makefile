@@ -1,14 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-# tools/power/acpi/tools/acpidump/Makefile - ACPI tool Makefile
-#
-# Copyright (c) 2015, Intel Corporation
-#   Author: Lv Zheng <lv.zheng@intel.com>
-#
-
-include ../../Makefile.config
-
-TOOL = ec
-TOOL_OBJS = \
-	ec_access.o
-
-include ../../Makefile.rules
+version https://git-lfs.github.com/spec/v1
+oid sha256:d00e7f1505d3a9d638a065b66495ed45dcdb31da22ffa99299d4045f023dfd1a
+size 289

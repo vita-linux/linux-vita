@@ -1,5 +1,3 @@
-obj-$(CONFIG_CRYPTO_DEV_EIP93) += crypto-hw-eip93.o
-
-crypto-hw-eip93-y += eip93-main.o eip93-common.o
-crypto-hw-eip93-y += eip93-cipher.o eip93-aead.o
-crypto-hw-eip93-y += eip93-hash.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:73661c88199cc60080c3e6ee5d2c237a61783997487291636e0de6f7f0d97139
+size 185

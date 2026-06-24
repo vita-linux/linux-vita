@@ -1,24 +1,3 @@
-KSelfTest RISC-V
-================
-
-- These tests are riscv specific and so not built or run but just skipped
-  completely when env-variable ARCH is found to be different than 'riscv'.
-
-- Holding true the above, RISC-V KSFT tests can be run within the
-  KSelfTest framework using standard Linux top-level-makefile targets:
-
-      $ make TARGETS=riscv kselftest-clean
-      $ make TARGETS=riscv kselftest
-
-      or
-
-      $ make -C tools/testing/selftests TARGETS=riscv \
-		INSTALL_PATH=<your-installation-path> install
-
-      or, alternatively, only specific riscv/ subtargets can be picked:
-
-      $ make -C tools/testing/selftests TARGETS=riscv RISCV_SUBTARGETS="mm vector" \
-		INSTALL_PATH=<your-installation-path> install
-
-   Further details on building and running KSFT can be found in:
-     Documentation/dev-tools/kselftest.rst
+version https://git-lfs.github.com/spec/v1
+oid sha256:e650e070ec1236cbdb4d2ce4468ea82473cc1f3679dbb63f738f08b0750cc106
+size 834

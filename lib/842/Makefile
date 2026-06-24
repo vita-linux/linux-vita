@@ -1,3 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-obj-$(CONFIG_842_COMPRESS) += 842_compress.o
-obj-$(CONFIG_842_DECOMPRESS) += 842_decompress.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:5d5376e3635a96f731721b4001d4ce3cb8a3d447b0edc9fd04ad616e4ac44f69
+size 134

@@ -1,23 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-# Font handling
-
-font-y := fonts.o
-font-$(CONFIG_FRAMEBUFFER_CONSOLE_ROTATION) += font_rotate.o
-
-# Built-in fonts; sorted by Family-Size in ascending order
-font-$(CONFIG_FONT_6x8)       += font_6x8.o
-font-$(CONFIG_FONT_6x10)      += font_6x10.o
-font-$(CONFIG_FONT_6x11)      += font_6x11.o
-font-$(CONFIG_FONT_7x14)      += font_7x14.o
-font-$(CONFIG_FONT_8x8)       += font_8x8.o
-font-$(CONFIG_FONT_8x16)      += font_8x16.o
-font-$(CONFIG_FONT_10x18)     += font_10x18.o
-font-$(CONFIG_FONT_ACORN_8x8) += font_acorn_8x8.o
-font-$(CONFIG_FONT_MINI_4x6)  += font_mini_4x6.o
-font-$(CONFIG_FONT_PEARL_8x8) += font_pearl_8x8.o
-font-$(CONFIG_FONT_SUN8x16)   += font_sun8x16.o
-font-$(CONFIG_FONT_SUN12x22)  += font_sun12x22.o
-font-$(CONFIG_FONT_TER10x18)  += font_ter10x18.o
-font-$(CONFIG_FONT_TER16x32)  += font_ter16x32.o
-
-obj-$(CONFIG_FONT_SUPPORT) += font.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:160af729ee3f408f3b8e7debcb3a1c22280bf6078e2a86e553aa9734f33e56f9
+size 887

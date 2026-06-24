@@ -1,13 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-# Makefile for sysctl selftests.
-# Expects kernel.sysctl_writes_strict=1.
-
-# No binaries, but make sure arg-less "make" doesn't trigger "run_tests".
-all:
-
-TEST_PROGS := sysctl.sh
-
-include ../lib.mk
-
-# Nothing to clean up.
-clean:
+version https://git-lfs.github.com/spec/v1
+oid sha256:94539deec185c55dbd370ccc2e057a4e060d04960190361e6cc7b4c24828615e
+size 269

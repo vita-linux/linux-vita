@@ -1,5 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-obj-y	:= setup.o sdram.o
-ifneq ($(CONFIG_FB_SH_MOBILE_LCDC),)
-obj-y	+=  lcd_wqvga.o
-endif
+version https://git-lfs.github.com/spec/v1
+oid sha256:9a56b8014135fc7649355c8b58a0ae1a68992b985738fb0d5c29c994e1b90ddf
+size 125

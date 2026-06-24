@@ -1,23 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0+
-
-include ../../Makefile.config
-
-TOOL = pfrut
-EXTRA_INSTALL = install-man
-EXTRA_UNINSTALL = uninstall-man
-
-CFLAGS += -Wall -O2
-CFLAGS += -DPFRUT_HEADER='"../../../../../include/uapi/linux/pfrut.h"'
-LDFLAGS += -luuid
-
-TOOL_OBJS = \
-	pfrut.o
-
-include ../../Makefile.rules
-
-install-man: $(srctree)/man/pfrut.8
-	$(ECHO) "  INST    " pfrut.8
-	$(QUIET) $(INSTALL_DATA) -D $< $(DESTDIR)$(mandir)/man8/pfrut.8
-uninstall-man:
-	$(ECHO) "  UNINST  " pfrut.8
-	$(QUIET) rm -f $(DESTDIR)$(mandir)/man8/pfrut.8
+version https://git-lfs.github.com/spec/v1
+oid sha256:b09132160bbb1ed5a6d4eb2dbfa5996770554111e9eba8a3b82914d1251f9801
+size 531

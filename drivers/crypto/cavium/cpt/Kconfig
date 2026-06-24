@@ -1,18 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-#
-# Cavium crypto device configuration
-#
-
-config CRYPTO_DEV_CPT
-	tristate
-
-config CAVIUM_CPT
-	tristate "Cavium Cryptographic Accelerator driver"
-	depends on ARCH_THUNDER || COMPILE_TEST
-	depends on PCI_MSI && 64BIT
-	select CRYPTO_DEV_CPT
-	help
-	  Support for Cavium CPT block found in octeon-tx series of
-	  processors.
-
-	  To compile this as a module, choose M here.
+version https://git-lfs.github.com/spec/v1
+oid sha256:8afb3d9e09db75e1e9452e9aeba4f1c173a4284e74b5e9f58568c2feac022a3d
+size 408

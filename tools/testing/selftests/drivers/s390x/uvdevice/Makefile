@@ -1,20 +1,3 @@
-include ../../../../../build/Build.include
-
-UNAME_M := $(shell uname -m)
-
-ifneq ($(UNAME_M),s390x)
-nothing:
-.PHONY: all clean run_tests install
-.SILENT:
-else
-
-TEST_GEN_PROGS := test_uvdevice
-
-top_srcdir ?= ../../../../../..
-LINUX_TOOL_ARCH_INCLUDE = $(top_srcdir)/tools/arch/$(ARCH)/include
-
-CFLAGS += -Wall -Werror -static $(KHDR_INCLUDES) -I$(LINUX_TOOL_ARCH_INCLUDE)
-
-include ../../../lib.mk
-
-endif
+version https://git-lfs.github.com/spec/v1
+oid sha256:3c2fefaa55deb8732b31ba28f0a1ea752c9d13f766d1bb4c3c8a710cae7b435c
+size 402

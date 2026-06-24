@@ -1,24 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-config PPC_CELL
-	select PPC_64S_HASH_MMU if PPC64
-	bool
-
-menu "Cell Broadband Engine options"
-	depends on PPC_CELL
-
-config SPU_FS
-	tristate "SPU file system"
-	default m
-	depends on PPC_CELL
-	depends on COREDUMP
-	select SPU_BASE
-	help
-	  The SPU file system is used to access Synergistic Processing
-	  Units on machines implementing the Broadband Processor
-	  Architecture.
-
-config SPU_BASE
-	bool
-	select PPC_COPRO_BASE
-
-endmenu
+version https://git-lfs.github.com/spec/v1
+oid sha256:9cf65d255127a375652f98463bdf72d9bddae86b5c26bcb22297763e845d5ce1
+size 463

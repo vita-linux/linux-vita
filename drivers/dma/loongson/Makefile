@@ -1,4 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-obj-$(CONFIG_LOONGSON1_APB_DMA) += loongson1-apb-dma.o
-obj-$(CONFIG_LOONGSON2_APB_DMA) += loongson2-apb-dma.o
-obj-$(CONFIG_LOONGSON2_APB_CMC_DMA) += loongson2-apb-cmc-dma.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:d3bc84499bade437c422f5542aa909625bef153ef3f9cab3fdb28ac8edcf8459
+size 213

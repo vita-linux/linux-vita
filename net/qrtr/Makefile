@@ -1,10 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-obj-$(CONFIG_QRTR) += qrtr.o
-qrtr-y	:= af_qrtr.o ns.o
-
-obj-$(CONFIG_QRTR_SMD) += qrtr-smd.o
-qrtr-smd-y	:= smd.o
-obj-$(CONFIG_QRTR_TUN) += qrtr-tun.o
-qrtr-tun-y	:= tun.o
-obj-$(CONFIG_QRTR_MHI) += qrtr-mhi.o
-qrtr-mhi-y	:= mhi.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:59700ea3b5202b781428431d09b37f470abde0393c10bb0da57d3863e104baaa
+size 266

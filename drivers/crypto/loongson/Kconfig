@@ -1,5 +1,3 @@
-config CRYPTO_DEV_LOONGSON_RNG
-	tristate "Support for Loongson RNG Driver"
-	depends on MFD_LOONGSON_SE
-	help
-	  Support for Loongson RNG Driver.
+version https://git-lfs.github.com/spec/v1
+oid sha256:16d9d387098c28c7898eaad749ddf98d14fe2d1c20a940b598e616756506a005
+size 145

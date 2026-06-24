@@ -1,14 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-# Platform specific code goes here
-obj-y	+= atom/
-obj-y	+= ce4100/
-obj-y	+= efi/
-obj-y	+= geode/
-obj-y	+= iris/
-obj-y	+= intel/
-obj-y	+= intel-mid/
-obj-y	+= intel-quark/
-obj-y	+= olpc/
-obj-y	+= scx200/
-obj-y	+= ts5500/
-obj-y	+= uv/
+version https://git-lfs.github.com/spec/v1
+oid sha256:5fb858ffc92d55d201a0ef0c5343e51f20a7d3a6b69460705386fbe3cd3eaa53
+size 267

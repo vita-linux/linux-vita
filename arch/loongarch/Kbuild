@@ -1,9 +1,3 @@
-obj-y += kernel/
-obj-y += mm/
-obj-y += net/
-obj-y += vdso/
-
-obj-$(subst m,y,$(CONFIG_KVM)) += kvm/
-
-# for cleaning
-subdir- += boot
+version https://git-lfs.github.com/spec/v1
+oid sha256:fc7007249d3da8bff8b20a47f78b49e1a5f893faaadd9f3ea4a6b483e8a8569c
+size 131

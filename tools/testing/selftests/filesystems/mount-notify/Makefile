@@ -1,11 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-or-later
-
-CFLAGS += -Wall -O2 -g $(KHDR_INCLUDES) $(TOOLS_INCLUDES)
-LDLIBS += -lcap
-
-TEST_GEN_PROGS := mount-notify_test mount-notify_test_ns
-
-include ../../lib.mk
-
-$(OUTPUT)/mount-notify_test: ../utils.c
-$(OUTPUT)/mount-notify_test_ns: ../utils.c
+version https://git-lfs.github.com/spec/v1
+oid sha256:ca15d8d6b98e808dbdda1e67e5e8f3a559cad0a801991a16d63d5ed69da61106
+size 283

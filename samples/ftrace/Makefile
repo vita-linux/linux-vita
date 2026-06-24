@@ -1,11 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-
-obj-$(CONFIG_SAMPLE_FTRACE_DIRECT) += ftrace-direct.o
-obj-$(CONFIG_SAMPLE_FTRACE_DIRECT) += ftrace-direct-too.o
-obj-$(CONFIG_SAMPLE_FTRACE_DIRECT) += ftrace-direct-modify.o
-obj-$(CONFIG_SAMPLE_FTRACE_DIRECT_MULTI) += ftrace-direct-multi.o
-obj-$(CONFIG_SAMPLE_FTRACE_DIRECT_MULTI) += ftrace-direct-multi-modify.o
-obj-$(CONFIG_SAMPLE_FTRACE_OPS) += ftrace-ops.o
-
-CFLAGS_sample-trace-array.o := -I$(src)
-obj-$(CONFIG_SAMPLE_TRACE_ARRAY) += sample-trace-array.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:9d45ae505b78323a16f70399a3b7a4820a82a82026968c16c6fa6c6807498ec7
+size 499

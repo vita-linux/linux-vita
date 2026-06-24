@@ -1,22 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-#
-# Freescale Management Complex (MC) bus drivers
-#
-# Copyright (C) 2014 Freescale Semiconductor, Inc.
-#
-obj-$(CONFIG_FSL_MC_BUS) += mc-bus-driver.o
-
-mc-bus-driver-objs := fsl-mc-bus.o \
-		      mc-sys.o \
-		      mc-io.o \
-		      dpbp.o \
-		      dpcon.o \
-		      dprc.o \
-		      dprc-driver.o \
-		      fsl-mc-allocator.o \
-		      fsl-mc-msi.o \
-		      dpmcp.o \
-		      obj-api.o
-
-# MC userspace support
-obj-$(CONFIG_FSL_MC_UAPI_SUPPORT) += fsl-mc-uapi.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:d455a545cd704393749d96d955021e9b1bad855ddf82745bc912bca331e273c8
+size 498

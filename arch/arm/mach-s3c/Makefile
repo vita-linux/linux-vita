@@ -1,23 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-#
-# Copyright 2009 Simtec Electronics
-
-include $(src)/Makefile.s3c64xx
-
-# Objects we always build independent of SoC choice
-
-obj-y				+= init.o cpu.o
-
-# devices
-
-obj-$(CONFIG_SAMSUNG_ATAGS)	+= platformdata.o
-obj-$(CONFIG_SAMSUNG_ATAGS)	+= devs.o
-obj-$(CONFIG_SAMSUNG_ATAGS)	+= dev-uart.o
-
-obj-$(CONFIG_GPIO_SAMSUNG)     += gpio-samsung.o
-
-# PM support
-
-obj-$(CONFIG_SAMSUNG_PM)	+= pm.o pm-common.o
-obj-$(CONFIG_SAMSUNG_PM_GPIO)	+= pm-gpio.o
-obj-$(CONFIG_SAMSUNG_WAKEMASK)	+= wakeup-mask.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:1e643cb93cede091cedf524291346917bf84459ef317138b682959627f838d83
+size 524

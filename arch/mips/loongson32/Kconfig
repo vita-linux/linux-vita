@@ -1,9 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-
-config BUILTIN_DTB_NAME
-	string "Source file for built-in DTB"
-	depends on BUILTIN_DTB
-	help
-	  Base name (without suffix, relative to arch/mips/boot/dts/loongson)
-	  for the DTS file that will be used to produce the DTB linked into
-	  the kernel.
+version https://git-lfs.github.com/spec/v1
+oid sha256:936e37c0fe15a3f03cc492baa4cc8e18e46f22bc356db0f735a6b8663edafa0f
+size 284

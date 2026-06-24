@@ -1,2 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-obj-$(CONFIG_HIBERNATION) += cpu.o hibernate.o hibernate_asm.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:0255a488bda2c155954afddd6da47fc82878d547e55e037fdfcf9ca3bf009b74
+size 103

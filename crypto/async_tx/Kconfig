@@ -1,28 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-config ASYNC_CORE
-	tristate
-
-config ASYNC_MEMCPY
-	tristate
-	select ASYNC_CORE
-
-config ASYNC_XOR
-	tristate
-	select ASYNC_CORE
-	select XOR_BLOCKS
-
-config ASYNC_PQ
-	tristate
-	select ASYNC_CORE
-
-config ASYNC_RAID6_RECOV
-	tristate
-	select ASYNC_CORE
-	select ASYNC_PQ
-	select ASYNC_XOR
-
-config ASYNC_TX_DISABLE_PQ_VAL_DMA
-	bool
-
-config ASYNC_TX_DISABLE_XOR_VAL_DMA
-	bool
+version https://git-lfs.github.com/spec/v1
+oid sha256:6bbda017cbbabfa833b9e3925531a4afc45e9b1970a861d6369d2ed71482db72
+size 400

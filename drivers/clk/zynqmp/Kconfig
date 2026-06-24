@@ -1,10 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-
-config COMMON_CLK_ZYNQMP
-	bool "Support for Xilinx ZynqMP Ultrascale+ clock controllers"
-	depends on ZYNQMP_FIRMWARE || COMPILE_TEST
-	default ZYNQMP_FIRMWARE
-	help
-	  Support for the Zynqmp Ultrascale clock controller.
-	  It has a dependency on the PMU firmware.
-	  Say Y if you want to include clock support.
+version https://git-lfs.github.com/spec/v1
+oid sha256:eeb5d34081f141d134729b72e71f1572c35335a9bd8d55c79b9e0f42d6885b01
+size 346

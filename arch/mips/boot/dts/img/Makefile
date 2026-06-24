@@ -1,4 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-dtb-$(CONFIG_FIT_IMAGE_FDT_BOSTON)	+= boston.dtb
-
-dtb-$(CONFIG_FIT_IMAGE_FDT_MARDUK)	+= pistachio_marduk.dtb
+version https://git-lfs.github.com/spec/v1
+oid sha256:0484558204d6ba79ee94629e8f38e3947c474f4771aa633bac158128e86f3ccd
+size 144

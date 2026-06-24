@@ -1,13 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-dtb-$(CONFIG_ARCH_HI3xxx) += \
-	hi3620-hi4511.dtb
-dtb-$(CONFIG_ARCH_HIP01) += \
-	hip01-ca9x2.dtb
-dtb-$(CONFIG_ARCH_HIP04) += \
-	hip04-d01.dtb
-dtb-$(CONFIG_ARCH_HISI) += \
-	hi3519-demb.dtb
-dtb-$(CONFIG_ARCH_HIX5HD2) += \
-	hisi-x5hd2-dkb.dtb
-dtb-$(CONFIG_ARCH_SD5203) += \
-	sd5203.dtb
+version https://git-lfs.github.com/spec/v1
+oid sha256:e2e0f6a541e05c7cd8fc8a4621d9e5733cf41843ee404864125563213a1d022c
+size 318

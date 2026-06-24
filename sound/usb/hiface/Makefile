@@ -1,3 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-snd-usb-hiface-y := chip.o pcm.o
-obj-$(CONFIG_SND_USB_HIFACE) += snd-usb-hiface.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:3dd182a83c788d473540b63b5555d555da6d9972d35c8f245c6dafede0ed811a
+size 122

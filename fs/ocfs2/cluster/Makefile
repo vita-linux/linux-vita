@@ -1,5 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-obj-$(CONFIG_OCFS2_FS) += ocfs2_nodemanager.o
-
-ocfs2_nodemanager-objs := heartbeat.o masklog.o sys.o nodemanager.o \
-	quorum.o tcp.o netdebug.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:5559d7111e43fcc2b338278b23b68c70dc1ea5d4109c3903cf531897a404a279
+size 184

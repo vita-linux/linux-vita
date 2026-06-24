@@ -1,19 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-#
-# Copyright (C) 1998, 1999, 2001 Philip Blundell
-#
-
-obj-$(CONFIG_FPE_NWFPE)		+= nwfpe.o
-
-nwfpe-y				+= fpa11.o fpa11_cpdo.o fpa11_cpdt.o \
-				   fpa11_cprt.o fpmodule.o fpopcode.o \
-				   softfloat.o single_cpdo.o double_cpdo.o \
-				   entry.o
-
-nwfpe-$(CONFIG_FPE_NWFPE_XP)	+= extended_cpdo.o
-
-# Try really hard to avoid generating calls to __aeabi_uldivmod() from
-# float64_rem() due to loop elision.
-ifdef CONFIG_CC_IS_CLANG
-CFLAGS_softfloat.o	+= -mllvm -replexitval=never
-endif
+version https://git-lfs.github.com/spec/v1
+oid sha256:209d61c72f0fa2a39d0a142adab929e2dff34a1a04fa38895019af2d86bcc3f5
+size 521

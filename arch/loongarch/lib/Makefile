@@ -1,13 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-#
-# Makefile for LoongArch-specific library files.
-#
-
-lib-y	+= delay.o clear_user.o copy_user.o dump_tlb.o unaligned.o
-
-lib-$(CONFIG_32BIT) += bswapsi.o bswapdi.o
-lib-$(CONFIG_64BIT) += memset.o memcpy.o memmove.o csum.o
-
-obj-$(CONFIG_ARCH_SUPPORTS_INT128) += tishift.o
-
-obj-$(CONFIG_FUNCTION_ERROR_INJECTION) += error-inject.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:25fa7fa4e2a381374e1cdae229380d9d85d8864629af98b8b3a1f14da6723c26
+size 363

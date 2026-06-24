@@ -1,11 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-#
-# Makefile for Xtensa-specific library files.
-#
-
-lib-y	+= memcopy.o memset.o checksum.o \
-	   ashldi3.o ashrdi3.o bswapdi2.o bswapsi2.o lshrdi3.o \
-	   divsi3.o udivsi3.o modsi3.o umodsi3.o mulsi3.o umulsidi3.o \
-	   usercopy.o strnlen_user.o
-lib-$(CONFIG_ARCH_HAS_STRNCPY_FROM_USER) += strncpy_user.o
-lib-$(CONFIG_PCI) += pci-auto.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:27bd7460545c35cc167d5b4165898d648075a2038f28a158ab1df7a9481b0bb6
+size 376

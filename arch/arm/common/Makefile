@@ -1,17 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-#
-# Makefile for the linux kernel.
-#
-
-obj-y				+= firmware.o
-
-obj-$(CONFIG_SA1111)		+= sa1111.o
-obj-$(CONFIG_KRAIT_L2_ACCESSORS) += krait-l2-accessors.o
-obj-$(CONFIG_SHARP_LOCOMO)	+= locomo.o
-obj-$(CONFIG_SHARP_PARAM)	+= sharpsl_param.o
-obj-$(CONFIG_SHARP_SCOOP)	+= scoop.o
-obj-$(CONFIG_CPU_V7)		+= secure_cntvoff.o
-obj-$(CONFIG_MCPM)		+= mcpm_head.o mcpm_entry.o mcpm_platsmp.o vlock.o
-CFLAGS_REMOVE_mcpm_entry.o	= -pg
-obj-$(CONFIG_BL_SWITCHER)	+= bL_switcher.o
-obj-$(CONFIG_BL_SWITCHER_DUMMY_IF) += bL_switcher_dummy_if.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:201908cf34ff9299c4364d5a63dbd6110707ad64cebd3dac083068d7cbc6eed2
+size 559

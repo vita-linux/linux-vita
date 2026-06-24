@@ -1,12 +1,3 @@
-ccflags-y += -DDEFAULT_SYMBOL_NAMESPACE='"IDXD"'
-
-obj-$(CONFIG_INTEL_IDXD_BUS) += idxd_bus.o
-idxd_bus-y := bus.o
-
-obj-$(CONFIG_INTEL_IDXD) += idxd.o
-idxd-y := init.o irq.o device.o sysfs.o submit.o dma.o cdev.o debugfs.o defaults.o
-
-idxd-$(CONFIG_INTEL_IDXD_PERFMON) += perfmon.o
-
-obj-$(CONFIG_INTEL_IDXD_COMPAT) += idxd_compat.o
-idxd_compat-y := compat.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:1f939c00dd8160786af4aa5c30790905d4bac60f2b5c0a407047619d1d325d3c
+size 356

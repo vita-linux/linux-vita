@@ -1,8 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-obj-$(CONFIG_CRYPTO_DEV_HISI_HPRE) += hpre/
-obj-$(CONFIG_CRYPTO_DEV_HISI_SEC) += sec/
-obj-$(CONFIG_CRYPTO_DEV_HISI_SEC2) += sec2/
-obj-$(CONFIG_CRYPTO_DEV_HISI_QM) += hisi_qm.o
-hisi_qm-objs = qm.o sgl.o debugfs.o
-obj-$(CONFIG_CRYPTO_DEV_HISI_ZIP) += zip/
-obj-$(CONFIG_CRYPTO_DEV_HISI_TRNG) += trng/
+version https://git-lfs.github.com/spec/v1
+oid sha256:612ae226fe7b5730aa4f22d65832f9744f48644c2f670cb0a5edc2b35aa4cd75
+size 333

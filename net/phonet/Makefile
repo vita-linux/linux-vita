@@ -1,12 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-obj-$(CONFIG_PHONET) += phonet.o pn_pep.o
-
-phonet-y := \
-	pn_dev.o \
-	pn_netlink.o \
-	socket.o \
-	datagram.o \
-	sysctl.o \
-	af_phonet.o
-
-pn_pep-y := pep.o pep-gprs.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:be9886fc770763d3b645357ff4260ba5017f1fe5618e292ccd6ddd646314322c
+size 201

@@ -1,2 +1,3 @@
-obj-$(CONFIG_CRYPTO_DEV_HISI_ZIP) += hisi_zip.o
-hisi_zip-objs = zip_main.o zip_crypto.o dae_main.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:e0afc307fea7e4f239f44b56f968de2cdbb348395bd76d603a5009eb54d4f856
+size 99

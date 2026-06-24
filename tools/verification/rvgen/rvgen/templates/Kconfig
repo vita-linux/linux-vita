@@ -1,9 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-#
-config RV_MON_%%MODEL_NAME_UP%%
-	depends on RV
-%%MONITOR_DEPS%%
-	select %%MONITOR_CLASS_TYPE%%
-	bool "%%MODEL_NAME%% monitor"
-	help
-	  %%DESCRIPTION%%
+version https://git-lfs.github.com/spec/v1
+oid sha256:6f32de67d91e9e7e1130162128ca2aa2870a13325255c265ae377fd18c149a3c
+size 193

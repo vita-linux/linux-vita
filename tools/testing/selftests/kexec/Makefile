@@ -1,20 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-# Makefile for kexec tests
-
-ARCH ?= $(shell uname -m 2>/dev/null || echo not)
-ARCH_PROCESSED := $(shell echo $(ARCH) | sed -e s/i.86/x86/ -e s/x86_64/x86/)
-
-ifeq ($(ARCH_PROCESSED),$(filter $(ARCH_PROCESSED),x86 ppc64le))
-TEST_PROGS := test_kexec_load.sh test_kexec_file_load.sh
-TEST_FILES := kexec_common_lib.sh
-
-include ../../../scripts/Makefile.arch
-
-ifeq ($(IS_64_BIT)$(ARCH_PROCESSED),1x86)
-TEST_PROGS += test_kexec_jump.sh
-TEST_GEN_PROGS := test_kexec_jump
-endif
-
-include ../lib.mk
-
-endif
+version https://git-lfs.github.com/spec/v1
+oid sha256:6e89a33167fd87994b194d7c2f0e9f888698550823ba2c7f281e4d0f6d378f4a
+size 535

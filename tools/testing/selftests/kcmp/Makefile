@@ -1,9 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-CFLAGS += $(KHDR_INCLUDES)
-
-TEST_GEN_PROGS := kcmp_test
-
-EXTRA_CLEAN := $(OUTPUT)/kcmp-test-file
-
-include ../lib.mk
-
+version https://git-lfs.github.com/spec/v1
+oid sha256:6a82944c05b0b11c59041fad395bc5295fc359c1872854f8c0fa60b81cfc6f7c
+size 157

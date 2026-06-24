@@ -1,8 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-drbd-y := drbd_buildtag.o drbd_bitmap.o drbd_proc.o
-drbd-y += drbd_worker.o drbd_receiver.o drbd_req.o drbd_actlog.o
-drbd-y += drbd_main.o drbd_strings.o drbd_nl.o
-drbd-y += drbd_interval.o drbd_state.o
-drbd-$(CONFIG_DEBUG_FS) += drbd_debugfs.o
-
-obj-$(CONFIG_BLK_DEV_DRBD)     += drbd.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:80f46ebb9dd27552d36618657fc9489693988b14bb32e94ffd1ea3b7ad2233f3
+size 327

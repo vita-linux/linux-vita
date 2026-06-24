@@ -1,15 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-obj-$(CONFIG_CRYPTO_DEV_NITROX_CNN55XX) += n5pf.o
-
-n5pf-objs := nitrox_main.o \
-	nitrox_isr.o \
-	nitrox_lib.o \
-	nitrox_hal.o \
-	nitrox_reqmgr.o \
-	nitrox_algs.o	\
-	nitrox_mbx.o	\
-	nitrox_skcipher.o \
-	nitrox_aead.o
-
-n5pf-$(CONFIG_PCI_IOV) += nitrox_sriov.o
-n5pf-$(CONFIG_DEBUG_FS) += nitrox_debugfs.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:9d30d2144dfe9210bd2f992f196207ff9879b59daceb9610ecba59b8d5167c1d
+size 337

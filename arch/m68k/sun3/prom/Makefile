@@ -1,7 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-# Makefile for the Sun Boot PROM interface library under
-# Linux.
-#
-
-obj-y := init.o console.o printf.o  misc.o
-#bootstr.o init.o misc.o segment.o console.o printf.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:9bf858fba01b32d304dd392777657569399f95bc73cfc1ec4fc05e3937014a7f
+size 206

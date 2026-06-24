@@ -1,14 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-lib-y		:= clear_user.o delay.o copy_from_user.o		\
-		   copy_to_user.o copy_page.o				\
-		   clear_page.o csum.o insn.o memchr.o memcpy.o		\
-		   memset.o memcmp.o strcmp.o strncmp.o strlen.o	\
-		   strnlen.o strchr.o strrchr.o tishift.o
-
-lib-$(CONFIG_ARCH_HAS_UACCESS_FLUSHCACHE) += uaccess_flushcache.o
-
-obj-$(CONFIG_FUNCTION_ERROR_INJECTION) += error-inject.o
-
-obj-$(CONFIG_ARM64_MTE) += mte.o
-
-obj-$(CONFIG_KASAN_SW_TAGS) += kasan_sw_tags.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:da447b294e412d0876db5752dde01d1bef1c4d9f5663b78fb02cacfb77a76837
+size 480

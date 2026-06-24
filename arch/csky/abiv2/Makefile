@@ -1,14 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-obj-y				+= cacheflush.o
-obj-$(CONFIG_CPU_HAS_FPU)	+= fpu.o
-obj-y				+= memcmp.o
-ifeq ($(CONFIG_HAVE_EFFICIENT_UNALIGNED_STRING_OPS), y)
-obj-y				+= memcpy.o
-obj-y				+= memmove.o
-obj-y				+= memset.o
-endif
-obj-y				+= strcmp.o
-obj-y				+= strcpy.o
-obj-y				+= strlen.o
-obj-y				+= strksyms.o
-obj-$(CONFIG_FUNCTION_TRACER)	+= mcount.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:0cb4ee0e5b75d708a4627d3a16db9d8bf9f7d0470f3c95896c7104fef7b9e168
+size 375

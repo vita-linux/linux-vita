@@ -1,5 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-obj-$(CONFIG_ACPI_NFIT) := nfit.o
-nfit-y := core.o
-nfit-y += intel.o
-nfit-$(CONFIG_X86_MCE) += mce.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:cae468d4fb3a00280d9187932f8e48d8590dd66a0382eabda3de7937cb803658
+size 141

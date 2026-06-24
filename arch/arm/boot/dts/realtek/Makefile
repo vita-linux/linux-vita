@@ -1,4 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-dtb-$(CONFIG_ARCH_REALTEK) += \
-	rtd1195-horseradish.dtb \
-	rtd1195-mele-x1000.dtb
+version https://git-lfs.github.com/spec/v1
+oid sha256:4db4e3907aafda8bccb8fb3ae772b2d2c71962a0a6951747843c8871a76692f7
+size 118

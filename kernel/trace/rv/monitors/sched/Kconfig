@@ -1,12 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-#
-config RV_MON_SCHED
-	depends on RV
-	depends on RV_PER_TASK_MONITORS >= 3
-	bool "sched monitor"
-	help
-	  Collection of monitors to check the scheduler behaves according to specifications.
-	  Enable this to enable all scheduler specification supported by the current kernel.
-
-	  For further information, see:
-	    Documentation/trace/rv/monitor_sched.rst
+version https://git-lfs.github.com/spec/v1
+oid sha256:0e3edee332a8cacb71a6ec96508bd4dd7888b7c6fd3aa6e815b048fe2f0ce334
+size 395

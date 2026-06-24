@@ -1,5 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-snd-firewire-digi00x-y := amdtp-dot.o digi00x-stream.o digi00x-proc.o \
-			     digi00x-pcm.o digi00x-hwdep.o \
-			     digi00x-transaction.o digi00x-midi.o digi00x.o
-obj-$(CONFIG_SND_FIREWIRE_DIGI00X) += snd-firewire-digi00x.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:272a5d3f04cbe095b169b1269de1a1d6666e6a1c60e0d09a2ccf46db19e8ed1b
+size 268

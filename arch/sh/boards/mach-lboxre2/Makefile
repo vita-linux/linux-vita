@@ -1,6 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-#
-# Makefile for the L-BOX RE2 specific parts of the kernel
-# Copyright (c) 2007 Nobuhiro Iwamatsu
-
-obj-y	 := setup.o irq.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:7985749ce9eb05178048b40afb3b303657c6c84571cc77b4d13658e2d1870c84
+size 159

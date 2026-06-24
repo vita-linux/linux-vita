@@ -1,10 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-#
-# Copyright (C) 2002 - 2007 Jeff Dike (jdike@{linux.intel,addtoit}.com)
-#
-
-obj-y := mem.o process.o
-
-USER_OBJS := $(obj-y)
-
-include $(srctree)/arch/um/scripts/Makefile.rules
+version https://git-lfs.github.com/spec/v1
+oid sha256:53a524eb583479089833b576550e82143698379a079e3bd74c2279925094af25
+size 211

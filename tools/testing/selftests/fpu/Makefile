@@ -1,9 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0+
-
-LDLIBS := -lm
-
-TEST_GEN_PROGS := test_fpu
-
-TEST_PROGS := run_test_fpu.sh
-
-include ../lib.mk
+version https://git-lfs.github.com/spec/v1
+oid sha256:cd3c8f45f47b93194eb3147fabc02c6c0b1337f388e33905c00ffadf99fc1486
+size 129

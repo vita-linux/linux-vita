@@ -1,8 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-obj-$(CONFIG_UPROBES)		+= decode.o decode-arm.o uprobes/
-obj-$(CONFIG_KPROBES)		+= decode.o kprobes/
-ifdef CONFIG_THUMB2_KERNEL
-obj-$(CONFIG_KPROBES)		+= decode-thumb.o
-else
-obj-$(CONFIG_KPROBES)		+= decode-arm.o
-endif
+version https://git-lfs.github.com/spec/v1
+oid sha256:d5a8284d81477ff6a54bf6e5fec9d3d2f4043b59ccd67f04dd856787f685d44b
+size 254

@@ -1,16 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-obj-$(CONFIG_CLK_ACTIONS)	+= clk-owl.o
-
-clk-owl-y			+= owl-common.o
-clk-owl-y			+= owl-gate.o
-clk-owl-y			+= owl-mux.o
-clk-owl-y			+= owl-divider.o
-clk-owl-y			+= owl-factor.o
-clk-owl-y			+= owl-composite.o
-clk-owl-y			+= owl-pll.o
-clk-owl-y			+= owl-reset.o
-
-# SoC support
-obj-$(CONFIG_CLK_OWL_S500)	+= owl-s500.o
-obj-$(CONFIG_CLK_OWL_S700)	+= owl-s700.o
-obj-$(CONFIG_CLK_OWL_S900)	+= owl-s900.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:e6acd9147ad4dc6e6fd93f03e9472ca5aa8d5435347971e6f11d3b5838da33a5
+size 437

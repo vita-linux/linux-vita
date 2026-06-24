@@ -1,8 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-snd-usb-usx2y-y := usbusx2y.o usX2Yhwdep.o usx2yhwdeppcm.o
-snd-usb-us122l-y := us122l.o
-snd-usb-us144mkii-y := us144mkii.o us144mkii_pcm.o us144mkii_playback.o us144mkii_capture.o us144mkii_midi.o us144mkii_controls.o
-
-obj-$(CONFIG_SND_USB_USX2Y) += snd-usb-usx2y.o
-obj-$(CONFIG_SND_USB_US122L) += snd-usb-us122l.o
-obj-$(CONFIG_SND_USB_US144MKII) += snd-usb-us144mkii.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:41394de6aef3d90ff0fcabb57d2b8ce39c1a3e18eeb4d364b131f11dc5fc8df9
+size 404

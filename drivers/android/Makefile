@@ -1,7 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-ccflags-y += -I$(src)			# needed for trace events
-
-obj-$(CONFIG_ANDROID_BINDERFS)		+= binderfs.o
-obj-$(CONFIG_ANDROID_BINDER_IPC)	+= binder.o binder_alloc.o binder_netlink.o
-obj-$(CONFIG_ANDROID_BINDER_ALLOC_KUNIT_TEST)	+= tests/
-obj-$(CONFIG_ANDROID_BINDER_IPC_RUST)	+= binder/
+version https://git-lfs.github.com/spec/v1
+oid sha256:372d0be7d7552f8979568b93e1c0e761761c10ac952b8a4885e6216860154771
+size 319

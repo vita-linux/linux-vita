@@ -1,34 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-#
-# For a description of the syntax of this configuration file,
-# see Documentation/kbuild/kconfig-language.rst.
-#
-mainmenu "Linux/$(ARCH) $(KERNELVERSION) Kernel Configuration"
-
-source "scripts/Kconfig.include"
-
-source "init/Kconfig"
-
-source "kernel/Kconfig.freezer"
-
-source "fs/Kconfig.binfmt"
-
-source "mm/Kconfig"
-
-source "net/Kconfig"
-
-source "drivers/Kconfig"
-
-source "fs/Kconfig"
-
-source "security/Kconfig"
-
-source "crypto/Kconfig"
-
-source "lib/Kconfig"
-
-source "lib/Kconfig.debug"
-
-source "Documentation/Kconfig"
-
-source "io_uring/Kconfig"
+version https://git-lfs.github.com/spec/v1
+oid sha256:5262073fc9c710d13e6940d857ffe72f850702db12c068bbb4041d8ca9555e5f
+size 582

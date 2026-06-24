@@ -1,17 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-PREFIX ?= /usr
-SBINDIR ?= sbin
-INSTALL ?= install
-
-TARGET = freefall
-
-all: $(TARGET)
-
-%: %.c
-	$(CC) $(CFLAGS) $(LDFLAGS) -o $@ $<
-
-clean:
-	$(RM) $(TARGET)
-
-install: freefall
-	$(INSTALL) -D -m 755 $(TARGET) $(DESTDIR)$(PREFIX)/$(SBINDIR)/$(TARGET)
+version https://git-lfs.github.com/spec/v1
+oid sha256:6f0136928930e4d581bb2dd224bca16d13480abf62aee5ba9ddce2bfee470096
+size 282

@@ -1,4 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-obj-$(CONFIG_CAVIUM_CPT) += cptpf.o cptvf.o
-cptpf-objs := cptpf_main.o cptpf_mbox.o
-cptvf-objs := cptvf_main.o cptvf_reqmanager.o cptvf_mbox.o cptvf_algs.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:99777fc898bdde1ae410a93694055741572fef68e207ea507f3a8ccc191c19b4
+size 196

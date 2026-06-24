@@ -1,3 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-
-dtb-y = loongson-2k0500-ref.dtb loongson-2k1000-ref.dtb loongson-2k2000-ref.dtb
+version https://git-lfs.github.com/spec/v1
+oid sha256:2bc92d602729c6a5072c5df8ae2742a866a669b7ccf2452e858eaa5054ce38a7
+size 121

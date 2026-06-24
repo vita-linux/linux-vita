@@ -1,19 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-snd-usb-line6-y := 		\
-		capture.o	\
-		driver.o	\
-		midi.o		\
-		midibuf.o	\
-		pcm.o		\
-		playback.o
-
-snd-usb-pod-y := pod.o
-snd-usb-podhd-y := podhd.o
-snd-usb-toneport-y := toneport.o
-snd-usb-variax-y := variax.o
-
-obj-$(CONFIG_SND_USB_LINE6)	+= snd-usb-line6.o
-obj-$(CONFIG_SND_USB_POD)	+= snd-usb-pod.o
-obj-$(CONFIG_SND_USB_PODHD)	+= snd-usb-podhd.o
-obj-$(CONFIG_SND_USB_TONEPORT)	+= snd-usb-toneport.o
-obj-$(CONFIG_SND_USB_VARIAX)	+= snd-usb-variax.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:c833c69c13eb014f91c4bffd5912b03d1b41e960c4bdfc6afe31b1cbfe126d1c
+size 488

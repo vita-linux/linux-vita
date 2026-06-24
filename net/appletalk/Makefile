@@ -1,10 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-#
-# Makefile for the Linux AppleTalk layer.
-#
-
-obj-$(CONFIG_ATALK) += appletalk.o
-
-appletalk-y			:= aarp.o ddp.o
-appletalk-$(CONFIG_PROC_FS)	+= atalk_proc.o
-appletalk-$(CONFIG_SYSCTL)	+= sysctl_net_atalk.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:74a880ffa344369747ee03fb7fe2c42ac4ba31a23ebd4e71eb0c229edb25777d
+size 246

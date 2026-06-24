@@ -1,4 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-obj-$(CONFIG_CLK_MA35D1) += clk-ma35d1.o
-obj-$(CONFIG_CLK_MA35D1) += clk-ma35d1-divider.o
-obj-$(CONFIG_CLK_MA35D1) += clk-ma35d1-pll.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:68fc4376ecfa5d452ac99c122e2dc0491c52f9df1f4e012f407b87f4206b2f73
+size 175

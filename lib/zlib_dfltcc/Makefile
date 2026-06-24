@@ -1,11 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-#
-# This is a modified version of zlib, which does all memory
-# allocation ahead of time.
-#
-# This is the code for s390 zlib hardware support.
-#
-
-obj-$(CONFIG_ZLIB_DFLTCC) += zlib_dfltcc.o
-
-zlib_dfltcc-objs := dfltcc.o dfltcc_deflate.o dfltcc_inflate.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:f417fefa19380cd9060cecf85f8410e125bc8f5a8551bb928271457bae9d6f00
+size 293

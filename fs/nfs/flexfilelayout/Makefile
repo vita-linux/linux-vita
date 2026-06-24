@@ -1,6 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-#
-# Makefile for the pNFS Flexfile Layout Driver kernel module
-#
-obj-$(CONFIG_PNFS_FLEXFILE_LAYOUT) += nfs_layout_flexfiles.o
-nfs_layout_flexfiles-y := flexfilelayout.o flexfilelayoutdev.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:70f755dba7ac9dcd2ad3d2c5cc1d267f6b35a05fef974cc83cd68b971324840b
+size 229

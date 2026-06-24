@@ -1,8 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-dtb-$(CONFIG_MACH_MESON8) += \
-	meson8-minix-neo-x8.dtb \
-	meson8-fernsehfee3.dtb \
-	meson8b-ec100.dtb \
-	meson8b-mxq.dtb \
-	meson8b-odroidc1.dtb \
-	meson8m2-mxiii-plus.dtb
+version https://git-lfs.github.com/spec/v1
+oid sha256:7afce1f25570fd13aba95095f99c3ef2a0723e3caa854cc219eb4bdc0ef05107
+size 208

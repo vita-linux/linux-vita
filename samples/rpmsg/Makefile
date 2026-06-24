@@ -1,2 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-obj-$(CONFIG_SAMPLE_RPMSG_CLIENT) += rpmsg_client_sample.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:21800164f5406c4edea82905b502fe152adc2436639b595d28255ae3ecf4df60
+size 99

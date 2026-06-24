@@ -1,7 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-
-obj-$(CONFIG_AX45MP_L2_CACHE)		+= ax45mp_cache.o
-obj-$(CONFIG_SIFIVE_CCACHE)		+= sifive_ccache.o
-obj-$(CONFIG_STARFIVE_STARLINK_CACHE)	+= starfive_starlink_cache.o
-
-obj-$(CONFIG_HISI_SOC_HHA)		+= hisi_soc_hha.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:6bd92cf274b8f9d6f0addc07edba1da17d9502efba97a96549d36de4bdb63acd
+size 247

@@ -1,15 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-#
-config RV_MON_SSSW
-	depends on RV
-	depends on RV_MON_SCHED
-	default y
-	select DA_MON_EVENTS_ID
-	bool "sssw monitor"
-	help
-	  Monitor to ensure sched_set_state to sleepable leads to sleeping and
-	  sleeping tasks require wakeup.
-	  This monitor is part of the sched monitors collection.
-
-	  For further information, see:
-	    Documentation/trace/rv/monitor_sched.rst
+version https://git-lfs.github.com/spec/v1
+oid sha256:bcee84c826aafc04798e5a6f044b2d5f558ccb4bb678e6500b2a33d24404bd2c
+size 408

@@ -1,4 +1,3 @@
-obj-$(CONFIG_CRYPTO_DEV_SUN8I_SS) += sun8i-ss.o
-sun8i-ss-y += sun8i-ss-core.o sun8i-ss-cipher.o
-sun8i-ss-$(CONFIG_CRYPTO_DEV_SUN8I_SS_PRNG) += sun8i-ss-prng.o
-sun8i-ss-$(CONFIG_CRYPTO_DEV_SUN8I_SS_HASH) += sun8i-ss-hash.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:50cbcb0c0775e162672e7c68e7e00c34a436c3dee469b99389ef598a93cd8342
+size 222

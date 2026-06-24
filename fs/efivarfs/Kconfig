@@ -1,14 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-config EFIVAR_FS
-	tristate "EFI Variable filesystem"
-	depends on EFI
-	default m
-	help
-	  efivarfs is a replacement filesystem for the old EFI
-	  variable support via sysfs, as it doesn't suffer from the
-	  same 1024-byte variable size limit.
-
-	  To compile this file system support as a module, choose M
-	  here. The module will be called efivarfs.
-
-	  If unsure, say N.
+version https://git-lfs.github.com/spec/v1
+oid sha256:674a34b21a26ee505eaabc25fd106292fc2f7f230aec18d70fc84523503bf41e
+size 411

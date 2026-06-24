@@ -1,13 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-noarg:
-	$(MAKE) -C ../
-
-TEST_GEN_PROGS := papr_vpd
-
-top_srcdir = ../../../../..
-include ../../lib.mk
-include ../flags.mk
-
-$(TEST_GEN_PROGS): ../harness.c ../utils.c
-
-$(OUTPUT)/papr_vpd: CFLAGS += $(KHDR_INCLUDES)
+version https://git-lfs.github.com/spec/v1
+oid sha256:2a16fade26cd5de3470e97e011f3d688086bd5eabe433048ced399cc69a5eb03
+size 248

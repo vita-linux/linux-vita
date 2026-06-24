@@ -1,12 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-
-obj-$(CONFIG_FS_VERITY) += enable.o \
-			   hash_algs.o \
-			   init.o \
-			   measure.o \
-			   open.o \
-			   pagecache.o \
-			   read_metadata.o \
-			   verify.o
-
-obj-$(CONFIG_FS_VERITY_BUILTIN_SIGNATURES) += signature.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:e69923181c4584ed0a0c9b61e8432b2bd313e638581d83d0aec3c14b383dc827
+size 260

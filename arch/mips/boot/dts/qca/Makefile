@@ -1,8 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-# All DTBs
-dtb-$(CONFIG_ATH79)			+= ar9132_tl_wr1043nd_v1.dtb
-dtb-$(CONFIG_ATH79)			+= ar9331_dpt_module.dtb
-dtb-$(CONFIG_ATH79)			+= ar9331_dragino_ms14.dtb
-dtb-$(CONFIG_ATH79)			+= ar9331_omega.dtb
-dtb-$(CONFIG_ATH79)			+= ar9331_openembed_som9331_board.dtb
-dtb-$(CONFIG_ATH79)			+= ar9331_tl_mr3020.dtb
+version https://git-lfs.github.com/spec/v1
+oid sha256:770e732d192095d5922968f147b59ab02babb88915724b71cc5071ecef8b1784
+size 341

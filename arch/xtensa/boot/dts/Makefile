@@ -1,13 +1,3 @@
-#
-# arch/xtensa/boot/dts/Makefile
-#
-# This file is subject to the terms and conditions of the GNU General Public
-# License.  See the file "COPYING" in the main directory of this archive
-# for more details.
-#
-#
-
-dtb-$(CONFIG_OF) += $(addsuffix .dtb, $(CONFIG_BUILTIN_DTB_NAME))
-
-# for CONFIG_OF_ALL_DTBS test
-dtb-	:= $(patsubst $(src)/%.dts,%.dtb, $(wildcard $(src)/*.dts))
+version https://git-lfs.github.com/spec/v1
+oid sha256:9286517271535a850c0130c5e0691457e377a71e44a3e458f857e12e99513215
+size 373

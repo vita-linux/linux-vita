@@ -1,7 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-snd-soc-catpt-y := device.o dsp.o loader.o ipc.o messages.o pcm.o sysfs.o
-
-# tell define_trace.h where to find the trace header
-CFLAGS_device.o := -I$(src)
-
-obj-$(CONFIG_SND_SOC_INTEL_CATPT) += snd-soc-catpt.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:4f8ca31c14c496b5868cddc8177baa606c0ab7d03f767d9f097d4a4407646350
+size 245

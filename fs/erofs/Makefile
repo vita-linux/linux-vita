@@ -1,13 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-
-obj-$(CONFIG_EROFS_FS) += erofs.o
-erofs-objs := super.o inode.o data.o namei.o dir.o sysfs.o
-erofs-$(CONFIG_EROFS_FS_XATTR) += xattr.o
-erofs-$(CONFIG_EROFS_FS_ZIP) += decompressor.o zmap.o zdata.o zutil.o
-erofs-$(CONFIG_EROFS_FS_ZIP_LZMA) += decompressor_lzma.o
-erofs-$(CONFIG_EROFS_FS_ZIP_DEFLATE) += decompressor_deflate.o
-erofs-$(CONFIG_EROFS_FS_ZIP_ZSTD) += decompressor_zstd.o
-erofs-$(CONFIG_EROFS_FS_ZIP_ACCEL) += decompressor_crypto.o
-erofs-$(CONFIG_EROFS_FS_BACKED_BY_FILE) += fileio.o
-erofs-$(CONFIG_EROFS_FS_ONDEMAND) += fscache.o
-erofs-$(CONFIG_EROFS_FS_PAGE_CACHE_SHARE) += ishare.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:fe49c9ba54305155e48cb229dbeb1e62664d6488368d004a9418a1c7893c7476
+size 636

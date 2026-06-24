@@ -1,13 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-TEST_GEN_PROGS := dscr_default_test dscr_explicit_test dscr_user_test	\
-	      dscr_inherit_test dscr_inherit_exec_test dscr_sysfs_test	\
-	      dscr_sysfs_thread_test
-
-top_srcdir = ../../../../..
-include ../../lib.mk
-include ../flags.mk
-
-$(OUTPUT)/dscr_default_test: LDLIBS += -lpthread
-$(OUTPUT)/dscr_explicit_test: LDLIBS += -lpthread
-
-$(TEST_GEN_PROGS): ../harness.c ../utils.c
+version https://git-lfs.github.com/spec/v1
+oid sha256:874e1a3126b5906dc47bfd01f97f1d74b1428278ed6cff76e5eb9da4e9b77b03
+size 417

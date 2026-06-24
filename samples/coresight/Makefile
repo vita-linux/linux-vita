@@ -1,4 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-
-obj-$(CONFIG_SAMPLE_CORESIGHT_SYSCFG) += coresight-cfg-sample.o
-ccflags-y += -I$(srctree)/drivers/hwtracing/coresight
+version https://git-lfs.github.com/spec/v1
+oid sha256:2a5c4e5bfb058aeb7ac1676b55e4a4f3bd06a9dc0a9871eb3c660f3f8d1a8649
+size 159

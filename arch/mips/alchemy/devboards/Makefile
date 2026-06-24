@@ -1,7 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-#
-# Alchemy Develboards
-#
-
-obj-y += bcsr.o platform.o db1000.o db1200.o db1300.o db1550.o db1xxx.o
-obj-$(CONFIG_PM)		+= pm.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:4cf34226b033198eb9c8a3fe6f7f34de1ab46aabb032c05f65c5a7ef6a815f61
+size 165

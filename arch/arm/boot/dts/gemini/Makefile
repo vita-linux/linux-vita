@@ -1,12 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-dtb-$(CONFIG_ARCH_GEMINI) += \
-	gemini-dlink-dir-685.dtb \
-	gemini-dlink-dns-313.dtb \
-	gemini-nas4220b.dtb \
-	gemini-ns2502.dtb \
-	gemini-rut1xx.dtb \
-	gemini-sl93512r.dtb \
-	gemini-sq201.dtb \
-	gemini-ssi1328.dtb \
-	gemini-wbd111.dtb \
-	gemini-wbd222.dtb
+version https://git-lfs.github.com/spec/v1
+oid sha256:2d90f28b3fe0c7f5e974fe1b59f783fb92a181b5b512e1628ad98f7b49ae9c76
+size 292

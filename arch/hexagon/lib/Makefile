@@ -1,6 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-#
-# Makefile for hexagon-specific library files.
-#
-obj-y = checksum.o memcpy.o memset.o memcpy_likely_aligned.o \
-         divsi3.o modsi3.o udivsi3.o  umodsi3.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:57ba229cfcab0df0cffcb56d0ea6c8c42682902da893de3b818b106a0acf6dc7
+size 202

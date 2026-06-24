@@ -1,15 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-menu "SpacemiT"
-	depends on COMPILE_TEST || ARCH_SPACEMIT
-	depends on HAVE_CLK
-
-config SND_SOC_K1_I2S
-	tristate "K1 I2S Device Driver"
-	select SND_SOC_GENERIC_DMAENGINE_PCM
-	depends on DMA_CMA
-	help
-	  Say Y or M if you want to add support for I2S driver for
-	  K1 I2S controller. The device supports up to maximum of
-	  2 channels each for play and record.
-
-endmenu
+version https://git-lfs.github.com/spec/v1
+oid sha256:d7afdc067a2517703c9b7ad8fe9e1c9fae7cbc154a955f5324fa8981e534eaf5
+size 407

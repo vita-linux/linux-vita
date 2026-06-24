@@ -1,29 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-include ../scripts/Makefile.include
-
-all: latency rtla
-
-clean: latency_clean rtla_clean
-
-install: latency_install rtla_install
-
-latency:
-	$(call descend,latency)
-
-latency_install:
-	$(call descend,latency,install)
-
-latency_clean:
-	$(call descend,latency,clean)
-
-rtla:
-	$(call descend,rtla)
-
-rtla_install:
-	$(call descend,rtla,install)
-
-rtla_clean:
-	$(call descend,rtla,clean)
-
-.PHONY: all install clean latency latency_install latency_clean \
-	rtla rtla_install rtla_clean
+version https://git-lfs.github.com/spec/v1
+oid sha256:2ed9e03d34e11daff2aa06355dd3393a7b28806fdc075ac3dca7ebd2ffc130b0
+size 507

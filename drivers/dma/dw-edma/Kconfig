@@ -1,22 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-
-config DW_EDMA
-	tristate "Synopsys DesignWare eDMA controller driver"
-	depends on PCI && PCI_MSI
-	select DMA_ENGINE
-	select DMA_VIRTUAL_CHANNELS
-	help
-	  Support the Synopsys DesignWare eDMA controller, normally
-	  implemented on endpoints SoCs.
-
-if DW_EDMA
-
-config DW_EDMA_PCIE
-	tristate "Synopsys DesignWare eDMA PCIe driver"
-	depends on PCI && PCI_MSI
-	help
-	  Provides a glue-logic between the Synopsys DesignWare
-	  eDMA controller and an endpoint PCIe device. This also serves
-	  as a reference design to whom desires to use this IP.
-
-endif # DW_EDMA
+version https://git-lfs.github.com/spec/v1
+oid sha256:08968ce7e5d5a249b4b0d7b5b25916fa2736917b22d35ecd8267c3b125ae1096
+size 593

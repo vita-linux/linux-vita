@@ -1,20 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-always-$(KBUILD_BUILTIN) := vmlinux.lds
-
-obj-y += head.o entry.o atomic.o signal.o traps.o irq.o time.o vdso.o vdso/
-obj-y += power.o syscall.o syscall_table.o setup.o
-obj-y += process.o cpu-probe.o ptrace.o stacktrace.o
-obj-y += probes/
-
-obj-$(CONFIG_MODULES)			+= module.o
-obj-$(CONFIG_SMP)			+= smp.o
-obj-$(CONFIG_FUNCTION_TRACER)		+= ftrace.o
-obj-$(CONFIG_STACKTRACE)		+= stacktrace.o
-obj-$(CONFIG_CSKY_PMU_V1)		+= perf_event.o
-obj-$(CONFIG_PERF_EVENTS)		+= perf_callchain.o
-obj-$(CONFIG_HAVE_PERF_REGS)            += perf_regs.o
-obj-$(CONFIG_JUMP_LABEL)		+= jump_label.o
-
-ifdef CONFIG_FUNCTION_TRACER
-CFLAGS_REMOVE_ftrace.o = $(CC_FLAGS_FTRACE)
-endif
+version https://git-lfs.github.com/spec/v1
+oid sha256:6411dc5e8ebcc0dbc11a26395abd9fb0f05c07074ca6c4f6d370f15f1140d2a5
+size 696

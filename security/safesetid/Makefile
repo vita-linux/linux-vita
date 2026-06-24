@@ -1,7 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-#
-# Makefile for the safesetid LSM.
-#
-
-obj-$(CONFIG_SECURITY_SAFESETID) := safesetid.o
-safesetid-y := lsm.o securityfs.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:bd626e3cb4cb54dab14a3456efd7cde853cdf0c9ab86e969504b61d5b2ded0d7
+size 156

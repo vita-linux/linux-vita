@@ -1,14 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-#
-# Makefile for Loongson-3 family machines
-#
-obj-$(CONFIG_MACH_LOONGSON64) += cop2-ex.o dma.o \
-				setup.o init.o env.o time.o reset.o \
-
-obj-$(CONFIG_SMP)	+= smp.o
-obj-$(CONFIG_NUMA)	+= numa.o
-obj-$(CONFIG_RS780_HPET) += hpet.o
-obj-$(CONFIG_SUSPEND) += pm.o sleeper.o
-obj-$(CONFIG_PCI_QUIRKS) += vbios_quirk.o
-obj-$(CONFIG_CPU_LOONGSON3_CPUCFG_EMULATION) += cpucfg-emul.o
-obj-$(CONFIG_SYSFS) += boardinfo.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:bf87ab1666cfde8b66b2bf7bb01af4051d813740178d947a34808219d7da0c10
+size 450

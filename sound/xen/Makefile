@@ -1,8 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0 OR MIT
-
-snd_xen_front-y := xen_snd_front.o \
-		      xen_snd_front_cfg.o \
-		      xen_snd_front_evtchnl.o \
-		      xen_snd_front_alsa.o
-
-obj-$(CONFIG_SND_XEN_FRONTEND) += snd_xen_front.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:6542a7a9b1dc73f7b083e010305ac7c13a2386a89d00567da4944e789415eb8c
+size 224

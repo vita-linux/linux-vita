@@ -1,8 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-
-obj-$(CONFIG_DRM_ACCEL_AMDXDNA)		+= amdxdna/
-obj-$(CONFIG_DRM_ACCEL_ARM_ETHOSU)	+= ethosu/
-obj-$(CONFIG_DRM_ACCEL_HABANALABS)	+= habanalabs/
-obj-$(CONFIG_DRM_ACCEL_IVPU)		+= ivpu/
-obj-$(CONFIG_DRM_ACCEL_QAIC)		+= qaic/
-obj-$(CONFIG_DRM_ACCEL_ROCKET)		+= rocket/
+version https://git-lfs.github.com/spec/v1
+oid sha256:c7db7fcb092416ab1d1b64db84aafac111242de4382db9c29cece2221b8fc1a1
+size 302

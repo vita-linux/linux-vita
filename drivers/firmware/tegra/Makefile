@@ -1,10 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-tegra-bpmp-y			= bpmp.o
-tegra-bpmp-$(CONFIG_ARCH_TEGRA_210_SOC)	+= bpmp-tegra210.o
-tegra-bpmp-$(CONFIG_ARCH_TEGRA_186_SOC)	+= bpmp-tegra186.o
-tegra-bpmp-$(CONFIG_ARCH_TEGRA_194_SOC)	+= bpmp-tegra186.o
-tegra-bpmp-$(CONFIG_ARCH_TEGRA_234_SOC)	+= bpmp-tegra186.o
-tegra-bpmp-$(CONFIG_ARCH_TEGRA_264_SOC)	+= bpmp-tegra186.o
-tegra-bpmp-$(CONFIG_DEBUG_FS)	+= bpmp-debugfs.o
-obj-$(CONFIG_TEGRA_BPMP)	+= tegra-bpmp.o
-obj-$(CONFIG_TEGRA_IVC)		+= ivc.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:751ef059afc88e95e9c34397d14d2ea15423386caede999e058edfb3e6e06f0c
+size 482

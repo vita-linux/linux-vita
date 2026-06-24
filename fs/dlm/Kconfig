@@ -1,16 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-menuconfig DLM
-	tristate "Distributed Lock Manager (DLM)"
-	depends on INET
-	depends on SYSFS && CONFIGFS_FS
-	help
-	A general purpose distributed lock manager for kernel or userspace
-	applications.
-
-config DLM_DEBUG
-	bool "DLM debugging"
-	depends on DLM
-	help
-	Under the debugfs mount point, the name of each lockspace will
-	appear as a file in the "dlm" directory.  The output is the
-	list of resource and locks the local node knows about.
+version https://git-lfs.github.com/spec/v1
+oid sha256:8004c8b9dab2260d3bb745ea283463537885501b0e2cf6c0d2f24e62d1849792
+size 480

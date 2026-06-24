@@ -1,9 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-CFLAGS += -Wl,-no-as-needed -Wall $(KHDR_INCLUDES)
-LDLIBS += -lrt -lpthread -lm
-
-TEST_GEN_PROGS = ftrace_test dyn_test perf_test abi_test
-
-TEST_FILES := settings
-
-include ../lib.mk
+version https://git-lfs.github.com/spec/v1
+oid sha256:d2f5be7671c63d19d63d0c0dc389f53153f1bd46968224eda6ec970de0bb89eb
+size 216

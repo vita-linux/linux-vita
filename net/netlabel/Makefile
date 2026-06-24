@@ -1,16 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-#
-# Makefile for the NetLabel subsystem.
-#
-
-# base objects
-obj-y	:= netlabel_user.o netlabel_kapi.o
-obj-y	+= netlabel_domainhash.o netlabel_addrlist.o
-
-# management objects
-obj-y	+= netlabel_mgmt.o
-
-# protocol modules
-obj-y	+= netlabel_unlabeled.o
-obj-y	+= netlabel_cipso_v4.o
-obj-$(subst m,y,$(CONFIG_IPV6)) += netlabel_calipso.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:04b86ad07c8d17e59f8bfb4bef8c143cef2a49e27ae4864a3ab39cca0d081673
+size 366

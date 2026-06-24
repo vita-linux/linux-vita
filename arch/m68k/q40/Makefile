@@ -1,6 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-#
-# Makefile for Linux arch/m68k/q40 source directory
-#
-
-obj-y		:= config.o q40ints.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:434299dd3205dc394f6a42f13d89b4f92f604f739f0ae64d51742ca3f505168a
+size 126

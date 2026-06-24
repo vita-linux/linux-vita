@@ -1,11 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-# Makefile for the Tensilica xtavnet Emulation Board
-#
-# Note! Dependencies are done automagically by 'make dep', which also
-# removes any old dependencies. DON'T put your own dependencies here
-# unless it's something special (ie not a .c file).
-#
-# Note 2! The CFLAGS definitions are in the main makefile...
-
-obj-y			+= setup.o
-obj-$(CONFIG_XTFPGA_LCD) += lcd.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:b27fe74be6509a272fc20601b5d0bd0a0788f54523369ad2fbbde854dc7ffe84
+size 403

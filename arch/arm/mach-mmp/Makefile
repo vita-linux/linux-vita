@@ -1,14 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-#
-# Makefile for Marvell's PXA168 processors line
-#
-obj-y				+= common.o time.o
-
-ifeq ($(CONFIG_SMP),y)
-obj-$(CONFIG_MACH_MMP3_DT)	+= platsmp.o
-endif
-
-# board support
-obj-$(CONFIG_MACH_MMP_DT)	+= mmp-dt.o
-obj-$(CONFIG_MACH_MMP2_DT)	+= mmp2-dt.o
-obj-$(CONFIG_MACH_MMP3_DT)	+= mmp3.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:bb6e72fd148ea9d106541f7ae57c0974c23e8b8c4ddd4d75f5ee1223489d99a0
+size 317

@@ -1,20 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-prefix = /usr
-nosy-dump-version = 0.4
-
-CC = gcc
-
-all : nosy-dump
-
-nosy-dump : CFLAGS = -Wall -O2 -g
-nosy-dump : CPPFLAGS = -DVERSION=\"$(nosy-dump-version)\" -I../../drivers/firewire
-nosy-dump : LDFLAGS = -g
-nosy-dump : LDLIBS = -lpopt
-
-nosy-dump : nosy-dump.o decode-fcp.o
-
-clean :
-	rm -rf *.o nosy-dump
-
-install :
-	install nosy-dump $(prefix)/bin/nosy-dump
+version https://git-lfs.github.com/spec/v1
+oid sha256:8c5687ca6dd5fad6958c3f01d0e9d6f5cfd5e3dd8531194a13bb3c553d54c859
+size 394

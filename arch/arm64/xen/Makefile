@@ -1,3 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-xen-arm-y	+= $(addprefix ../../arm/xen/, enlighten.o grant-table.o p2m.o mm.o)
-obj-y		:= xen-arm.o hypercall.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:ed492de0bd97d3fe0e59cdca8843a71b6203885624457609879520093ad47e4b
+size 151

@@ -1,29 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-#
-# Makefile for Open vSwitch.
-#
-
-obj-$(CONFIG_OPENVSWITCH) += openvswitch.o
-
-openvswitch-y := \
-	actions.o \
-	datapath.o \
-	dp_notify.o \
-	flow.o \
-	flow_netlink.o \
-	flow_table.o \
-	meter.o \
-	openvswitch_trace.o \
-	vport.o \
-	vport-internal_dev.o \
-	vport-netdev.o
-
-ifneq ($(CONFIG_NF_CONNTRACK),)
-openvswitch-y += conntrack.o
-endif
-
-obj-$(CONFIG_OPENVSWITCH_VXLAN)+= vport-vxlan.o
-obj-$(CONFIG_OPENVSWITCH_GENEVE)+= vport-geneve.o
-obj-$(CONFIG_OPENVSWITCH_GRE)	+= vport-gre.o
-
-CFLAGS_openvswitch_trace.o = -I$(src)
+version https://git-lfs.github.com/spec/v1
+oid sha256:8efac5e2f8a913e5ece10bcf32ff5e3aef34ae4cd10f10686c3e1bc1bca62e7d
+size 554

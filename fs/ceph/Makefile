@@ -1,15 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-#
-# Makefile for CEPH filesystem.
-#
-
-obj-$(CONFIG_CEPH_FS) += ceph.o
-
-ceph-y := super.o inode.o dir.o file.o locks.o addr.o ioctl.o \
-	export.o caps.o snap.o xattr.o quota.o io.o \
-	mds_client.o mdsmap.o strings.o ceph_frag.o \
-	debugfs.o util.o metric.o subvolume_metrics.o
-
-ceph-$(CONFIG_CEPH_FSCACHE) += cache.o
-ceph-$(CONFIG_CEPH_FS_POSIX_ACL) += acl.o
-ceph-$(CONFIG_FS_ENCRYPTION) += crypto.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:d883dee5e58598a8cb0a64079bbfba3da9d890c050147fa57bbebd053a1b90c1
+size 433

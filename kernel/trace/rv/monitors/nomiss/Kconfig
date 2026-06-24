@@ -1,15 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-#
-config RV_MON_NOMISS
-	depends on RV
-	depends on HAVE_SYSCALL_TRACEPOINTS
-	depends on RV_MON_DEADLINE
-	default y
-	select HA_MON_EVENTS_ID
-	bool "nomiss monitor"
-	help
-	  Monitor to ensure dl entities run to completion before their deadiline.
-	  This monitor is part of the deadline monitors collection.
-
-	  For further information, see:
-	    Documentation/trace/rv/monitor_deadline.rst
+version https://git-lfs.github.com/spec/v1
+oid sha256:04a5458fbffa0fc82dc7f463c2df6c99e1a88967dac389e89ede171af0ccf13e
+size 427

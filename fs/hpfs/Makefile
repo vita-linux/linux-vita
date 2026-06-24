@@ -1,9 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-#
-# Makefile for the Linux hpfs filesystem routines.
-#
-
-obj-$(CONFIG_HPFS_FS) += hpfs.o
-
-hpfs-objs := alloc.o anode.o buffer.o dentry.o dir.o dnode.o ea.o file.o \
-	     inode.o map.o name.o namei.o super.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:077ec6b8245da22455f9e79d6d71eba277eb610f6317d02829aa37e9f9143886
+size 247

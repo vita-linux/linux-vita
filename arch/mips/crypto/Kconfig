@@ -1,5 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-
-menu "Accelerated Cryptographic Algorithms for CPU (mips)"
-
-endmenu
+version https://git-lfs.github.com/spec/v1
+oid sha256:d7acd53b9e77cb6236dc609e60189c42968f131d3ef4c47f0d156b7fc4289b9e
+size 104

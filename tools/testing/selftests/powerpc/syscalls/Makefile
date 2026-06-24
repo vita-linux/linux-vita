@@ -1,10 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-TEST_GEN_PROGS := ipc_unmuxed rtas_filter
-
-top_srcdir = ../../../../..
-include ../../lib.mk
-include ../flags.mk
-
-CFLAGS += $(KHDR_INCLUDES)
-
-$(TEST_GEN_PROGS): ../harness.c ../utils.c
+version https://git-lfs.github.com/spec/v1
+oid sha256:9a81f04638429e87e5ec09edf67efc6483802a4443e007b1d72a142adf529734
+size 224

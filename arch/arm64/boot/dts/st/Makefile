@@ -1,6 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-dtb-$(CONFIG_ARCH_STM32) += \
-	stm32mp215f-dk.dtb \
-	stm32mp235f-dk.dtb \
-	stm32mp257f-dk.dtb \
-	stm32mp257f-ev1.dtb
+version https://git-lfs.github.com/spec/v1
+oid sha256:56bfe3f19e767f7bee8fa98e48532d2b3aae756355249ee61d65c84e920633e0
+size 157

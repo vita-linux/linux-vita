@@ -1,22 +1,3 @@
-choice
-	prompt "choose A or B"
-
-config A
-	bool "A"
-
-config B
-	bool "B"
-
-endchoice
-
-choice
-	prompt "choose X or Y"
-	depends on B
-
-config X
-	bool "X"
-
-config Y
-	bool "Y"
-
-endchoice
+version https://git-lfs.github.com/spec/v1
+oid sha256:e4512f1c1ecca48e51b7e737198e06cbc95192c36603c138d36ea7ec2220961b
+size 179

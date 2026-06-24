@@ -1,13 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-# Makefile for LEDs tools
-
-CFLAGS = -Wall -Wextra -g -I../../include/uapi
-
-all: uledmon led_hw_brightness_mon
-%: %.c
-	$(CC) $(CFLAGS) -o $@ $^
-
-clean:
-	$(RM) uledmon led_hw_brightness_mon
-
-.PHONY: all clean
+version https://git-lfs.github.com/spec/v1
+oid sha256:cf7cad79d83be6f5f808acd2326d417e2dec4ff7d5990a10347d0caed407e509
+size 242

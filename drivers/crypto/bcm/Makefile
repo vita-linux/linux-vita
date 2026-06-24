@@ -1,14 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-# File: drivers/crypto/bcm/Makefile
-#
-# Makefile for crypto acceleration files for Broadcom SPU driver
-#
-# Uncomment to enable debug tracing in the SPU driver.
-# CFLAGS_util.o := -DDEBUG
-# CFLAGS_cipher.o := -DDEBUG
-# CFLAGS_spu.o := -DDEBUG
-# CFLAGS_spu2.o := -DDEBUG
-
-obj-$(CONFIG_CRYPTO_DEV_BCM_SPU) := bcm_crypto_spu.o
-
-bcm_crypto_spu-objs :=  util.o spu.o spu2.o cipher.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:294f03a08892c92577a393064a75702f2291af05e0976d29e2137b98977dc6f0
+size 417

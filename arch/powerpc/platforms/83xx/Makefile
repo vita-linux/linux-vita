@@ -1,18 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-#
-# Makefile for the PowerPC 83xx linux kernel.
-#
-obj-y				:= misc.o
-obj-$(CONFIG_SUSPEND)		+= suspend.o suspend-asm.o
-obj-$(CONFIG_MCU_MPC8349EMITX)	+= mcu_mpc8349emitx.o
-obj-$(CONFIG_MPC830x_RDB)	+= mpc830x_rdb.o
-obj-$(CONFIG_MPC831x_RDB)	+= mpc831x_rdb.o
-obj-$(CONFIG_MPC832x_RDB)	+= mpc832x_rdb.o
-obj-$(CONFIG_MPC834x_ITX)	+= mpc834x_itx.o
-obj-$(CONFIG_MPC836x_RDK)	+= mpc836x_rdk.o
-obj-$(CONFIG_MPC837x_RDB)	+= mpc837x_rdb.o
-obj-$(CONFIG_ASP834x)		+= asp834x.o
-obj-$(CONFIG_KMETER1)		+= km83xx.o
-obj-$(CONFIG_PPC_MPC831x)	+= usb_831x.o
-obj-$(CONFIG_PPC_MPC834x)	+= usb_834x.o
-obj-$(CONFIG_PPC_MPC837x)	+= usb_837x.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:37f1de79fb1dee7bb7e909ec9981de2fcb1ec8a54b22d1a8c1802edf7572838d
+size 656

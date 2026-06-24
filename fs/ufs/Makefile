@@ -1,10 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-#
-# Makefile for the Linux ufs filesystem routines.
-#
-
-obj-$(CONFIG_UFS_FS) += ufs.o
-
-ufs-objs := balloc.o cylinder.o dir.o file.o ialloc.o inode.o \
-	    namei.o super.o util.o
-ccflags-$(CONFIG_UFS_DEBUG)    += -DDEBUG
+version https://git-lfs.github.com/spec/v1
+oid sha256:aafac8eaba8e16b08b3ad5fc1ea054283b148ac879881e715ac0d7c5efa0d700
+size 260

@@ -1,6 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-
-CFLAGS += $(KHDR_INCLUDES)
-TEST_GEN_PROGS := xattr_socket_test xattr_sockfs_test xattr_socket_types_test
-
-include ../../lib.mk
+version https://git-lfs.github.com/spec/v1
+oid sha256:e14e213e525710e671b2d29bc0c675f67afbbb2b7d4110cef8a4fb203a893032
+size 163

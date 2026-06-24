@@ -1,12 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-#
-# Makefile for the ATM Protocol Families.
-#
-
-atm-y		:= addr.o pvc.o signaling.o svc.o ioctl.o common.o atm_misc.o raw.o resources.o atm_sysfs.o
-
-obj-$(CONFIG_ATM) += atm.o
-obj-$(CONFIG_ATM_BR2684) += br2684.o
-atm-$(CONFIG_PROC_FS) += proc.o
-
-obj-$(CONFIG_PPPOATM) += pppoatm.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:6c9665957d61b0c9fe79cf6c5d7802683c1a771a02504d0b84e321618333f794
+size 314

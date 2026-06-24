@@ -1,9 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-generic-y += early_ioremap.h
-generic-y += extable.h
-generic-y += flat.h
-generic-y += parport.h
-generic-y += ring_buffer.h
-
-generated-y += mach-types.h
-generated-y += unistd-nr.h
+version https://git-lfs.github.com/spec/v1
+oid sha256:d687e69680a5a0b7b9ac8868f2806e564cf5a94c0a1fb05bdb1021e0ab35dfb2
+size 213

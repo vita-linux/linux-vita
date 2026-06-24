@@ -1,31 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-obj-$(CONFIG_CRYPTO_DEV_CCP_DD) += ccp.o
-ccp-objs  := sp-dev.o sp-platform.o
-ccp-$(CONFIG_CRYPTO_DEV_SP_CCP) += ccp-dev.o \
-	    ccp-ops.o \
-	    ccp-dev-v3.o \
-	    ccp-dev-v5.o \
-	    ccp-dmaengine.o
-ccp-$(CONFIG_CRYPTO_DEV_CCP_DEBUGFS) += ccp-debugfs.o
-ccp-$(CONFIG_PCI) += sp-pci.o
-ccp-$(CONFIG_CRYPTO_DEV_SP_PSP) += psp-dev.o \
-                                   sev-dev.o \
-                                   tee-dev.o \
-                                   platform-access.o \
-                                   dbc.o \
-                                   hsti.o \
-                                   sfs.o
-
-ifeq ($(CONFIG_PCI_TSM),y)
-ccp-$(CONFIG_CRYPTO_DEV_SP_PSP) += sev-dev-tsm.o sev-dev-tio.o
-endif
-
-obj-$(CONFIG_CRYPTO_DEV_CCP_CRYPTO) += ccp-crypto.o
-ccp-crypto-objs := ccp-crypto-main.o \
-		   ccp-crypto-aes.o \
-		   ccp-crypto-aes-cmac.o \
-		   ccp-crypto-aes-xts.o \
-		   ccp-crypto-aes-galois.o \
-		   ccp-crypto-des3.o \
-		   ccp-crypto-rsa.o \
-		   ccp-crypto-sha.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:dbc3001d2c9ebd44ab195759d19073053e1e4bd19dc5bf78309af5b7918ee520
+size 1017

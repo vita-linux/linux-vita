@@ -1,5 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-obj-y				:= platform.o setup.o rtc_xicor1241.o \
-				   rtc_m41t81.o
-
-obj-$(CONFIG_I2C_BOARDINFO)	+= swarm-i2c.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:b3268045b7a5ec77d877b5f0be72ae5e1b92fb09a030a42005825f9ad7b46386
+size 153

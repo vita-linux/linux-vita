@@ -1,7 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-CFLAGS += -Wl,-no-as-needed -Wall $(KHDR_INCLUDES)
-LDFLAGS += -lpthread
-LDLIBS += -lcap
-
-TEST_GEN_PROGS := seccomp_bpf seccomp_benchmark
-include ../lib.mk
+version https://git-lfs.github.com/spec/v1
+oid sha256:1c33d2d18883c39f721f4dd4f618a1adf063b2a9ec768a3238acb51955b8eec3
+size 190

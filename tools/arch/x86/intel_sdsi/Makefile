@@ -1,21 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-# Makefile for Intel Software Defined Silicon provisioning tool
-
-intel_sdsi: intel_sdsi.c
-
-CFLAGS = -Wextra
-
-BINDIR ?= /usr/sbin
-
-override CFLAGS += -O2 -Wall
-
-%: %.c
-	$(CC) $(CFLAGS) -o $@ $< $(LDFLAGS)
-
-.PHONY : clean
-clean :
-	@rm -f intel_sdsi
-
-install : intel_sdsi
-	install -d  $(DESTDIR)$(BINDIR)
-	install -m 755 -p intel_sdsi $(DESTDIR)$(BINDIR)/intel_sdsi
+version https://git-lfs.github.com/spec/v1
+oid sha256:9338ebbd22994d929243c431803b81fe62ba6881d11819e62c2cee4a9d10156c
+size 398

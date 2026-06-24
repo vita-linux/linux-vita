@@ -1,3 +1,3 @@
-obj-$(CONFIG_CRYPTO_DEV_SUN4I_SS) += sun4i-ss/
-obj-$(CONFIG_CRYPTO_DEV_SUN8I_CE) += sun8i-ce/
-obj-$(CONFIG_CRYPTO_DEV_SUN8I_SS) += sun8i-ss/
+version https://git-lfs.github.com/spec/v1
+oid sha256:b4e767c290ad3e07e1ffde4e74e996da33074d70e4dde954d5ab4644dfce1cf4
+size 141

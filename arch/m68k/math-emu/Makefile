@@ -1,10 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-#
-# Makefile for the linux kernel.
-#
-
-#asflags-y := -DFPU_EMU_DEBUG
-#ccflags-y := -DFPU_EMU_DEBUG
-
-obj-y		:= fp_entry.o fp_scan.o fp_util.o fp_move.o fp_movem.o \
-			fp_cond.o fp_arith.o fp_log.o fp_trig.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:c0c47f4384435684a30281f28762602b6ff50eb1fdd74818c75ec57f8819ac69
+size 246

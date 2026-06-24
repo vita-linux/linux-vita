@@ -1,8 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-#
-# Makefile for kernel probes
-#
-
-obj-$(CONFIG_KPROBES)		+= core.o
-obj-$(CONFIG_OPTPROBES)		+= opt.o
-obj-$(CONFIG_KPROBES_ON_FTRACE)	+= ftrace.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:dd850588aef0449c2456de9320235a260f60f5302bb42bff2f719e97e2da5c17
+size 185

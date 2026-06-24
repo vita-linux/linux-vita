@@ -1,14 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-subdir-y += allwinner
-subdir-y += andes
-subdir-y += anlogic
-subdir-y += canaan
-subdir-y += eswin
-subdir-y += microchip
-subdir-y += renesas
-subdir-y += sifive
-subdir-y += sophgo
-subdir-y += spacemit
-subdir-y += starfive
-subdir-y += tenstorrent
-subdir-y += thead
+version https://git-lfs.github.com/spec/v1
+oid sha256:4740464292dd7e242888eb545ba33fa896777d4bfa66a49f53f0ef8841f26d08
+size 296

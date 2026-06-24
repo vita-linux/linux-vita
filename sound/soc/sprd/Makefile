@@ -1,8 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-# Spreadtrum Audio Support
-
-snd-soc-sprd-platform-y := sprd-pcm-dma.o sprd-pcm-compress.o
-
-obj-$(CONFIG_SND_SOC_SPRD) += snd-soc-sprd-platform.o
-
-obj-$(CONFIG_SND_SOC_SPRD_MCDT) += sprd-mcdt.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:15baebe50dcaca4ed3da063ea4f79e0b2ed496b05e4aa833e9f48d82f13ce2c6
+size 228

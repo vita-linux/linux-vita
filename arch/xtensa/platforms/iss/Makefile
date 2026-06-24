@@ -1,11 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-# $Id: Makefile,v 1.1.1.1 2002/08/28 16:10:14 aroll Exp $
-#
-# Makefile for the Xtensa Instruction Set Simulator (ISS)
-# "prom monitor" library routines under Linux.
-#
-
-obj-y			= setup.o
-obj-$(CONFIG_TTY)	+= console.o
-obj-$(CONFIG_NET)	+= network.o
-obj-$(CONFIG_BLK_DEV_SIMDISK) += simdisk.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:78816a72ff05110948b9d84bbb2e2aadb4d4464fc6710ec0c18677df1ab80770
+size 331

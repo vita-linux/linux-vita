@@ -1,19 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-
-TEST_INCLUDES := \
-	../../../net/lib.sh \
-	../lib/sh/lib_netcons.sh \
-# end of TEST_INCLUDES
-
-TEST_PROGS := \
-	netcons_basic.sh \
-	netcons_cmdline.sh \
-	netcons_fragmented_msg.sh \
-	netcons_overflow.sh \
-	netcons_resume.sh \
-	netcons_sysdata.sh \
-	netcons_torture.sh \
-# end of TEST_PROGS
-
-include ../../../lib.mk
-
+version https://git-lfs.github.com/spec/v1
+oid sha256:6a7c59b3f0774da1c3aaaef12a7051837f9464b1d38a592f791982f3417c1f36
+size 351

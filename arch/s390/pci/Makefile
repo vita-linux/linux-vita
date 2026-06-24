@@ -1,10 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-#
-# Makefile for the s390 PCI subsystem.
-#
-
-obj-$(CONFIG_PCI)	+= pci.o pci_irq.o pci_clp.o \
-			   pci_event.o pci_debug.o pci_insn.o pci_mmio.o \
-			   pci_bus.o pci_kvm_hook.o pci_report.o pci_fixup.o
-obj-$(CONFIG_PCI_IOV)	+= pci_iov.o
-obj-$(CONFIG_SYSFS)	+= pci_sysfs.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:2313d3adf24bc70981bf48c15ec6ca3f97e3362f4562efee9f77992bd00f6c53
+size 308

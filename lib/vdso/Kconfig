@@ -1,27 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-
-config HAVE_GENERIC_VDSO
-	bool
-
-if HAVE_GENERIC_VDSO
-
-config GENERIC_GETTIMEOFDAY
-	bool
-	help
-	  This is a generic implementation of gettimeofday vdso.
-	  Each architecture that enables this feature has to
-	  provide the fallback implementation.
-
-config GENERIC_VDSO_OVERFLOW_PROTECT
-	bool
-	help
-	  Select to add multiplication overflow protection to the VDSO
-	  time getter functions for the price of an extra conditional
-	  in the hotpath.
-
-config VDSO_GETRANDOM
-	bool
-	help
-	  Selected by architectures that support vDSO getrandom().
-
-endif
+version https://git-lfs.github.com/spec/v1
+oid sha256:78d433b1412badb11a282480bc9c5211c9a206b331edef1909a8a376cd5db8a4
+size 580

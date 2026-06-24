@@ -1,2 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-source "Kconfig.inc1"
+version https://git-lfs.github.com/spec/v1
+oid sha256:4aa4ed5cbd73b2722fae7c9f2ab18c595316c50a79990ea5ab021472dcd86a06
+size 62

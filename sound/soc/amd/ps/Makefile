@@ -1,11 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-# Pink Sardine platform Support
-snd-pci-ps-y := pci-ps.o ps-common.o
-snd-ps-pdm-dma-y := ps-pdm-dma.o
-snd-soc-ps-mach-y := ps-mach.o
-snd-ps-sdw-dma-y := ps-sdw-dma.o
-
-obj-$(CONFIG_SND_SOC_AMD_PS) += snd-pci-ps.o
-obj-$(CONFIG_SND_SOC_AMD_PS) += snd-ps-pdm-dma.o
-obj-$(CONFIG_SND_SOC_AMD_PS) += snd-ps-sdw-dma.o
-obj-$(CONFIG_SND_SOC_AMD_PS_MACH)   += snd-soc-ps-mach.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:7c1e39f3e0c35709bcb9f56f45fc07ca33901340e3ebbee7d98c5c8aca7d442f
+size 407

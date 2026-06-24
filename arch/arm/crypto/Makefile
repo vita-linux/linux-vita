@@ -1,13 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-#
-# Arch-specific CryptoAPI modules.
-#
-
-obj-$(CONFIG_CRYPTO_AES_ARM_BS) += aes-arm-bs.o
-
-obj-$(CONFIG_CRYPTO_AES_ARM_CE) += aes-arm-ce.o
-obj-$(CONFIG_CRYPTO_GHASH_ARM_CE) += ghash-arm-ce.o
-
-aes-arm-bs-y	:= aes-neonbs-core.o aes-neonbs-glue.o
-aes-arm-ce-y	:= aes-ce-core.o aes-ce-glue.o
-ghash-arm-ce-y	:= ghash-ce-core.o ghash-ce-glue.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:d5791f8f4b85aa35657e55acc050d8547cfcd33b489d61464770678b3fce67bc
+size 371

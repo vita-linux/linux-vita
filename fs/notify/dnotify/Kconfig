@@ -1,12 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-config DNOTIFY
-	bool "Dnotify support"
-	select FSNOTIFY
-	default y
-	help
-	  Dnotify is a directory-based per-fd file change notification system
-	  that uses signals to communicate events to user-space.  There exist
-	  superior alternatives, but some applications may still rely on
-	  dnotify.
-
-	  If unsure, say Y.
+version https://git-lfs.github.com/spec/v1
+oid sha256:07fa735b61815831acf51c27f36a57a3a70192e5990f556bc92a87843c5bb456
+size 355

@@ -1,17 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-#
-# First run: make -C ../../../.. headers_install
-
-CFLAGS += -Wall -O2 $(KHDR_INCLUDES)
-LOCAL_HDRS += common.h
-
-TEST_GEN_PROGS := lsm_get_self_attr_test lsm_list_modules_test \
-		  lsm_set_self_attr_test
-
-include ../lib.mk
-
-$(OUTPUT)/lsm_get_self_attr_test: lsm_get_self_attr_test.c common.c
-$(OUTPUT)/lsm_set_self_attr_test: lsm_set_self_attr_test.c common.c
-$(OUTPUT)/lsm_list_modules_test: lsm_list_modules_test.c common.c
-
-EXTRA_CLEAN = $(OUTPUT)/common.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:ceecfe10bb33c85a618140ff48790c6d0e1f5d12077a4e1254a9a23b7b88e1cd
+size 496

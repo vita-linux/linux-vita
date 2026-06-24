@@ -1,35 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-SUBDIRS := functional
-
-TEST_PROGS := run.sh
-
-include ../lib.mk
-
-all:
-	@for DIR in $(SUBDIRS); do		\
-		BUILD_TARGET=$(OUTPUT)/$$DIR;	\
-		mkdir $$BUILD_TARGET  -p;	\
-		$(MAKE) OUTPUT=$$BUILD_TARGET -C $$DIR $@;\
-		if [ -e $$DIR/$(TEST_PROGS) ]; then \
-			rsync -a $$DIR/$(TEST_PROGS) $$BUILD_TARGET/; \
-		fi \
-	done
-
-override define INSTALL_RULE
-	mkdir -p $(INSTALL_PATH)
-	install -t $(INSTALL_PATH) $(TEST_PROGS) $(TEST_PROGS_EXTENDED) $(TEST_FILES)
-
-	@for SUBDIR in $(SUBDIRS); do \
-		BUILD_TARGET=$(OUTPUT)/$$SUBDIR;	\
-		mkdir $$BUILD_TARGET  -p;	\
-		$(MAKE) OUTPUT=$$BUILD_TARGET -C $$SUBDIR INSTALL_PATH=$(INSTALL_PATH)/$$SUBDIR install; \
-	done;
-endef
-
-override define CLEAN
-	@for DIR in $(SUBDIRS); do		\
-		BUILD_TARGET=$(OUTPUT)/$$DIR;	\
-		mkdir $$BUILD_TARGET  -p;	\
-		$(MAKE) OUTPUT=$$BUILD_TARGET -C $$DIR $@;\
-	done
-endef
+version https://git-lfs.github.com/spec/v1
+oid sha256:58f1fe511e8e2e18432c6b0b4b0d26983f4927bf58e1983baef1e59b87fa6e8b
+size 867

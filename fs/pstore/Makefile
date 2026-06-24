@@ -1,20 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-#
-# Makefile for the linux pstorefs routines.
-#
-
-obj-$(CONFIG_PSTORE) += pstore.o
-
-pstore-objs += inode.o platform.o
-pstore-$(CONFIG_PSTORE_FTRACE)	+= ftrace.o
-
-pstore-$(CONFIG_PSTORE_PMSG)	+= pmsg.o
-
-ramoops-objs += ram.o ram_core.o
-obj-$(CONFIG_PSTORE_RAM)	+= ramoops.o
-
-pstore_zone-objs += zone.o
-obj-$(CONFIG_PSTORE_ZONE)	+= pstore_zone.o
-
-pstore_blk-objs += blk.o
-obj-$(CONFIG_PSTORE_BLK)	+= pstore_blk.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:5dfcc1e07f1e8fcffb6ef517f6efc1b335a563f6108fd94991e42824d72e6224
+size 445

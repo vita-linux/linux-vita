@@ -1,12 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-#
-# Null block device driver configuration
-#
-
-config BLK_DEV_NULL_BLK
-	tristate "Null test block driver"
-	select CONFIGFS_FS
-
-config BLK_DEV_NULL_BLK_FAULT_INJECTION
-	bool "Support fault injection for Null test block driver"
-	depends on BLK_DEV_NULL_BLK && FAULT_INJECTION_CONFIGFS
+version https://git-lfs.github.com/spec/v1
+oid sha256:1987e328fd7d6357787d73d883d4fed3694ef6c9d8c0522b4dc77ffe93988a14
+size 317

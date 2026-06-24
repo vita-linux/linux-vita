@@ -1,6 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-#
-# Makefile for  Block device driver for Micron PCIe SSD
-#
-
-obj-$(CONFIG_BLK_DEV_PCIESSD_MTIP32XX) += mtip32xx.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:f142f94aae990d0304a2639284bc26d2863906fdecd26ce0794c0d6f00c7fb01
+size 154

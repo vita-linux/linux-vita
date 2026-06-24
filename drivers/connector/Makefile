@@ -1,5 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-obj-$(CONFIG_CONNECTOR)		+= cn.o
-obj-$(CONFIG_PROC_EVENTS)	+= cn_proc.o
-
-cn-y				+= cn_queue.o connector.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:cb7becd04cd3e78ae152bebf5a1159a1c0403bc2f51d5bf38363ee56075ed963
+size 147

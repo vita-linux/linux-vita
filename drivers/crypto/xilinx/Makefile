@@ -1,4 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-obj-$(CONFIG_CRYPTO_DEV_XILINX_TRNG) += xilinx-trng.o
-obj-$(CONFIG_CRYPTO_DEV_ZYNQMP_AES) += zynqmp-aes-gcm.o
-obj-$(CONFIG_CRYPTO_DEV_ZYNQMP_SHA3) += zynqmp-sha.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:7b9e92a49a4ac19bca9b0775389f678c8249b92356c5d8d476ed9ec5bc3e4981
+size 203

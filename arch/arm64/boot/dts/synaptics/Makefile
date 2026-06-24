@@ -1,4 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-# Berlin SoC Family
-dtb-$(CONFIG_ARCH_BERLIN) += berlin4ct-dmp.dtb
-dtb-$(CONFIG_ARCH_BERLIN) += berlin4ct-stb.dtb
+version https://git-lfs.github.com/spec/v1
+oid sha256:8da9c9bbab1c7e115f452050d706facc841a8ce8ebc8f26871268ec058f461d0
+size 149

@@ -1,8 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-#
-# Makefile for the Linux/SuperH SH-Mobile backends.
-#
-
-# Power Management & Sleep mode
-obj-$(CONFIG_PM)	+= pm.o sleep.o
-obj-$(CONFIG_CPU_IDLE)	+= cpuidle.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:b9e3b8c076725a26709e663f083b8f833c04c65b4653352bf00d0da1c6d24d78
+size 193

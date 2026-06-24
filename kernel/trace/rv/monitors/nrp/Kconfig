@@ -1,16 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-#
-config RV_MON_NRP
-	depends on RV
-	depends on RV_MON_SCHED
-	default y if !ARM64
-	select DA_MON_EVENTS_ID
-	bool "nrp monitor"
-	help
-	  Monitor to ensure preemption requires need resched.
-	  This monitor is part of the sched monitors collection.
-
-	  This monitor is unstable on arm64, say N unless you are testing it.
-
-	  For further information, see:
-	    Documentation/trace/rv/monitor_sched.rst
+version https://git-lfs.github.com/spec/v1
+oid sha256:7381e7042debb85c880fb536533831ae97022239352bb0a6711908e9094bcc72
+size 437

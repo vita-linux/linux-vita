@@ -1,11 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-#
-# Netlink Sockets
-#
-
-config NETLINK_DIAG
-	tristate "NETLINK: socket monitoring interface"
-	default n
-	help
-	  Support for NETLINK socket monitoring interface used by the ss tool.
-	  If unsure, say Y.
+version https://git-lfs.github.com/spec/v1
+oid sha256:f4e0337e415069f11d21d414773a9822c66c1faea0c45dea5605128c7293d973
+size 242

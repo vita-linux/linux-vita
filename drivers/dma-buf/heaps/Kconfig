@@ -1,14 +1,3 @@
-config DMABUF_HEAPS_SYSTEM
-	bool "DMA-BUF System Heap"
-	depends on DMABUF_HEAPS
-	help
-	  Choose this option to enable the system dmabuf heap. The system heap
-	  is backed by pages from the buddy allocator. If in doubt, say Y.
-
-config DMABUF_HEAPS_CMA
-	bool "DMA-BUF CMA Heap"
-	depends on DMABUF_HEAPS && DMA_CMA
-	help
-	  Choose this option to enable dma-buf CMA heap. This heap is backed
-	  by the Contiguous Memory Allocator (CMA). If your system has these
-	  regions, you should say Y here.
+version https://git-lfs.github.com/spec/v1
+oid sha256:89310aa9337eb3fd5da8d531099e66dcb749630ddf11e5073a2d92f94af51d34
+size 493

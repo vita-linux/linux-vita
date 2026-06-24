@@ -1,6 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-# builds the kprobes example kernel modules;
-# then to use one (as root):  insmod <module_name.ko>
-
-obj-$(CONFIG_SAMPLE_KPROBES) += kprobe_example.o
-obj-$(CONFIG_SAMPLE_KRETPROBES) += kretprobe_example.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:f8c10ea8f67edbcc18651b666b6755d5ebf4845347421c870c1803eecf0dcb9c
+size 244

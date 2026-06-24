@@ -1,10 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-dtb-$(CONFIG_ARCH_UNIPHIER) += \
-	uniphier-ld11-global.dtb \
-	uniphier-ld11-ref.dtb \
-	uniphier-ld20-akebi96.dtb \
-	uniphier-ld20-global.dtb \
-	uniphier-ld20-ref.dtb \
-	uniphier-pxs3-ref.dtb \
-	uniphier-pxs3-ref-gadget0.dtb \
-	uniphier-pxs3-ref-gadget1.dtb
+version https://git-lfs.github.com/spec/v1
+oid sha256:801d805a39246e4dcc1c5885fe95a3e622747000568d83560456068cdc83f6ed
+size 292

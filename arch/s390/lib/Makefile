@@ -1,26 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-#
-# Makefile for s390-specific library files..
-#
-
-lib-y += delay.o string.o uaccess.o find.o spinlock.o tishift.o
-lib-y += csum-partial.o
-obj-y += mem.o
-lib-$(CONFIG_KPROBES) += probes.o
-lib-$(CONFIG_UPROBES) += probes.o
-obj-$(CONFIG_S390_KPROBES_SANITY_TEST) += test_kprobes_s390.o
-test_kprobes_s390-objs += test_kprobes_asm.o test_kprobes.o
-
-# Instrumenting memory accesses to __user data (in different address space)
-# produce false positives
-KASAN_SANITIZE_uaccess.o := n
-
-obj-$(CONFIG_S390_UNWIND_SELFTEST) += test_unwind.o
-CFLAGS_test_unwind.o += -fno-optimize-sibling-calls
-
-obj-$(CONFIG_S390_MODULES_SANITY_TEST) += test_modules.o
-obj-$(CONFIG_S390_MODULES_SANITY_TEST_HELPERS) += test_modules_helpers.o
-
-lib-$(CONFIG_FUNCTION_ERROR_INJECTION) += error-inject.o
-
-obj-$(CONFIG_EXPOLINE_EXTERN) += expoline.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:b97df1d47fb262998f28092f6a14fbabd459f7c82d7f7123a141dabb6e6a13c5
+size 850

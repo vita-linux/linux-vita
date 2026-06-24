@@ -1,14 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-#
-# Makefile for the Linux Coda filesystem routines.
-#
-
-obj-$(CONFIG_CODA_FS) += coda.o
-
-coda-objs := psdev.o cache.o cnode.o inode.o dir.o file.o upcall.o \
-	     coda_linux.o symlink.o pioctl.o
-coda-$(CONFIG_SYSCTL) += sysctl.o
-
-# If you want debugging output, please uncomment the following line.
-
-# ccflags-y := -DDEBUG -DDEBUG_SMB_MALLOC=1
+version https://git-lfs.github.com/spec/v1
+oid sha256:bcd1a44137ecd143e466ade2b57880edb3f04e0ef8d9416e30c4a87d4e2db87b
+size 385

@@ -1,12 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-menu "Apple"
-
-config SND_SOC_APPLE_MCA
-	tristate "Apple Silicon MCA driver"
-	depends on ARCH_APPLE || COMPILE_TEST
-	select SND_DMAENGINE_PCM
-	help
-	  This option enables an ASoC platform driver for MCA peripherals found
-	  on Apple Silicon SoCs.
-
-endmenu
+version https://git-lfs.github.com/spec/v1
+oid sha256:ab2f83c80e27ae5942f670680e2a8c5ca79d77c986a0506943681dc73f221765
+size 295

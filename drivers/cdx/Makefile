@@ -1,14 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-#
-# Makefile for CDX
-#
-# Copyright (C) 2022-2023, Advanced Micro Devices, Inc.
-#
-
-ccflags-y += -DDEFAULT_SYMBOL_NAMESPACE='"CDX_BUS"'
-
-obj-$(CONFIG_CDX_BUS) += cdx.o controller/
-
-ifdef CONFIG_GENERIC_MSI_IRQ
-obj-$(CONFIG_CDX_BUS) += cdx_msi.o
-endif
+version https://git-lfs.github.com/spec/v1
+oid sha256:a6c0104828e8105020689966d1c0317d6a1bff1945fce65f24b4b7dc935c0bd3
+size 284

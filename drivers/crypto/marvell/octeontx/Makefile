@@ -1,6 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-obj-$(CONFIG_CRYPTO_DEV_OCTEONTX_CPT) += octeontx-cpt.o octeontx-cptvf.o
-
-octeontx-cpt-objs := otx_cptpf_main.o otx_cptpf_mbox.o otx_cptpf_ucode.o
-octeontx-cptvf-objs := otx_cptvf_main.o otx_cptvf_mbox.o otx_cptvf_reqmgr.o \
-		       otx_cptvf_algs.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:2465cdee1ac6dc4ef3a9ba7efd22de2cd8b04867831941911c8b11b9a0827115
+size 286

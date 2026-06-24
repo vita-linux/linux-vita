@@ -1,8 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-#
-# Makefile for the Linux LAPB layer.
-#
-
-obj-$(CONFIG_LAPB) += lapb.o
-
-lapb-y := lapb_in.o lapb_out.o lapb_subr.o lapb_timer.o lapb_iface.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:3b0f3bbe89166c42a60529939dc2ab6aa6ff1ba79681a59bbbf85c43034ca095
+size 181

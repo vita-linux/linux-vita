@@ -1,16 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-config SA1111
-	bool
-	select ZONE_DMA if ARCH_SA1100
-
-config KRAIT_L2_ACCESSORS
-	bool
-
-config SHARP_LOCOMO
-	bool
-
-config SHARP_PARAM
-	bool
-
-config SHARP_SCOOP
-	bool
+version https://git-lfs.github.com/spec/v1
+oid sha256:3138844532afd18eb8f5515976b170b77e410a1522e3aa1c7b2325948a26b92d
+size 199

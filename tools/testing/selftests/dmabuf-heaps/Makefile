@@ -1,6 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-CFLAGS += -static -O3 -Wl,-no-as-needed -Wall $(KHDR_INCLUDES)
-
-TEST_GEN_PROGS = dmabuf-heap
-
-include ../lib.mk
+version https://git-lfs.github.com/spec/v1
+oid sha256:e17948bb4c5db47c0ca75d66af3700c4ebb572ead6942f2e2197b54992075a4e
+size 147

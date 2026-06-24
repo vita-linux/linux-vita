@@ -1,14 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-#
-# Makefile for the Linux/Xtensa-specific parts of the memory manager.
-#
-
-obj-y			:= init.o misc.o
-obj-$(CONFIG_PFAULT)	+= fault.o
-obj-$(CONFIG_MMU)	+= cache.o ioremap.o mmu.o tlb.o
-obj-$(CONFIG_HIGHMEM)	+= highmem.o
-obj-$(CONFIG_KASAN)	+= kasan_init.o
-
-KASAN_SANITIZE_fault.o := n
-KASAN_SANITIZE_kasan_init.o := n
-KASAN_SANITIZE_mmu.o := n
+version https://git-lfs.github.com/spec/v1
+oid sha256:8c6c3285cd979f3eb6a031b1d1b0e0c5b410eba4edd6ca7ef911462832e0d49d
+size 382

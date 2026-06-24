@@ -1,7 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-#
-# Makefile for the Interface (CTP/PCI-SH03) specific parts of the kernel
-#
-
-obj-y	 := setup.o
-obj-$(CONFIG_RTC_DRV_GENERIC) += rtc.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:f7f79abbce47ccf102bad59e36ae787804c401830a118f1369c982ed30bbe69c
+size 170

@@ -1,9 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-# Makefile for mount selftests.
-CFLAGS = -g $(KHDR_INCLUDES) -Wall -O2 -pthread
-
-LOCAL_HDRS += ../filesystems/wrappers.h
-
-TEST_GEN_PROGS := mount_setattr_test
-
-include ../lib.mk
+version https://git-lfs.github.com/spec/v1
+oid sha256:11b8a96d9f891c1b5e9f6cc16f833baed0cf28f64daf3718540b66028bda954e
+size 213

@@ -1,5 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-obj-y	+= mm/ kernel/ math-emu/ net/
-
-# for cleaning
-subdir- += boot
+version https://git-lfs.github.com/spec/v1
+oid sha256:8ad8653c7a25abfa15e1f8868f94d5c882425d6357518e8020c38698c70d52c1
+size 108

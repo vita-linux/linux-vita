@@ -1,4 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-snd-hda-ext-core-y := bus.o controller.o stream.o
-
-obj-$(CONFIG_SND_HDA_EXT_CORE) += snd-hda-ext-core.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:3ec981358d24edff1ecad6f83ac15503b7358545ba1ab16dc51dfc22be8a5b0e
+size 144

@@ -1,6 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-CFLAGS += -std=c99 -pthread -Wall $(KHDR_INCLUDES)
-
-TEST_GEN_PROGS := get_syscall_info set_syscall_info peeksiginfo vmaccess get_set_sud
-
-include ../lib.mk
+version https://git-lfs.github.com/spec/v1
+oid sha256:b511798d37a1a3a1bc95e6a43797f88c85860a04d2dfa376a4d8770727c86e1f
+size 196

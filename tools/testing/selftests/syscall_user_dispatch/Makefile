@@ -1,9 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-top_srcdir = ../../../..
-INSTALL_HDR_PATH = $(top_srcdir)/usr
-LINUX_HDR_PATH = $(INSTALL_HDR_PATH)/include/
-
-CFLAGS += -Wall -I$(LINUX_HDR_PATH)
-
-TEST_GEN_PROGS := sud_test sud_benchmark
-include ../lib.mk
+version https://git-lfs.github.com/spec/v1
+oid sha256:b672c5d22d10e9ba9e02819faa278cbe5040b21ef90cff6c3a0a04d3adffd5dd
+size 240

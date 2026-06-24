@@ -1,14 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-ifndef CROSS_COMPILE
-ARCH ?= $(shell uname -m 2>/dev/null || echo not)
-override ARCH := $(shell echo $(ARCH) | sed -e s/i.86/x86/ -e s/x86_64/x86/)
-
-ifeq ($(ARCH),x86)
-TEST_PROGS := disable-tsc-ctxt-sw-stress-test disable-tsc-on-off-stress-test \
-		disable-tsc-test set-anon-vma-name-test set-process-name
-all: $(TEST_PROGS)
-
-include ../lib.mk
-
-endif
-endif
+version https://git-lfs.github.com/spec/v1
+oid sha256:896876b0269df72442514ed2fd817f1ca164cca6bed73c4480b40fa32f636c35
+size 392

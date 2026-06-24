@@ -1,9 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-#
-# Makefile for ALSA
-# Copyright (c) 2004 by Jaroslav Kysela <perex@perex.cz>
-#
-
-snd-pdaudiocf-y := pdaudiocf.o pdaudiocf_core.o pdaudiocf_irq.o pdaudiocf_pcm.o
-
-obj-$(CONFIG_SND_PDAUDIOCF) += snd-pdaudiocf.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:ee8580f322639304bc8dd44ae858ae6dba7a9e8d11a9ed8183649b2a05ab26d9
+size 250

@@ -1,8 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-obj-y				+= kernel/ mm/ boards/
-obj-$(CONFIG_SH_FPU_EMU)	+= math-emu/
-
-obj-$(CONFIG_HD6446X_SERIES)	+= cchips/hd6446x/
-
-# for cleaning
-subdir- += boot
+version https://git-lfs.github.com/spec/v1
+oid sha256:a2de851d6eb01c5b3b85a0710c35b39f69f9124c6d2a8d5bdb11389940d90f99
+size 191

@@ -1,14 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-obj-y				=  core.o severity.o genpool.o
-
-obj-$(CONFIG_X86_ANCIENT_MCE)	+= winchip.o p5.o
-obj-$(CONFIG_X86_MCE_INTEL)	+= intel.o
-obj-$(CONFIG_X86_MCE_AMD)	+= amd.o
-obj-$(CONFIG_X86_MCE_THRESHOLD) += threshold.o
-
-mce-inject-y			:= inject.o
-obj-$(CONFIG_X86_MCE_INJECT)	+= mce-inject.o
-
-obj-$(CONFIG_ACPI_APEI)		+= apei.o
-
-obj-$(CONFIG_X86_MCELOG_LEGACY)	+= dev-mcelog.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:23ca879b3d4aa50507352a39bc1678b5b931768271a7442c74d60073255e1592
+size 403

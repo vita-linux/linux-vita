@@ -1,15 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-# Makefile for kernel virtual machines on s390
-#
-# Copyright IBM Corp. 2008
-
-include $(srctree)/virt/kvm/Makefile.kvm
-
-ccflags-y := -Ivirt/kvm -Iarch/s390/kvm
-
-kvm-y += kvm-s390.o intercept.o interrupt.o priv.o sigp.o
-kvm-y += diag.o gaccess.o guestdbg.o vsie.o pv.o
-kvm-y += dat.o gmap.o faultin.o
-
-kvm-$(CONFIG_VFIO_PCI_ZDEV_KVM) += pci.o
-obj-$(CONFIG_KVM) += kvm.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:4fa35183889ba435251a742aa0d3ba939c9b0df7c4f440ca6ab132ae2cc51b5b
+size 403

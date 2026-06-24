@@ -1,8 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-ccflags-y := -DSRCTREE='"$(srctree)"' -DOBJTREE='"$(objtree)"'
-
-obj-y := base.o fs.o
-obj-$(CONFIG_CC_IS_GCC) += gcc_base.o gcc_4_7.o
-CFLAGS_gcc_base.o += -Wno-missing-prototypes -Wno-missing-declarations
-obj-$(CONFIG_CC_IS_CLANG) += clang.o
-CFLAGS_clang.o += -Wno-missing-prototypes -Wno-missing-declarations
+version https://git-lfs.github.com/spec/v1
+oid sha256:6c28075e981d976ab2fd15874af1f225e6c4e6d9e66ef6077c6a7c415d9672d2
+size 344

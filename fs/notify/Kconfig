@@ -1,7 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-config FSNOTIFY
-	def_bool n
-
-source "fs/notify/dnotify/Kconfig"
-source "fs/notify/inotify/Kconfig"
-source "fs/notify/fanotify/Kconfig"
+version https://git-lfs.github.com/spec/v1
+oid sha256:de946a7a5a7d1908da5a5f475c80fb65858ba94f94b260f2c3d5eb1fec14453f
+size 175

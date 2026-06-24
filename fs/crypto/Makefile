@@ -1,14 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-obj-$(CONFIG_FS_ENCRYPTION)	+= fscrypto.o
-
-fscrypto-y := crypto.o \
-	      fname.o \
-	      hkdf.o \
-	      hooks.o \
-	      keyring.o \
-	      keysetup.o \
-	      keysetup_v1.o \
-	      policy.o
-
-fscrypto-$(CONFIG_BLOCK) += bio.o
-fscrypto-$(CONFIG_FS_ENCRYPTION_INLINE_CRYPT) += inline_crypt.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:a92b2dde867dcfcd169c8b474fcd78df0e8cb95705233259727908684e4a9ad2
+size 335

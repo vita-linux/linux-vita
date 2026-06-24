@@ -1,10 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-
-obj-$(CONFIG_CAN_J1939) += can-j1939.o
-
-can-j1939-objs := \
-	address-claim.o \
-	bus.o \
-	main.o \
-	socket.o \
-	transport.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:4ed82a08de586bb31cdf4d1fa46744f6273bb359f21400de61119c60fbbad896
+size 159

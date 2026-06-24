@@ -1,5 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-snd-usb-audio-qmi-y := usb_audio_qmi_v01.o qc_audio_offload.o
-snd-usb-audio-qmi-y += mixer_usb_offload.o
-obj-$(CONFIG_SND_USB_AUDIO_QMI) += snd-usb-audio-qmi.o
-
+version https://git-lfs.github.com/spec/v1
+oid sha256:53272cf28372a7423c11316b6e544a49272784e9ac952381dfdbcebcd1699af3
+size 196

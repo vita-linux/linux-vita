@@ -1,11 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-#
-# Makefile for the IP27 specific kernel interface routines under Linux.
-#
-
-obj-y	:= ip27-berr.o ip27-irq.o ip27-init.o ip27-klconfig.o \
-	   ip27-klnuma.o ip27-memory.o ip27-nmi.o ip27-reset.o ip27-timer.o \
-	   ip27-xtalk.o
-
-obj-$(CONFIG_EARLY_PRINTK)	+= ip27-console.o
-obj-$(CONFIG_SMP)		+= ip27-smp.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:665c8dbcde46249e3db0a1db9568b9656c0daf90a48f11106112e3628079b7d3
+size 341

@@ -1,11 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-
-# needed for trace events
-ccflags-y			+= -I$(src)
-
-obj-$(CONFIG_BLK_DEV_NULL_BLK)	+= null_blk.o
-null_blk-objs			:= main.o
-ifeq ($(CONFIG_BLK_DEV_ZONED), y)
-null_blk-$(CONFIG_TRACING) 	+= trace.o
-endif
-null_blk-$(CONFIG_BLK_DEV_ZONED) += zoned.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:03bd31a4abc10d69127371c5aa8c5e43b029c1b4473ea63c407b3179cc4916ba
+size 281

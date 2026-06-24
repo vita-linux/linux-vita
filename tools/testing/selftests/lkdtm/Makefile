@@ -1,13 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-# Makefile for LKDTM regression tests
-
-include ../lib.mk
-
-# NOTE: $(OUTPUT) won't get default value if used before lib.mk
-TEST_FILES := tests.txt
-TEST_PROGS := stack-entropy.sh
-TEST_GEN_PROGS = $(patsubst %,$(OUTPUT)/%.sh,$(shell awk '{print $$1}' tests.txt | sed -e 's/\#//'))
-all: $(TEST_GEN_PROGS)
-
-$(OUTPUT)/%: run.sh tests.txt
-	install -m 0744 run.sh $@
+version https://git-lfs.github.com/spec/v1
+oid sha256:184fc4049e890869b7d4f0bd0ff5357b6fdeb1578a9bfa96b6da17be5853d732
+size 394

@@ -1,15 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-#
-# Makefile for the Linux JFS filesystem routines.
-#
-
-obj-$(CONFIG_JFS_FS) += jfs.o
-
-jfs-y    := super.o file.o inode.o namei.o jfs_mount.o jfs_umount.o \
-	    jfs_xtree.o jfs_imap.o jfs_debug.o jfs_dmap.o \
-	    jfs_unicode.o jfs_dtree.o jfs_inode.o jfs_discard.o \
-	    jfs_extent.o symlink.o jfs_metapage.o \
-	    jfs_logmgr.o jfs_txnmgr.o \
-	    resize.o xattr.o ioctl.o
-
-jfs-$(CONFIG_JFS_POSIX_ACL) += acl.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:affd60fda88c2cee71c97f23d3f007a8feb08a8f70981aec1c88d94a20071f4e
+size 449

@@ -1,8 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-ccflags-y += -I$(src)	# needed for trace events
-
-obj-$(CONFIG_ANDROID_BINDER_IPC_RUST) += rust_binder.o
-rust_binder-y := \
-	rust_binder_main.o	\
-	rust_binderfs.o		\
-	rust_binder_events.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:cea2ba7adbabec41f917718ff161f33debf2c78dfc367f6b12527e7d2d02a94d
+size 227

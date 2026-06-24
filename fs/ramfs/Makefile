@@ -1,10 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-#
-# Makefile for the linux ramfs routines.
-#
-
-obj-y += ramfs.o
-
-file-mmu-y := file-nommu.o
-file-mmu-$(CONFIG_MMU) := file-mmu.o
-ramfs-objs += inode.o $(file-mmu-y)
+version https://git-lfs.github.com/spec/v1
+oid sha256:c7a2c47655792559c07adc129914270e570352d36e76a0886e2a2d1a87632afd
+size 204

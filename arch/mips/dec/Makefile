@@ -1,10 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-#
-# Makefile for the DECstation family specific parts of the kernel
-#
-
-obj-y		:= ecc-berr.o int-handler.o ioasic-irq.o kn01-berr.o \
-		   kn02-irq.o kn02xa-berr.o platform.o reset.o setup.o time.o
-
-obj-$(CONFIG_TC)		+= tc.o
-obj-$(CONFIG_CPU_HAS_WB)	+= wbflush.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:4e186d7d9628658d6cd398a52fc6ba2ca622bc73213c2c7958ad118cd5cc87f1
+size 302

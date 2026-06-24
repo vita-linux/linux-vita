@@ -1,8 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-#
-# Makefile for building the Extended Verification Module(EVM)
-#
-obj-$(CONFIG_EVM) += evm.o
-
-evm-y := evm_main.o evm_crypto.o evm_secfs.o
-evm-$(CONFIG_FS_POSIX_ACL) += evm_posix_acl.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:95329e97259eb82d7f7ff88e7b283cc6f741aa4e8cfdc7e5549da5d1974c4158
+size 225

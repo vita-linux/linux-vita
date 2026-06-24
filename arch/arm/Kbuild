@@ -1,14 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-obj-$(CONFIG_FPE_NWFPE)		+= nwfpe/
-# Put arch/arm/fastfpe/ to use this.
-obj-$(CONFIG_FPE_FASTFPE)	+= $(patsubst $(src)/%,%,$(wildcard $(src)/fastfpe/))
-obj-$(CONFIG_VFP)		+= vfp/
-obj-$(CONFIG_XEN)		+= xen/
-obj-$(CONFIG_VDSO)		+= vdso/
-obj-y				+= kernel/ mm/ common/
-obj-y				+= probes/
-obj-y				+= net/
-obj-y				+= crypto/
-
-# for cleaning
-subdir- += boot
+version https://git-lfs.github.com/spec/v1
+oid sha256:fea8024fc39c4926dda5a052e40858ec8817ee5f694fc73316544972612c50d9
+size 396

@@ -1,21 +1,3 @@
-PY3 = $(shell which python3 2>/dev/null)
-
-ifneq ($(PY3),)
-
-TEST_PROGS := test_unprobed_devices.sh
-TEST_GEN_FILES := compatible_list
-TEST_FILES := compatible_ignore_list
-
-include ../lib.mk
-
-$(OUTPUT)/compatible_list:
-	$(top_srcdir)/scripts/dtc/dt-extract-compatibles -d $(top_srcdir) > $@
-
-else
-
-all: no_py3_warning
-
-no_py3_warning:
-	@echo "Missing python3. This test will be skipped."
-
-endif
+version https://git-lfs.github.com/spec/v1
+oid sha256:f5cce4690cf58cd3951d23aa88548362646a63684742da5155f3f843d6fd2a44
+size 392

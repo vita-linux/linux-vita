@@ -1,6 +1,3 @@
-# GCC (at least up to version 9.2) appears to emit function calls that make use
-# of the GOT when targeting microMIPS, which we can't use in the VDSO due to
-# the lack of relocations. As such, we disable the VDSO for microMIPS builds.
-
-config MIPS_DISABLE_VDSO
-	def_bool CPU_MICROMIPS
+version https://git-lfs.github.com/spec/v1
+oid sha256:54daf7ec760e72fd2614bacf0ae5b72d89a9e71c05e496b7e8da848d6131df25
+size 285

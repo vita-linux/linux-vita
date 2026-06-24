@@ -1,5 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-obj-y += berlin2-avpll.o berlin2-pll.o berlin2-div.o
-obj-$(CONFIG_MACH_BERLIN_BG2)	+= bg2.o
-obj-$(CONFIG_MACH_BERLIN_BG2CD)	+= bg2.o
-obj-$(CONFIG_MACH_BERLIN_BG2Q)	+= bg2q.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:ef24da7b94301c1a8d46fdeac9b1ab69601d98605737b928be490e8a053dce26
+size 214

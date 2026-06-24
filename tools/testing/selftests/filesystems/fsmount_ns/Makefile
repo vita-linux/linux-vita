@@ -1,10 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-TEST_GEN_PROGS := fsmount_ns_test
-
-CFLAGS += -Wall -O0 -g $(KHDR_INCLUDES) $(TOOLS_INCLUDES)
-LDLIBS := -lcap
-
-include ../../lib.mk
-
-$(OUTPUT)/fsmount_ns_test: fsmount_ns_test.c ../utils.c
-	$(CC) $(CFLAGS) -o $@ $^ $(LDLIBS)
+version https://git-lfs.github.com/spec/v1
+oid sha256:5573813c977540ea415c7cd7eeada6526f45bab6716c0e1ca24319327a33c7e0
+size 259

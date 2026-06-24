@@ -1,8 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-#
-# Copyright (C) 2004, 2007-2010, 2011-2012 Synopsys, Inc. (www.synopsys.com)
-#
-
-obj-y	:= extable.o ioremap.o dma.o fault.o init.o
-obj-y	+= tlb.o tlbex.o cache.o mmap.o
-obj-$(CONFIG_HIGHMEM)	+= highmem.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:3ad63a2f1470c57e65c305f4b4d573f2dcd99bbf8a62d6c0faece82caa2aeeb2
+size 245

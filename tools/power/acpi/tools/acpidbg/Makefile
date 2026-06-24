@@ -1,22 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-# tools/power/acpi/tools/acpidbg/Makefile - ACPI tool Makefile
-#
-# Copyright (c) 2015, Intel Corporation
-#   Author: Lv Zheng <lv.zheng@intel.com>
-#
-
-include ../../Makefile.config
-
-TOOL = acpidbg
-vpath %.c \
-	../../../../../drivers/acpi/acpica\
-	../../common\
-	../../os_specific/service_layers\
-	.
-CFLAGS += -DACPI_APPLICATION -DACPI_SINGLE_THREAD -DACPI_DEBUGGER\
-	-I.
-LDFLAGS += -lpthread
-TOOL_OBJS = \
-	acpidbg.o
-
-include ../../Makefile.rules
+version https://git-lfs.github.com/spec/v1
+oid sha256:1a721015873916adda0ecc43eb0b04ffddb23b018d8e8d7746660dd78b843972
+size 486

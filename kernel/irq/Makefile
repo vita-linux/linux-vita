@@ -1,18 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-
-obj-y := irqdesc.o handle.o manage.o spurious.o resend.o chip.o dummychip.o devres.o kexec.o
-obj-$(CONFIG_GENERIC_IRQ_CHIP) += generic-chip.o
-obj-$(CONFIG_GENERIC_IRQ_PROBE) += autoprobe.o
-obj-$(CONFIG_IRQ_DOMAIN) += irqdomain.o
-obj-$(CONFIG_IRQ_SIM) += irq_sim.o
-obj-$(CONFIG_PROC_FS) += proc.o
-obj-$(CONFIG_GENERIC_PENDING_IRQ) += migration.o
-obj-$(CONFIG_GENERIC_IRQ_MIGRATION) += cpuhotplug.o
-obj-$(CONFIG_PM_SLEEP) += pm.o
-obj-$(CONFIG_GENERIC_MSI_IRQ) += msi.o
-obj-$(CONFIG_GENERIC_IRQ_IPI) += ipi.o
-obj-$(CONFIG_GENERIC_IRQ_IPI_MUX) += ipi-mux.o
-obj-$(CONFIG_SMP) += affinity.o
-obj-$(CONFIG_GENERIC_IRQ_DEBUGFS) += debugfs.o
-obj-$(CONFIG_GENERIC_IRQ_MATRIX_ALLOCATOR) += matrix.o
-obj-$(CONFIG_IRQ_KUNIT_TEST) += irq_test.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:b191795b48f4be4f445a8ad5705ee200131f70e2639e68c3a336823e6904b91a
+size 766

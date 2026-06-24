@@ -1,16 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-
-obj-y				+= mmu_context.o tlb.o tlb_low.o kup.o
-obj-$(CONFIG_PPC_BOOK3E_64)  	+= tlb_64e.o tlb_low_64e.o book3e_pgtable.o
-obj-$(CONFIG_44x)		+= 44x.o
-obj-$(CONFIG_PPC_8xx)		+= 8xx.o
-obj-$(CONFIG_PPC_E500)		+= e500.o
-obj-$(CONFIG_RANDOMIZE_BASE)	+= kaslr_booke.o
-ifdef CONFIG_HUGETLB_PAGE
-obj-$(CONFIG_PPC_E500)	+= e500_hugetlbpage.o
-endif
-
-# Disable kcov instrumentation on sensitive code
-# This is necessary for booting with kcov enabled on book3e machines
-KCOV_INSTRUMENT_tlb.o := n
-KCOV_INSTRUMENT_e500.o := n
+version https://git-lfs.github.com/spec/v1
+oid sha256:63271e785d500d9dfe8a63111bcdd538b48decb69d05a283cf965ee383aae3f9
+size 549

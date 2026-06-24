@@ -1,15 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-
-# platform driver
-snd-soc-mt8183-afe-y := \
-	mt8183-afe-pcm.o \
-	mt8183-afe-clk.o \
-	mt8183-dai-i2s.o \
-	mt8183-dai-tdm.o \
-	mt8183-dai-pcm.o \
-	mt8183-dai-hostless.o \
-	mt8183-dai-adda.o
-
-obj-$(CONFIG_SND_SOC_MT8183) += snd-soc-mt8183-afe.o
-obj-$(CONFIG_SND_SOC_MT8183_MT6358_TS3A227E_MAX98357A) += mt8183-mt6358-ts3a227-max98357.o
-obj-$(CONFIG_SND_SOC_MT8183_DA7219_MAX98357A) += mt8183-da7219-max98357.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:e23ba69bea13ca80820d667ca3a98beb6b7c83faf563b8f37c6785b1ac08e988
+size 443

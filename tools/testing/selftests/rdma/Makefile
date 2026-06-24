@@ -1,7 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-TEST_PROGS := rxe_rping_between_netns.sh \
-		rxe_ipv6.sh \
-		rxe_socket_with_netns.sh \
-		rxe_test_NETDEV_UNREGISTER.sh
-
-include ../lib.mk
+version https://git-lfs.github.com/spec/v1
+oid sha256:87bdbe92a2e89c0ad96dd2bfe1d9ff9166a078286924529b84e5f47707a3ac91
+size 174

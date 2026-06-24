@@ -1,10 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-#
-#  Copyright 2000, 2008 MontaVista Software Inc.
-#  Author: MontaVista Software, Inc. <source@mvista.com>
-#
-# Makefile for the Alchemy Au1xx0 CPUs, generic files.
-#
-
-obj-y += prom.o time.o clock.o platform.o power.o gpiolib.o \
-	 setup.o sleeper.o dma.o dbdma.o vss.o irq.o usb.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:ddc89228bcd87f56ffd13760fc671e128a7c3ddf60231b25e83ae127e3ff634f
+size 322

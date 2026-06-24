@@ -1,5 +1,3 @@
-# SPDX-License-Identifier: (GPL-2.0-only OR BSD-3-Clause)
-
-snd-sof-xtensa-dsp-y := core.o
-
-obj-$(CONFIG_SND_SOC_SOF_XTENSA) += snd-sof-xtensa-dsp.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:d257efa624d7ac8e62ab83455e1882225bb184d2c8893962bdaa119df3114422
+size 148

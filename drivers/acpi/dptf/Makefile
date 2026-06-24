@@ -1,3 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-obj-$(CONFIG_DPTF_POWER)	+= dptf_power.o
-obj-$(CONFIG_DPTF_PCH_FIVR)	+= dptf_pch_fivr.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:d1dd05c19d6f307f6f686d02eaf4ebc32b5024e75e5483b7b3a2961500b242e6
+size 128

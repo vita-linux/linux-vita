@@ -1,7 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-# device_hmem.o deliberately precedes dax_hmem.o for initcall ordering
-obj-$(CONFIG_DEV_DAX_HMEM_DEVICES) += device_hmem.o
-obj-$(CONFIG_DEV_DAX_HMEM) += dax_hmem.o
-
-device_hmem-y := device.o
-dax_hmem-y := hmem.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:432120f3c25c17c95d4c799dc659841aaafb9930aa8ba526ca3e94a76c6fc122
+size 247

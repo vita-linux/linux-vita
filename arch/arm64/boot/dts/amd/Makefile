@@ -1,3 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-dtb-$(CONFIG_ARCH_PENSANDO) += elba-asic.dtb
-dtb-$(CONFIG_ARCH_SEATTLE) += amd-overdrive-rev-b0.dtb amd-overdrive-rev-b1.dtb
+version https://git-lfs.github.com/spec/v1
+oid sha256:9dea79ac096d2b49221c2bc3cc1538605343186c9871c4720d621d990daadf61
+size 160

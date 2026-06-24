@@ -1,15 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-#
-# Makefile for the ARC prom monitor library routines under Linux.
-#
-
-ifdef CONFIG_ARC_CMDLINE_ONLY
-lib-y				+= cmdline.o
-else
-lib-y				+= cmdline.o env.o file.o identify.o init.o \
-				   misc.o
-endif
-
-lib-$(CONFIG_ARC_MEMORY)	+= memory.o
-lib-$(CONFIG_ARC_CONSOLE)	+= arc_con.o
-lib-$(CONFIG_ARC_PROMLIB)	+= promlib.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:8ba98cfd72ec6e5dfd9808e3acf8620076de073f3ebf030427b1f0de3b434827
+size 354

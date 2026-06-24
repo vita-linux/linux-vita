@@ -1,16 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-#
-# Makefile for Linux filesystem routines that are shared by client and server.
-#
-
-obj-$(CONFIG_NFS_ACL_SUPPORT) += nfs_acl.o
-nfs_acl-objs := nfsacl.o
-
-CFLAGS_localio_trace.o += -I$(src)
-obj-$(CONFIG_NFS_COMMON_LOCALIO_SUPPORT) += nfs_localio.o
-nfs_localio-objs := nfslocalio.o localio_trace.o
-
-obj-$(CONFIG_GRACE_PERIOD) += grace.o
-obj-$(CONFIG_NFS_V4_2_SSC_HELPER) += nfs_ssc.o
-
-obj-$(CONFIG_NFS_COMMON) += common.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:51a17205227f6d19e7a7eb8a62701691d1aa2705ca19c9f980b07f2209ff382e
+size 459

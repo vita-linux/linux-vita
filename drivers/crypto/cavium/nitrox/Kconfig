@@ -1,21 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-#
-# Cavium NITROX Crypto Device configuration
-#
-config CRYPTO_DEV_NITROX
-	tristate
-	select CRYPTO_SKCIPHER
-	select CRYPTO_AES
-	select CRYPTO_LIB_DES
-	select FW_LOADER
-
-config CRYPTO_DEV_NITROX_CNN55XX
-	tristate "Support for Cavium CNN55XX driver"
-	depends on PCI_MSI && 64BIT
-	select CRYPTO_DEV_NITROX
-	help
-	  Support for Cavium NITROX family CNN55XX driver
-	  for accelerating crypto workloads.
-
-	  To compile this as a module, choose M here: the module
-	  will be called n5pf.
+version https://git-lfs.github.com/spec/v1
+oid sha256:a496d1aa0f486fd9c064862bc5018bebfaa463b76e50d3f9a58303d695686a30
+size 520

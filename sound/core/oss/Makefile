@@ -1,14 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-#
-# Makefile for ALSA
-# Copyright (c) 1999 by Jaroslav Kysela <perex@perex.cz>
-#
-
-snd-mixer-oss-y := mixer_oss.o
-
-snd-pcm-oss-y := pcm_oss.o
-snd-pcm-oss-$(CONFIG_SND_PCM_OSS_PLUGINS) += pcm_plugin.o \
-	io.o copy.o linear.o mulaw.o route.o rate.o
-
-obj-$(CONFIG_SND_MIXER_OSS) += snd-mixer-oss.o
-obj-$(CONFIG_SND_PCM_OSS) += snd-pcm-oss.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:a2c48be5b305a4f6e22d741cf34880717088691d877ad717a273840eefd15c86
+size 372

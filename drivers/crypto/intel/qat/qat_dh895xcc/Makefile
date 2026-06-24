@@ -1,3 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-obj-$(CONFIG_CRYPTO_DEV_QAT_DH895xCC) += qat_dh895xcc.o
-qat_dh895xcc-y := adf_drv.o adf_dh895xcc_hw_data.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:6e19887a4e4d3b9c0b86cb1c1197fbcd8c44683238798f23cdef7bcb693caba0
+size 147

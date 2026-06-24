@@ -1,7 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-#
-# Makefile for the filesystem export support routines.
-
-obj-$(CONFIG_EXPORTFS) += exportfs.o
-
-exportfs-objs := expfs.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:5764a6d86edcda567c628b9a2290b441030e0f10b9315b8845186c22bb59b686
+size 161

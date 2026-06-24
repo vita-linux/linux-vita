@@ -1,32 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-kapi := arch/$(SRCARCH)/include/generated/asm
-uapi := arch/$(SRCARCH)/include/generated/uapi/asm
-
-$(shell mkdir -p $(uapi) $(kapi))
-
-syscall := $(src)/syscall.tbl
-syshdr := $(srctree)/scripts/syscallhdr.sh
-systbl := $(srctree)/scripts/syscalltbl.sh
-
-quiet_cmd_syshdr = SYSHDR  $@
-      cmd_syshdr = $(CONFIG_SHELL) $(syshdr) --emit-nr --abis common,$* $< $@
-
-quiet_cmd_systbl = SYSTBL  $@
-      cmd_systbl = $(CONFIG_SHELL) $(systbl) --abis common,$* $< $@
-
-$(uapi)/unistd_%.h: $(syscall) $(syshdr) FORCE
-	$(call if_changed,syshdr)
-
-$(kapi)/syscall_table.h: $(syscall) $(systbl) FORCE
-	$(call if_changed,systbl)
-
-uapisyshdr-y		+= unistd_64.h
-kapisyshdr-y		+= syscall_table.h
-
-uapisyshdr-y	:= $(addprefix $(uapi)/, $(uapisyshdr-y))
-kapisyshdr-y	:= $(addprefix $(kapi)/, $(kapisyshdr-y))
-targets		+= $(addprefix ../../../../, $(uapisyshdr-y) $(kapisyshdr-y))
-
-PHONY += all
-all: $(uapisyshdr-y) $(kapisyshdr-y)
-	@:
+version https://git-lfs.github.com/spec/v1
+oid sha256:24b44e6ee068948d614c5adef56a983a211b26a252a0dcb28c63a6d49d330c5a
+size 947

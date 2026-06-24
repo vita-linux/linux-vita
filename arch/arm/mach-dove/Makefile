@@ -1,7 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-ccflags-y := -I$(srctree)/arch/arm/plat-orion/include
-
-obj-y				+= common.o
-obj-$(CONFIG_DOVE_LEGACY)	+= irq.o mpp.o
-obj-$(CONFIG_PCI)		+= pcie.o
-obj-$(CONFIG_MACH_CM_A510)	+= cm-a510.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:bda6a1fba040cab6fa5eae0ce298f18d67784f639aa72aa350330be2f2901e7d
+size 221

@@ -1,5 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0+
-
-dtb-$(CONFIG_ARCH_ACTIONS) += s700-cubieboard7.dtb
-
-dtb-$(CONFIG_ARCH_ACTIONS) += s900-bubblegum-96.dtb
+version https://git-lfs.github.com/spec/v1
+oid sha256:6583516a9b3da7384fe7083cc6aa6cc95772e7fc3dabef0801286731ad0e4c5d
+size 141

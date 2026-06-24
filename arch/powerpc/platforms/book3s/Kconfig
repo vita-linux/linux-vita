@@ -1,15 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-config PPC_VAS
-	bool "IBM Virtual Accelerator Switchboard (VAS)"
-	depends on (PPC_POWERNV || PPC_PSERIES) && PPC_64K_PAGES
-	default y
-	help
-	  This enables support for IBM Virtual Accelerator Switchboard (VAS).
-
-	  VAS devices are found in POWER9-based and later systems, they
-	  provide access to accelerator coprocessors such as NX-GZIP and
-	  NX-842. This config allows the kernel to use NX-842 accelerators,
-	  and user-mode APIs for the NX-GZIP accelerator on POWER9 PowerNV
-	  and POWER10 PowerVM platforms.
-
-	  If unsure, say "N".
+version https://git-lfs.github.com/spec/v1
+oid sha256:74c0c4331e0bac59f1581eb70b9271ffc4b156fb25f6d3ca70f42b02159fd6ed
+size 573

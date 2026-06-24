@@ -1,3 +1,3 @@
-mac80211-tests-y += module.o util.o elems.o mfp.o tpe.o chan-mode.o s1g_tim.o
-
-obj-$(CONFIG_MAC80211_KUNIT_TEST) += mac80211-tests.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:453fef17ce1b4b98e9001a26493eff7d91704420a2dedf00798a7ece3dd7e8d9
+size 133

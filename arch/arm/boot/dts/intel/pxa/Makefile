@@ -1,8 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-dtb-$(CONFIG_ARCH_PXA) += \
-	pxa300-raumfeld-connector.dtb \
-	pxa300-raumfeld-controller.dtb \
-	pxa300-raumfeld-speaker-l.dtb \
-	pxa300-raumfeld-speaker-m.dtb \
-	pxa300-raumfeld-speaker-one.dtb \
-	pxa300-raumfeld-speaker-s.dtb
+version https://git-lfs.github.com/spec/v1
+oid sha256:e28115d90710b2eae7331751ff5e1b542b72cf734d5106372dbbe53c22661316
+size 262

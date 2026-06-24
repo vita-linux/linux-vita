@@ -1,6 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-config SND_SOC_SDW_UTILS
-	tristate
-	help
-	  This option enables to use SoundWire common helper functions and
-	  SoundWire codec helper functions in machine driver.
+version https://git-lfs.github.com/spec/v1
+oid sha256:d274ec600f973337d1fa4c7f3444c03ae8cef2fb81ee21bbe12107ffd05cc5d1
+size 204

@@ -1,11 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-#
-# Makefile for ALSA
-# Copyright (c) 1999 by Jaroslav Kysela <perex@perex.cz>
-#
-
-snd-seq-oss-y  := seq_oss.o seq_oss_init.o seq_oss_timer.o seq_oss_ioctl.o \
-		     seq_oss_event.o seq_oss_rw.o seq_oss_synth.o \
-		     seq_oss_midi.o seq_oss_readq.o seq_oss_writeq.o
-
-obj-$(CONFIG_SND_SEQUENCER_OSS) += snd-seq-oss.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:3c4773e9319f8dcc2f45fc1bd0b7e273dacb515b1ed361e8ac1189a740fbe185
+size 358

@@ -1,8 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-#
-# Makefile for the RB532 board specific parts of the kernel
-#
-
-obj-$(CONFIG_SERIAL_8250_CONSOLE) += serial.o
-
-obj-y	 += irq.o time.o setup.o prom.o gpio.o devices.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:a142c5c23685a2a49af7971cb18f474c25b304afa236d3eddeeb5f76e2741dff
+size 207

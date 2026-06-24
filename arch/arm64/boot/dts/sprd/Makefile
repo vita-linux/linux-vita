@@ -1,6 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-dtb-$(CONFIG_ARCH_SPRD) += sc9836-openphone.dtb \
-			sp9860g-1h10.dtb	\
-			sp9863a-1h10.dtb	\
-			ums512-1h10.dtb		\
-			ums9620-2h10.dtb
+version https://git-lfs.github.com/spec/v1
+oid sha256:c4606bee923bde3709f9a9792e9970612e7a1e95656ac9ff76da4b775fcf13f4
+size 171

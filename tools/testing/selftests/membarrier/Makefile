@@ -1,8 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-CFLAGS += -g $(KHDR_INCLUDES)
-LDLIBS += -lpthread
-
-TEST_GEN_PROGS := membarrier_test_single_thread \
-		membarrier_test_multi_thread
-
-include ../lib.mk
+version https://git-lfs.github.com/spec/v1
+oid sha256:3448cbb122360a03706d06cce8eda66b597f43d05f1bb5cff47e49f507bda133
+size 191

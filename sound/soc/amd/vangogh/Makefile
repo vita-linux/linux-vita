@@ -1,11 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0+
-# Vangogh platform Support
-snd-pci-acp5x-y		:= pci-acp5x.o
-snd-acp5x-i2s-y		:= acp5x-i2s.o
-snd-acp5x-pcm-dma-y	:= acp5x-pcm-dma.o
-snd-soc-acp5x-mach-y	:= acp5x-mach.o
-
-obj-$(CONFIG_SND_SOC_AMD_ACP5x) += snd-pci-acp5x.o
-obj-$(CONFIG_SND_SOC_AMD_ACP5x)	+= snd-acp5x-i2s.o
-obj-$(CONFIG_SND_SOC_AMD_ACP5x) += snd-acp5x-pcm-dma.o
-obj-$(CONFIG_SND_SOC_AMD_VANGOGH_MACH)   += snd-soc-acp5x-mach.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:79ef64bd16e3dc75c337518cb5949817fafe13a5506410ef5094b3975b9e691a
+size 426

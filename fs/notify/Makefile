@@ -1,7 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-obj-$(CONFIG_FSNOTIFY)		+= fsnotify.o notification.o group.o mark.o \
-				   fdinfo.o
-
-obj-y			+= dnotify/
-obj-y			+= inotify/
-obj-y			+= fanotify/
+version https://git-lfs.github.com/spec/v1
+oid sha256:b8b717e2a7323a615a1c4817b3f94ce11a8aa798b8fa8c96dfa73d915bb2410d
+size 183

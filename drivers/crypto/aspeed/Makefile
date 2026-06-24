@@ -1,11 +1,3 @@
-hace-hash-$(CONFIG_CRYPTO_DEV_ASPEED_HACE_HASH) := aspeed-hace-hash.o
-hace-crypto-$(CONFIG_CRYPTO_DEV_ASPEED_HACE_CRYPTO) := aspeed-hace-crypto.o
-
-obj-$(CONFIG_CRYPTO_DEV_ASPEED) += aspeed_crypto.o
-aspeed_crypto-objs := aspeed-hace.o	\
-		      $(hace-hash-y)	\
-		      $(hace-crypto-y)
-
-aspeed_acry-$(CONFIG_CRYPTO_DEV_ASPEED_ACRY) += aspeed-acry.o
-
-obj-$(CONFIG_CRYPTO_DEV_ASPEED) += $(aspeed_acry-y)
+version https://git-lfs.github.com/spec/v1
+oid sha256:093d3406e319e1c50b69a660576f56684ca46f658a2f79dfecd3f4a13d75900f
+size 402

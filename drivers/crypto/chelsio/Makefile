@@ -1,5 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-ccflags-y := -I $(srctree)/drivers/net/ethernet/chelsio/cxgb4
-
-obj-$(CONFIG_CRYPTO_DEV_CHELSIO) += chcr.o
-chcr-objs :=  chcr_core.o chcr_algo.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:ece5f4e941f5c5ba2f2f3fa5028789d766c80f50514ea6aeb5ec0b68afe9519a
+size 184

@@ -1,10 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-#
-# Makefile for ALSA
-# Copyright (c) 2001 by Jaroslav Kysela <perex@perex.cz>
-#
-
-snd-ali5451-y := ali5451.o
-
-# Toplevel Module Dependency
-obj-$(CONFIG_SND_ALI5451) += snd-ali5451.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:0f8432aa939f568a3fdc99957cdf899c05eb290ab6436d67f73347e092ecbb7b
+size 222

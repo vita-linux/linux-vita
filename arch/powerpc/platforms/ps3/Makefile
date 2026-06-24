@@ -1,9 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-obj-y += setup.o mm.o time.o hvcall.o htab.o repository.o
-obj-y += interrupt.o exports.o os-area.o
-obj-y += system-bus.o
-
-obj-$(CONFIG_PPC_EARLY_DEBUG_PS3GELIC) += gelic_udbg.o
-obj-$(CONFIG_SMP) += smp.o
-obj-$(CONFIG_SPU_BASE) += spu.o
-obj-y += device-init.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:97da2bb30c59cd52b133d7d37c6e81d8110ec2ded86fb2cb5b13fa2189b1a204
+size 294

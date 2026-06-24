@@ -1,8 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-
-obj-$(CONFIG_CRYPTO_AES_RISCV64) += aes-riscv64.o
-aes-riscv64-y := aes-riscv64-glue.o aes-riscv64-zvkned.o \
-		 aes-riscv64-zvkned-zvbb-zvkg.o aes-riscv64-zvkned-zvkb.o
-
-obj-$(CONFIG_CRYPTO_SM4_RISCV64) += sm4-riscv64.o
-sm4-riscv64-y := sm4-riscv64-glue.o sm4-riscv64-zvksed-zvkb.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:04ef8672a400f7815147a1bf5c07374c3b9706095ac6275b4a30988c67ff6b16
+size 323

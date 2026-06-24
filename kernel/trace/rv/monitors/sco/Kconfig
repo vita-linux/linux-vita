@@ -1,14 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-#
-config RV_MON_SCO
-	depends on RV
-	depends on RV_MON_SCHED
-	default y
-	select DA_MON_EVENTS_IMPLICIT
-	bool "sco monitor"
-	help
-	  Monitor to ensure sched_set_state happens only in thread context.
-	  This monitor is part of the sched monitors collection.
-
-	  For further information, see:
-	    Documentation/trace/rv/monitor_sched.rst
+version https://git-lfs.github.com/spec/v1
+oid sha256:30670c96f4889eaef8bf287cab085da131665eb29833bc3ca13d6ed161e4825f
+size 375

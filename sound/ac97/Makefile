@@ -1,9 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-#
-# make for AC97 bus drivers
-#
-
-obj-$(CONFIG_AC97_BUS_NEW)	+= ac97.o
-
-ac97-y				+= bus.o codec.o
-ac97-$(CONFIG_AC97_BUS_COMPAT)	+= snd_ac97_compat.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:45d5c4c252c7f489c5e50a79a553d3cb711073679a0954c4936aab3d39c3b4b2
+size 190

@@ -1,2 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-obj-y += kernel/ mm/ platforms/
+version https://git-lfs.github.com/spec/v1
+oid sha256:5a9dd60e89028b0d53f226baa12376c0bae99c7ea2be7701373525caeaf798da
+size 72

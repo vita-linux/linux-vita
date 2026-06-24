@@ -1,13 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-
-# Branch profiling isn't noinstr-safe
-subdir-ccflags-$(CONFIG_TRACE_BRANCH_PROFILING) += -DDISABLE_BRANCH_PROFILING
-
-obj-y			+= kernel/ mm/ net/
-obj-$(CONFIG_KVM)	+= kvm/
-obj-$(CONFIG_XEN)	+= xen/
-obj-$(subst m,y,$(CONFIG_HYPERV))	+= hyperv/
-obj-$(CONFIG_CRYPTO)	+= crypto/
-
-# for cleaning
-subdir- += boot
+version https://git-lfs.github.com/spec/v1
+oid sha256:94e88e6d4f859952ab71985ef9e1a140fe484714fcd8be2b136256c503e19453
+size 347

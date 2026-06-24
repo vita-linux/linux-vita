@@ -1,6 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-generated-y += unistd_n32.h
-generated-y += unistd_n64.h
-generated-y += unistd_o32.h
-
-generic-y += kvm_para.h
+version https://git-lfs.github.com/spec/v1
+oid sha256:9ac544dd119d32c2f2071991fed1ff1de601c0fecfdd56989fa93b65a725df0a
+size 144

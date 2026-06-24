@@ -1,13 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-config CRYPTO_DEV_VIRTIO
-	tristate "VirtIO crypto driver"
-	depends on VIRTIO
-	select CRYPTO_AEAD
-	select CRYPTO_AKCIPHER2
-	select CRYPTO_SKCIPHER
-	select CRYPTO_ENGINE
-	select CRYPTO_RSA
-	select MPILIB
-	help
-	  This driver provides support for virtio crypto device. If you
-	  choose 'M' here, this module will be called virtio_crypto.
+version https://git-lfs.github.com/spec/v1
+oid sha256:fc9f93472c2ca0e7e50b1f940188c56707322f580b33e8829600552379161cec
+size 375

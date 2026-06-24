@@ -1,21 +1,3 @@
-TEST_KMOD_DIR := $(realpath $(dir $(abspath $(lastword $(MAKEFILE_LIST)))))
-KDIR ?= $(abspath $(TEST_KMOD_DIR)/../../../../..)
-
-ifeq ($(V),1)
-Q =
-else
-Q = @
-endif
-
-MODULES = bpf_testmod.ko bpf_test_no_cfi.ko bpf_test_modorder_x.ko \
-	bpf_test_modorder_y.ko bpf_test_rqspinlock.ko
-
-$(foreach m,$(MODULES),$(eval obj-m += $(m:.ko=.o)))
-
-CFLAGS_bpf_testmod.o = -I$(src)
-
-all:
-	$(Q)$(MAKE) -C $(KDIR) M=$(TEST_KMOD_DIR) modules
-
-clean:
-	$(Q)$(MAKE) -C $(KDIR) M=$(TEST_KMOD_DIR) clean
+version https://git-lfs.github.com/spec/v1
+oid sha256:beaadd0a2267516d09a45d83ff4ce99a1218d6e7ac1c47e77448262e6b9125c3
+size 481

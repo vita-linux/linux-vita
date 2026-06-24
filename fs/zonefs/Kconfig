@@ -1,11 +1,3 @@
-config ZONEFS_FS
-	tristate "zonefs filesystem support"
-	depends on BLOCK
-	depends on BLK_DEV_ZONED
-	select FS_IOMAP
-	select CRC32
-	help
-	  zonefs is a simple file system which exposes zones of a zoned block
-	  device (e.g. host-managed or host-aware SMR disk drives) as files.
-
-	  If unsure, say N.
+version https://git-lfs.github.com/spec/v1
+oid sha256:552d1ec2bbc0fc0995a778e5653df20d9a9c1c724f995c858d72aad27a6199b3
+size 299

@@ -1,13 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-#
-# Makefile for the Generic HANDSHAKE service
-#
-# Author: Chuck Lever <chuck.lever@oracle.com>
-#
-# Copyright (c) 2023, Oracle and/or its affiliates.
-#
-
-obj-y += handshake.o
-handshake-y := alert.o genl.o netlink.o request.o tlshd.o trace.o
-
-obj-$(CONFIG_NET_HANDSHAKE_KUNIT_TEST) += handshake-test.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:fb602223195a9d2e308ebdf9f624348c389c0f8501d388155b2904b3d2f0f3b0
+size 340

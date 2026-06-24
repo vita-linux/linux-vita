@@ -1,5 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-obj-y	:= fpga.o irq.o nmi.o setup.o
-
-obj-$(CONFIG_GPIOLIB)		+= gpio.o
-obj-$(CONFIG_HAVE_SRAM_POOL)	+= sram.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:722b6530070e24062bac606591887f27f5ac091341986ca245a2bb98fc39cf73
+size 144

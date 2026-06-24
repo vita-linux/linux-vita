@@ -1,5 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-
-obj-$(CONFIG_AMD_QDMA)			+= amd-qdma.o
-
-amd-qdma-$(CONFIG_AMD_QDMA)		:= qdma.o qdma-comm-regs.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:ef39acc11ea3effda2a79fd67d873c858cb0eb25e5bf538a7c1a785cda72492a
+size 132

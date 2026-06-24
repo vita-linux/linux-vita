@@ -1,12 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-
-.PHONY: vm-sample
-
-vm-sample: vm-sample.o payload.o
-	$(CC) $^ -o $@
-
-payload.o: payload.ld guest16.o
-	$(LD) -T $< -o $@
-
-clean:
-	rm *.o vm-sample
+version https://git-lfs.github.com/spec/v1
+oid sha256:48b32eed3de6b39f8b277cb471671bed0922f6c66f9e406ed74ed0a4afee7d12
+size 182

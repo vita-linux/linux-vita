@@ -1,4 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-obj-$(CONFIG_CRYPTO_DEV_PPC4XX) += crypto4xx.o
-crypto4xx-y :=  crypto4xx_core.o crypto4xx_alg.o
-crypto4xx-$(CONFIG_HW_RANDOM_PPC4XX) += crypto4xx_trng.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:00086e9981c6948cd664081c2fc703321fca26afcdd20fa9653e37b247fad327
+size 193

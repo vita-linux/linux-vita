@@ -1,10 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-#
-# Makefile for the Linux isofs filesystem routines.
-#
-
-obj-$(CONFIG_ISO9660_FS) += isofs.o
-
-isofs-y 		:= namei.o inode.o dir.o util.o rock.o export.o
-isofs-$(CONFIG_JOLIET)	+= joliet.o
-isofs-$(CONFIG_ZISOFS)	+= compress.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:bf18659905c00f019d1a4430df6e975a6c53cfe84e1b228b8cfa2ef59d263703
+size 259

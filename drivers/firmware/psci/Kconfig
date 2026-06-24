@@ -1,14 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-config ARM_PSCI_FW
-	bool
-
-config ARM_PSCI_CHECKER
-	bool "ARM PSCI checker"
-	depends on ARM_PSCI_FW && HOTPLUG_CPU && CPU_IDLE && !TORTURE_TEST
-	help
-	  Run the PSCI checker during startup. This checks that hotplug and
-	  suspend operations work correctly when using PSCI.
-
-	  The torture tests may interfere with the PSCI checker by turning CPUs
-	  on and off through hotplug, so for now torture tests and PSCI checker
-	  are mutually exclusive.
+version https://git-lfs.github.com/spec/v1
+oid sha256:5d77c195004c135312301d95592006d8156755647990516b274b9dfad9cf57a9
+size 486

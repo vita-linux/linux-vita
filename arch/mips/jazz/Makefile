@@ -1,6 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-#
-# Makefile for the Jazz family specific parts of the kernel
-#
-
-obj-y		:= irq.o jazzdma.o reset.o setup.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:760047d3e753fe061977abdd47c36c555812a2ca74ce865b50978c5738c4dda6
+size 147

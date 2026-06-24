@@ -1,13 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-
-obj-$(CONFIG_SPACEMIT_CCU)	+= spacemit-ccu.o
-spacemit-ccu-y			+= ccu_common.o
-spacemit-ccu-y			+= ccu_pll.o
-spacemit-ccu-y			+= ccu_mix.o
-spacemit-ccu-y			+= ccu_ddn.o
-
-obj-$(CONFIG_SPACEMIT_K1_CCU)	+= spacemit-ccu-k1.o
-spacemit-ccu-k1-y		+= ccu-k1.o
-
-obj-$(CONFIG_SPACEMIT_K3_CCU)	+= spacemit-ccu-k3.o
-spacemit-ccu-k3-y		+= ccu-k3.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:7ebadbb7c2b6dd41279d7ea6453186c8843db636afae58d27cadbf0dd04eb3a1
+size 370

@@ -1,26 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-# Kconfig for Xilinx firmwares
-
-menu "Zynq MPSoC Firmware Drivers"
-	depends on ARCH_ZYNQMP
-
-config ZYNQMP_FIRMWARE
-	bool "Enable Xilinx Zynq MPSoC firmware interface"
-	depends on ARCH_ZYNQMP
-	default y if ARCH_ZYNQMP
-	select MFD_CORE
-	help
-	  Firmware interface driver is used by different
-	  drivers to communicate with the firmware for
-	  various platform management services.
-	  Say yes to enable ZynqMP firmware interface driver.
-	  If in doubt, say N.
-
-config ZYNQMP_FIRMWARE_DEBUG
-	bool "Enable Xilinx Zynq MPSoC firmware debug APIs"
-	depends on ZYNQMP_FIRMWARE && DEBUG_FS
-	help
-	  Say yes to enable ZynqMP firmware interface debug APIs.
-	  If in doubt, say N.
-
-endmenu
+version https://git-lfs.github.com/spec/v1
+oid sha256:6c583a9840c0384fe1ec969d6f5370b58ec0699d79d0d035bbe54327408b476b
+size 712

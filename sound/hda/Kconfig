@@ -1,9 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-menu "HD-Audio"
-
-source "sound/hda/common/Kconfig"
-source "sound/hda/controllers/Kconfig"
-source "sound/hda/codecs/Kconfig"
-source "sound/hda/core/Kconfig"
-
-endmenu
+version https://git-lfs.github.com/spec/v1
+oid sha256:bc0d7d3ed6b53304c7d74b80a5731e0a41dedc85dbf52ee69dbff5a5d7def190
+size 205

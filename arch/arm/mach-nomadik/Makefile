@@ -1,12 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-#
-# Makefile for the linux kernel.
-#
-# Note! Dependencies are done automagically by 'make dep', which also
-# removes any old dependencies. DON'T put your own dependencies here
-# unless it's something special (ie not a .c file).
-
-# Object file lists.
-
-# Cpu revision
-obj-$(CONFIG_NOMADIK_8815) += cpu-8815.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:204e125c03481b3c0c33f2ab4f4c03fff12ea79b8181d82acbe2e18acd98fb95
+size 347

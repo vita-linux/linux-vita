@@ -1,8 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-# MTK Platform Support
-obj-$(CONFIG_SND_SOC_MT8173) += mt8173-afe-pcm.o
-# Machine support
-obj-$(CONFIG_SND_SOC_MT8173_MAX98090) += mt8173-max98090.o
-obj-$(CONFIG_SND_SOC_MT8173_RT5650) += mt8173-rt5650.o
-obj-$(CONFIG_SND_SOC_MT8173_RT5650_RT5514) += mt8173-rt5650-rt5514.o
-obj-$(CONFIG_SND_SOC_MT8173_RT5650_RT5676) += mt8173-rt5650-rt5676.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:49e6f7456ad6bd2bff5b5d4df65929b6e9f7857f72262e991389eed9008ba093
+size 377

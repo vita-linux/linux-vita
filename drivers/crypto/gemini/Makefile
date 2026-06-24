@@ -1,2 +1,3 @@
-obj-$(CONFIG_CRYPTO_DEV_SL3516) += sl3516-ce.o
-sl3516-ce-y += sl3516-ce-core.o sl3516-ce-cipher.o sl3516-ce-rng.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:8ef81791a77988d371842869b3d7695b4263eb89cea357e7ee617663512473eb
+size 114

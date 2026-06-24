@@ -1,15 +1,3 @@
-obj-m += test_module_linking.o
-
-test_sub := test_sub6.o test_sub8.o test_sub16.o test_sub32.o test_sub64.o
-
-test_set := test_set6.o test_set8.o test_set16.o test_set32.o
-
-test_module_linking-objs += $(test_sub)
-
-test_module_linking-objs += $(test_set)
-
-ifeq ($(CONFIG_AS_HAS_ULEB128),y)
-test_module_linking-objs += test_uleb128.o
-endif
-
-test_module_linking-objs += test_module_linking_main.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:e636bac7ccdc5890d4229917dc5cf218f58aedb3d47c9bf8bb51cfda7e1b0b8f
+size 392

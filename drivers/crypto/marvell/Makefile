@@ -1,5 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-
-obj-$(CONFIG_CRYPTO_DEV_MARVELL_CESA) += cesa/
-obj-$(CONFIG_CRYPTO_DEV_OCTEONTX_CPT) += octeontx/
-obj-$(CONFIG_CRYPTO_DEV_OCTEONTX2_CPT) += octeontx2/
+version https://git-lfs.github.com/spec/v1
+oid sha256:a0278487e5904f00eaa4380e79df7f2df7476cad45a22975c6c3bf9c6f3e8b36
+size 187

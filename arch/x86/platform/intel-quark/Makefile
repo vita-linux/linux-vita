@@ -1,3 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-obj-$(CONFIG_INTEL_IMR) += imr.o
-obj-$(CONFIG_DEBUG_IMR_SELFTEST) += imr_selftest.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:fbc2140564ebeec945b6569a1a776f2b29be8897847f4043440a16929508862b
+size 124

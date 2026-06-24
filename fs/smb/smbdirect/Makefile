@@ -1,18 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-or-later
-#
-# Makefile for smbdirect support
-#
-
-obj-$(CONFIG_SMBDIRECT) += smbdirect.o
-
-smbdirect-y := \
-	socket.o	\
-	connection.o	\
-	mr.o		\
-	rw.o		\
-	debug.o		\
-	connect.o	\
-	listen.o	\
-	accept.o	\
-	devices.o	\
-	main.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:989f92185dcc01887d83fad28251a9622d032e8a8f197da2ea926bda296aa635
+size 255

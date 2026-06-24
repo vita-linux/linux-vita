@@ -1,20 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-#
-
-dtb-y := system.dtb
-
-ifneq ($(DTB),)
-obj-y += linked_dtb.o
-
-# Ensure system.dtb exists
-$(obj)/linked_dtb.o: $(obj)/system.dtb
-
-# Generate system.dtb from $(DTB).dtb
-ifneq ($(DTB),system)
-$(obj)/system.dtb: $(obj)/$(DTB).dtb
-	$(call if_changed,copy)
-endif
-endif
-
-# Rule to build device tree blobs
-DTC_FLAGS := -p 1024
+version https://git-lfs.github.com/spec/v1
+oid sha256:8cae3f6f449b56318fee91c1658da449b261a03b1aa9b7b58390cf6093b52659
+size 355

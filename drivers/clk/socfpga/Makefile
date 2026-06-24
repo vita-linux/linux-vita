@@ -1,6 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-obj-$(CONFIG_CLK_INTEL_SOCFPGA32) += clk.o clk-gate.o clk-pll.o clk-periph.o \
-				     clk-pll-a10.o clk-periph-a10.o clk-gate-a10.o
-obj-$(CONFIG_CLK_INTEL_SOCFPGA64) += clk-s10.o \
-				     clk-pll-s10.o clk-periph-s10.o clk-gate-s10.o \
-				     clk-agilex.o clk-agilex5.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:dda19447b57d63135b36a48441b4b25f4ee13eee1b1410af87c28ffdc7c1be8d
+size 311

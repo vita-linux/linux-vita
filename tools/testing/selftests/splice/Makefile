@@ -1,5 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-TEST_PROGS := default_file_splice_read.sh short_splice_read.sh
-TEST_GEN_PROGS_EXTENDED := default_file_splice_read splice_read
-
-include ../lib.mk
+version https://git-lfs.github.com/spec/v1
+oid sha256:59bfb5ffb3c78c08e8603ad6ca8972cbc80f0263927483a5baced5620690d855
+size 181

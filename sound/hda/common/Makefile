@@ -1,13 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-snd-hda-codec-y := bind.o codec.o jack.o auto_parser.o sysfs.o
-snd-hda-codec-y += controller.o
-snd-hda-codec-$(CONFIG_SND_PROC_FS) += proc.o
-
-snd-hda-codec-$(CONFIG_SND_HDA_HWDEP) += hwdep.o
-snd-hda-codec-$(CONFIG_SND_HDA_INPUT_BEEP) += beep.o
-
-# for trace-points
-CFLAGS_controller.o := -I$(src)
-
-# common driver
-obj-$(CONFIG_SND_HDA) := snd-hda-codec.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:3982d45d696440ecd0aea474f3a3e6cad5f23e3e6db2ba4a9666e31fbe5d0236
+size 389

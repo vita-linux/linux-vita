@@ -1,18 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-
-TEST_GEN_FILES := test_klp-call_getpid
-TEST_GEN_MODS_DIR := test_modules
-TEST_PROGS_EXTENDED := functions.sh
-TEST_PROGS := \
-	test-livepatch.sh \
-	test-callbacks.sh \
-	test-shadow-vars.sh \
-	test-state.sh \
-	test-ftrace.sh \
-	test-sysfs.sh \
-	test-syscall.sh \
-	test-kprobe.sh
-
-TEST_FILES := settings
-
-include ../lib.mk
+version https://git-lfs.github.com/spec/v1
+oid sha256:227952a755f826e968eb7a0f96d68aa71b701c76402f08e9416c24784c82fdf5
+size 356

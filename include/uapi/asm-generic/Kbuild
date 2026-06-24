@@ -1,36 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-#
-# Headers that are mandatory in usr/include/asm/
-# (This file is not included when SRCARCH=um since UML does not support UAPI.)
-
-mandatory-y += auxvec.h
-mandatory-y += bitsperlong.h
-mandatory-y += bpf_perf_event.h
-mandatory-y += byteorder.h
-mandatory-y += errno.h
-mandatory-y += fcntl.h
-mandatory-y += ioctl.h
-mandatory-y += ioctls.h
-mandatory-y += ipcbuf.h
-mandatory-y += mman.h
-mandatory-y += msgbuf.h
-mandatory-y += param.h
-mandatory-y += poll.h
-mandatory-y += posix_types.h
-mandatory-y += ptrace.h
-mandatory-y += resource.h
-mandatory-y += sembuf.h
-mandatory-y += setup.h
-mandatory-y += shmbuf.h
-mandatory-y += sigcontext.h
-mandatory-y += siginfo.h
-mandatory-y += signal.h
-mandatory-y += socket.h
-mandatory-y += sockios.h
-mandatory-y += stat.h
-mandatory-y += statfs.h
-mandatory-y += swab.h
-mandatory-y += termbits.h
-mandatory-y += termios.h
-mandatory-y += types.h
-mandatory-y += unistd.h
+version https://git-lfs.github.com/spec/v1
+oid sha256:7f798a9dee418ae8169e28cfcfd4646cfdbf265e74907ce99191c1029a5cc1c0
+size 928

@@ -1,11 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-#
-# Amlogic Secure Monitor driver
-#
-config MESON_SM
-	tristate "Amlogic Secure Monitor driver"
-	depends on ARCH_MESON || COMPILE_TEST
-	default ARCH_MESON
-	depends on ARM64_4K_PAGES
-	help
-	  Say y here to enable the Amlogic secure monitor driver
+version https://git-lfs.github.com/spec/v1
+oid sha256:675bebc366e293bc916f007d5037e927e647161d684ac65e6b9de9e4b728474b
+size 284

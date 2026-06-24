@@ -1,26 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-
-TEST_GEN_PROGS := nolibc-test libc-test
-
-include ../lib.mk
-include $(top_srcdir)/scripts/Makefile.compiler
-
-cc-option = $(call __cc-option, $(CC),,$(1),$(2))
-
-include Makefile.include
-
-$(OUTPUT)/nolibc-test: CFLAGS = -nostdlib -nostdinc -static \
-	 -isystem $(top_srcdir)/tools/include/nolibc -isystem $(top_srcdir)/usr/include \
-	 $(CFLAGS_NOLIBC_TEST)
-$(OUTPUT)/nolibc-test: LDLIBS = $(if $(LLVM),,-lgcc)
-$(OUTPUT)/nolibc-test: $(NOLIBC_TEST_SOURCES) | headers
-
-$(OUTPUT)/libc-test: $(NOLIBC_TEST_SOURCES)
-	$(call msg,CC,,$@)
-	$(Q)$(LINK.c) $^ -o $@
-
-help:
-	@echo "For the custom nolibc testsuite use '$(MAKE) -f Makefile.nolibc'; available targets:"
-	@$(MAKE) -f Makefile.nolibc help
-
-.PHONY: help
+version https://git-lfs.github.com/spec/v1
+oid sha256:b9e41d05a24cf22f20efbf6d0e1d80ff2ac1bbf804103b9e3a1e5d048d0befbf
+size 737

@@ -1,4 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-# Zynq Ultrascale+ MPSoC clock specific Makefile
-
-obj-$(CONFIG_ARCH_ZYNQMP)	+= pll.o clk-gate-zynqmp.o divider.o clk-mux-zynqmp.o clkc.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:3d12e630668fd9da3ad7a9df3227e6eb0a531134d343abda07bdc504889667ac
+size 172

@@ -1,11 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-obj-$(CONFIG_ACPI_AGDI) 	+= agdi.o
-obj-$(CONFIG_ACPI_APMT) 	+= apmt.o
-obj-$(CONFIG_ACPI_FFH)		+= ffh.o
-obj-$(CONFIG_ACPI_GTDT) 	+= gtdt.o
-obj-$(CONFIG_ACPI_IORT) 	+= iort.o
-obj-$(CONFIG_ACPI_MPAM) 	+= mpam.o
-obj-$(CONFIG_ACPI_PROCESSOR_IDLE) += cpuidle.o
-obj-$(CONFIG_ARM_AMBA)		+= amba.o
-obj-y				+= dma.o init.o
-obj-y				+= thermal_cpufreq.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:d5793a7475d544e478e8768ed114d01588c3f3b6d4face513b672eb3c0fe5034
+size 384

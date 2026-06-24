@@ -1,18 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-obj-$(CONFIG_TI_CPPI41) += cppi41.o
-obj-$(CONFIG_TI_EDMA) += edma.o
-obj-$(CONFIG_DMA_OMAP) += omap-dma.o
-obj-$(CONFIG_TI_K3_UDMA) += k3-udma.o
-obj-$(CONFIG_TI_K3_UDMA_GLUE_LAYER) += k3-udma-glue.o
-k3-psil-lib-objs := k3-psil.o \
-		    k3-psil-am654.o \
-		    k3-psil-j721e.o \
-		    k3-psil-j7200.o \
-		    k3-psil-am64.o \
-		    k3-psil-j721s2.o \
-		    k3-psil-am62.o \
-		    k3-psil-am62a.o \
-		    k3-psil-j784s4.o \
-		    k3-psil-am62p.o
-obj-$(CONFIG_TI_K3_PSIL) += k3-psil-lib.o
-obj-$(CONFIG_TI_DMA_CROSSBAR) += dma-crossbar.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:65bf2e1e1e8150b908f2e493f94cdcd223676f1c2c4c1c1d5c6cfa765a2161e8
+size 568

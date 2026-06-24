@@ -1,3 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-obj-$(CONFIG_SCx200)		+= scx200.o
-scx200-y			+= scx200_32.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:db89f2b209bd4b6b1fca0b4a66de41f661c292320551a5e506868dee444154bd
+size 100

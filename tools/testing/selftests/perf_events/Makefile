@@ -1,6 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-CFLAGS += -Wl,-no-as-needed -Wall $(KHDR_INCLUDES)
-LDFLAGS += -lpthread
-
-TEST_GEN_PROGS := sigtrap_threads remove_on_exec watermark_signal mmap
-include ../lib.mk
+version https://git-lfs.github.com/spec/v1
+oid sha256:a8e669c645f50ce1db1b1664227fb0f6b0a0daa81caa2234f2f2ccdb24aadb42
+size 197

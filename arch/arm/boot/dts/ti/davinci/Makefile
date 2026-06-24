@@ -1,6 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-dtb-$(CONFIG_ARCH_DAVINCI) += \
-	da850-lcdk.dtb \
-	da850-enbw-cmc.dtb \
-	da850-evm.dtb \
-	da850-lego-ev3.dtb
+version https://git-lfs.github.com/spec/v1
+oid sha256:292ab6bc7f314a35ae805365bb5b9437dc125ca62f63aaadf3caab96d9d82549
+size 144

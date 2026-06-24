@@ -1,5 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-CFLAGS += -Wl,-no-as-needed -Wall -I../../usr/include
-
-example: example.o
-example.o: example.c
+version https://git-lfs.github.com/spec/v1
+oid sha256:f9b8e2b606ae03a9fceda6a4bfc3f1642ec79ade31540563c39b7c5caaaa9c89
+size 130

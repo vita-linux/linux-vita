@@ -1,32 +1,3 @@
-choice
-	prompt "This is always invisible"
-	depends on n
-
-config DUMMY
-	bool "DUMMY"
-
-endchoice
-
-choice
-	prompt "Choose A or B"
-
-config A
-	bool "A"
-
-config B
-	bool "B"
-
-endchoice
-
-config FOO
-	bool "FOO"
-	depends on A
-
-choice
-	prompt "Choose X"
-	depends on FOO
-
-config X
-	bool "X"
-
-endchoice
+version https://git-lfs.github.com/spec/v1
+oid sha256:5ce01ee57824f449d8796b64398d08e8c74988614a8d27c52741c62f207090d8
+size 290

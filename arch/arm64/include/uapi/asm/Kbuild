@@ -1,4 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-syscall-y += unistd_64.h
-
-generic-y += kvm_para.h
+version https://git-lfs.github.com/spec/v1
+oid sha256:80ea7d9bb46731c0ddf368714430e69508fa0e1489779ac0d2fdda2f2351955f
+size 85

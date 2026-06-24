@@ -1,15 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-# Copyright (C) 2021 ARM Limited
-
-TEST_GEN_PROGS := hwcap ptrace syscall-abi tpidr2
-
-include ../../lib.mk
-
-$(OUTPUT)/syscall-abi: syscall-abi.c syscall-abi-asm.S
-
-# Build with nolibc since TPIDR2 is intended to be actively managed by
-# libc and we're trying to test the functionality that it depends on here.
-$(OUTPUT)/tpidr2: tpidr2.c
-	$(CC) -fno-asynchronous-unwind-tables -fno-ident -s -Os -nostdlib \
-		-static -include ../../../../include/nolibc/nolibc.h \
-		-I../.. -ffreestanding -Wall $^ -o $@ -lgcc
+version https://git-lfs.github.com/spec/v1
+oid sha256:8817dddeebcd8ba6f11d069f78dd4c0ef7b4d7c19f294b35b31cad56fa887664
+size 543

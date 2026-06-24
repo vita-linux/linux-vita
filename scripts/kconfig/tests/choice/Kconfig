@@ -1,13 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-
-choice
-	prompt "boolean choice"
-	default BOOL_CHOICE1
-
-config BOOL_CHOICE0
-	bool "choice 0"
-
-config BOOL_CHOICE1
-	bool "choice 1"
-
-endchoice
+version https://git-lfs.github.com/spec/v1
+oid sha256:2bdb5c56887f52c0e645360862a1adbfadd48c396b6ba73dc70da16db3bdf9cb
+size 177

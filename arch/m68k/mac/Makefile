@@ -1,7 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-#
-# Makefile for Linux arch/m68k/mac source directory
-#
-
-obj-y		:= config.o macints.o iop.o via.o oss.o psc.o \
-			baboon.o macboing.o misc.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:f6047ef58611328d6389ac1856041857c3d739d0ebb4519151ffdc8c995a0763
+size 182

@@ -1,7 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-#
-# Makefile for the Sega Dreamcast specific parts of the kernel
-#
-
-obj-y	 := setup.o irq.o
-obj-$(CONFIG_RTC_DRV_GENERIC) += rtc.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:af1237a48b79daf0dde989fd3d91854ddb0c1b752a26aa32e6391e3dfc9e3ee0
+size 166

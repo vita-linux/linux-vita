@@ -1,4 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-obj-$(CONFIG_IEEE802154_6LOWPAN) += ieee802154_6lowpan.o
-
-ieee802154_6lowpan-y := core.o rx.o reassembly.o tx.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:4e5c69d5834a02ce685d0e15d66905677b8c6970650ecbb029c473cc9724e86a
+size 152

@@ -1,3 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-obj-$(CONFIG_XILINX_VCU)	+= xlnx_vcu.o
-obj-$(CONFIG_COMMON_CLK_XLNX_CLKWZRD)	+= clk-xlnx-clock-wizard.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:2efd236d25b24458f8a3ef4adfba9413989eae8031ac373faa353777b374e08b
+size 139

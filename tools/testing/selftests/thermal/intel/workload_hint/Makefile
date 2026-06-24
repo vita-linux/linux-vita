@@ -1,12 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-ifndef CROSS_COMPILE
-ARCH ?= $(shell uname -m 2>/dev/null || echo not)
-override ARCH := $(shell echo $(ARCH) | sed -e s/i.86/x86/ -e s/x86_64/x86/)
-
-ifeq ($(ARCH),x86)
-TEST_GEN_PROGS := workload_hint_test
-
-include ../../../lib.mk
-
-endif
-endif
+version https://git-lfs.github.com/spec/v1
+oid sha256:ff896688e6fe216c2c1ed340d5d911eadcdc537d2eabf49c855092120d422b3d
+size 278

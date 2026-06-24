@@ -1,5 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-obj-$(CONFIG_XILINX_DMA) += xilinx_dma.o
-obj-$(CONFIG_XILINX_XDMA) += xdma.o
-obj-$(CONFIG_XILINX_ZYNQMP_DMA) += zynqmp_dma.o
-obj-$(CONFIG_XILINX_ZYNQMP_DPDMA) += xilinx_dpdma.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:94508e7b7468dfe066f566a4eaf16136336a5a47a9706f51247d0d19e7524b81
+size 217

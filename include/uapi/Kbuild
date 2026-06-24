@@ -1,14 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-ifeq ($(wildcard $(srctree)/arch/$(SRCARCH)/include/uapi/asm/a.out.h),)
-no-export-headers += linux/a.out.h
-endif
-
-ifeq ($(wildcard $(srctree)/arch/$(SRCARCH)/include/uapi/asm/kvm.h),)
-no-export-headers += linux/kvm.h
-endif
-
-ifeq ($(wildcard $(srctree)/arch/$(SRCARCH)/include/uapi/asm/kvm_para.h),)
-ifeq ($(wildcard $(objtree)/arch/$(SRCARCH)/include/generated/uapi/asm/kvm_para.h),)
-no-export-headers += linux/kvm_para.h
-endif
-endif
+version https://git-lfs.github.com/spec/v1
+oid sha256:db8feda4d1641a8c9b947c7bcfc5ade2f8533a6a08b4c99b19c8e31a4d3a46a8
+size 469

@@ -1,16 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-#
-# IFE subsystem configuration
-#
-
-menuconfig NET_IFE
-	tristate "Inter-FE based on IETF ForCES InterFE LFB"
-	default n
-	help
-	  Say Y here to add support of IFE encapsulation protocol
-	  For details refer to netdev01 paper:
-	  "Distributing Linux Traffic Control Classifier-Action Subsystem"
-	   Authors: Jamal Hadi Salim and Damascene M. Joachimpillai
-
-	  To compile this support as a module, choose M here: the module will
-	  be called ife.
+version https://git-lfs.github.com/spec/v1
+oid sha256:fb7636ec3197d5d3e39bdb17c04daaf0c9210ba6d4c16eb30782e1601ea125a6
+size 483

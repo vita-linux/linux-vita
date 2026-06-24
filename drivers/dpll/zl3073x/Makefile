@@ -1,11 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-
-obj-$(CONFIG_ZL3073X)		+= zl3073x.o
-zl3073x-objs			:= chan.o core.o devlink.o dpll.o	\
-				   flash.o fw.o out.o prop.o ref.o synth.o
-
-obj-$(CONFIG_ZL3073X_I2C)	+= zl3073x_i2c.o
-zl3073x_i2c-objs		:= i2c.o
-
-obj-$(CONFIG_ZL3073X_SPI)	+= zl3073x_spi.o
-zl3073x_spi-objs		:= spi.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:00e4f1e5762f4cf796fc96c31d00d91390b638b0916916fe395ca2aebc4e3411
+size 312

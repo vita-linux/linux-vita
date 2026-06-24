@@ -1,11 +1,3 @@
-config FPGA_KUNIT_TESTS
-	tristate "KUnit test for the FPGA subsystem" if !KUNIT_ALL_TESTS
-	depends on FPGA && FPGA_REGION && FPGA_BRIDGE && KUNIT=y
-	default KUNIT_ALL_TESTS
-        help
-          This builds unit tests for the FPGA subsystem
-
-          For more information on KUnit and unit tests in general,
-          please refer to the KUnit documentation in Documentation/dev-tools/kunit/.
-
-          If unsure, say N.
+version https://git-lfs.github.com/spec/v1
+oid sha256:a92aaacf4dc805efabfb1f8b2a4b5f7807bb636487965c12ba6a4a6cc208b42a
+size 424

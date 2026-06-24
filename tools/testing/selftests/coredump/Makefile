@@ -1,13 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-CFLAGS += -Wall -O0 -g $(KHDR_INCLUDES) $(TOOLS_INCLUDES)
-
-TEST_GEN_PROGS := stackdump_test \
-		  coredump_socket_test \
-		  coredump_socket_protocol_test
-TEST_FILES := stackdump
-
-include ../lib.mk
-
-$(OUTPUT)/stackdump_test: coredump_test_helpers.c
-$(OUTPUT)/coredump_socket_test: coredump_test_helpers.c
-$(OUTPUT)/coredump_socket_protocol_test: coredump_test_helpers.c
+version https://git-lfs.github.com/spec/v1
+oid sha256:e5e4d19493f26bbe43148f355c7c9b5bf48be4a914da131551863f4c9ba1351a
+size 410

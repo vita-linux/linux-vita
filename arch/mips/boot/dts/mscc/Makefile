@@ -1,10 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-dtb-$(CONFIG_SOC_VCOREIII)	+= \
-	jaguar2_pcb110.dtb \
-	jaguar2_pcb111.dtb \
-	jaguar2_pcb118.dtb \
-	luton_pcb091.dtb \
-	ocelot_pcb120.dtb \
-	ocelot_pcb123.dtb \
-	serval_pcb105.dtb \
-	serval_pcb106.dtb
+version https://git-lfs.github.com/spec/v1
+oid sha256:785dbedcf34a01db2691f0a293465c2497d6d91b5de2a60b91dbbd588caee54a
+size 240

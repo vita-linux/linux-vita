@@ -1,7 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-#
-# Jz4740 Platform Support
-#
-snd-soc-jz4740-i2s-y := jz4740-i2s.o
-
-obj-$(CONFIG_SND_JZ4740_SOC_I2S) += snd-soc-jz4740-i2s.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:bc09ec55ab6aaeac43a2534b3fa6d3cb69198d7162a257442d6abaf33ca50704
+size 165

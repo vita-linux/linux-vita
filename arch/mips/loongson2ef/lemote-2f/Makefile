@@ -1,12 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-#
-# Makefile for lemote loongson2f family machines
-#
-
-obj-y += clock.o machtype.o irq.o reset.o dma.o ec_kb3310b.o
-
-#
-# Suspend Support
-#
-
-obj-$(CONFIG_SUSPEND) += pm.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:17d7a1ec68b0d2ec560746f9c11d307e2c0a1deea1aa5c3f3c8abe19831240f6
+size 209

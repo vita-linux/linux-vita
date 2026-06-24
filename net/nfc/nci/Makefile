@@ -1,14 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-#
-# Makefile for the Linux NFC NCI layer.
-#
-
-obj-$(CONFIG_NFC_NCI) += nci.o
-
-nci-objs := core.o data.o lib.o ntf.o rsp.o hci.o
-
-nci_spi-y += spi.o
-obj-$(CONFIG_NFC_NCI_SPI) += nci_spi.o
-
-nci_uart-y += uart.o
-obj-$(CONFIG_NFC_NCI_UART) += nci_uart.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:8bbdeb93a0d3f7fc2174e54371c5b9199c4bf955910597af027c80c4b01efc8f
+size 284

@@ -1,12 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-# ALSA Xen drivers
-
-config SND_XEN_FRONTEND
-	tristate "Xen para-virtualized sound frontend driver"
-	depends on XEN
-	select SND_PCM
-	select XEN_XENBUS_FRONTEND
-	select XEN_FRONT_PGDIR_SHBUF
-	help
-	  Choose this option if you want to enable a para-virtualized
-	  frontend sound driver for Xen guest OSes.
+version https://git-lfs.github.com/spec/v1
+oid sha256:84d8e6e07d17eb15314e0d14dcd038d35a5355b3c0b7c67ef23ed6e6776e5484
+size 343

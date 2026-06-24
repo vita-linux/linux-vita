@@ -1,23 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-obj-m	:=
-
-KDIR	:= /lib/modules/$(shell uname -r)/build
-KMISC   := /lib/modules/$(shell uname -r)/cpufrequtils/
-
-ifeq ("$(CONFIG_X86_TSC)", "y")
-  obj-m	 += cpufreq-test_tsc.o
-endif
-
-default:
-	$(MAKE) -C $(KDIR) M=$(CURDIR)
-
-clean:
-	- rm -rf *.o *.ko .*.cmd .*.mod.* *.mod.c
-	- rm -rf Module.symvers modules.order
-
-install: default
-	install -d $(KMISC)
-	install -m 644 -c *.ko $(KMISC)
-	/sbin/depmod -a
-
-all:	default
+version https://git-lfs.github.com/spec/v1
+oid sha256:6d2973e1df0304274cc0399f5caf98210cab2753bed935c2b59a16c83e8379ec
+size 451

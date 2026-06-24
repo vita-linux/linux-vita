@@ -1,6 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-
-CFLAGS += $(KHDR_INCLUDES) -pthread
-TEST_GEN_PROGS := binderfs_test
-
-include ../../lib.mk
+version https://git-lfs.github.com/spec/v1
+oid sha256:6364cd31b99b180ab34d1e9728a83d87df3439b168b141862e930cc26d508497
+size 126

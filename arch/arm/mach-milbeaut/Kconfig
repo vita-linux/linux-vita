@@ -1,20 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-menuconfig ARCH_MILBEAUT
-	bool "Socionext Milbeaut SoCs"
-	depends on ARCH_MULTI_V7
-	select ARM_GIC
-	help
-	  This enables support for Socionext Milbeaut SoCs
-
-if ARCH_MILBEAUT
-
-config ARCH_MILBEAUT_M10V
-	bool "Milbeaut SC2000/M10V platform"
-	select ARM_ARCH_TIMER
-	select MILBEAUT_TIMER
-	select PINCTRL
-	select PINCTRL_MILBEAUT
-	help
-	  Support for Socionext's MILBEAUT M10V based systems
-
-endif
+version https://git-lfs.github.com/spec/v1
+oid sha256:e35c7e8d4ab25fb6b1394aa48ea55367891deb3f0e8ca1e2247adcf18a692fc6
+size 430

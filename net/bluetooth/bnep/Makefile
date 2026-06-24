@@ -1,8 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-#
-# Makefile for the Linux Bluetooth BNEP layer.
-#
-
-obj-$(CONFIG_BT_BNEP) += bnep.o
-
-bnep-objs := core.o sock.o netdev.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:d526838debc375c39f805e855c3dd11609eb118f1acd98e55e36ab20a1baf668
+size 161

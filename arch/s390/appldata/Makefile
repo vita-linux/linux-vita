@@ -1,9 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-#
-# Makefile for the Linux - z/VM Monitor Stream.
-#
-
-obj-$(CONFIG_APPLDATA_BASE) += appldata_base.o
-obj-$(CONFIG_APPLDATA_MEM) += appldata_mem.o
-obj-$(CONFIG_APPLDATA_OS) += appldata_os.o
-obj-$(CONFIG_APPLDATA_NET_SUM) += appldata_net_sum.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:bc19ab23691c7a0973178304ae77271b9b6302f97cb8d88b92d1ca5c5517582d
+size 276

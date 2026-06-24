@@ -1,18 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-PREFIX ?= /usr
-SBINDIR ?= sbin
-INSTALL ?= install
-CFLAGS += -D__EXPORTED_HEADERS__ -I../../include/uapi -I../../include
-
-TARGET = dell-smbios-example
-
-all: $(TARGET)
-
-%: %.c
-	$(CC) $(CFLAGS) $(LDFLAGS) -o $@ $<
-
-clean:
-	$(RM) $(TARGET)
-
-install: dell-smbios-example
-	$(INSTALL) -D -m 755 $(TARGET) $(DESTDIR)$(PREFIX)/$(SBINDIR)/$(TARGET)
+version https://git-lfs.github.com/spec/v1
+oid sha256:cd889bd84530c1123f47916a5ae52f74c12992a3dd92d2cc1e09fe09968ed87e
+size 379

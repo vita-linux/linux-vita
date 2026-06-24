@@ -1,13 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-obj-$(CONFIG_SND_SOC_MEDIATEK) += common/
-obj-$(CONFIG_SND_SOC_MT2701) += mt2701/
-obj-$(CONFIG_SND_SOC_MT6797) += mt6797/
-obj-$(CONFIG_SND_SOC_MT7986) += mt7986/
-obj-$(CONFIG_SND_SOC_MT8173) += mt8173/
-obj-$(CONFIG_SND_SOC_MT8183) += mt8183/
-obj-$(CONFIG_SND_SOC_MT8186) += mt8186/
-obj-$(CONFIG_SND_SOC_MT8188) += mt8188/
-obj-$(CONFIG_SND_SOC_MT8192) += mt8192/
-obj-$(CONFIG_SND_SOC_MT8195) += mt8195/
-obj-$(CONFIG_SND_SOC_MT8365) += mt8365/
-obj-$(CONFIG_SND_SOC_MT8189) += mt8189/
+version https://git-lfs.github.com/spec/v1
+oid sha256:fc3fe35bb083ce8d42a138bf91ea9fc62ed0016a610addf7f723b268efd731f7
+size 517

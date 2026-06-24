@@ -1,6 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-obj-$(CONFIG_NILFS2_FS) += nilfs2.o
-nilfs2-y := inode.o file.o dir.o super.o namei.o page.o mdt.o \
-	btnode.o bmap.o btree.o direct.o dat.o recovery.o \
-	the_nilfs.o segbuf.o segment.o cpfile.o sufile.o \
-	ifile.o alloc.o gcinode.o ioctl.o sysfs.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:0fbe8ec194ea8a5fde64a711274e87d7e5a6212b70f7f90906c6367d56e59fbe
+size 283

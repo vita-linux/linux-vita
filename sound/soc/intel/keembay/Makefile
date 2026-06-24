@@ -1,5 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-snd-soc-kmb_platform-y := \
-	        kmb_platform.o
-
-obj-$(CONFIG_SND_SOC_INTEL_KEEMBAY) += snd-soc-kmb_platform.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:7e0d8112729493e058a5c9d96a773b5f56f02654af0b27b05eb0dae7cdc96713
+size 150

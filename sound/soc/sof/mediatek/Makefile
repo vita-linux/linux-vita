@@ -1,4 +1,3 @@
-# SPDX-License-Identifier: (GPL-2.0-only OR BSD-3-Clause)
-obj-$(CONFIG_SND_SOC_SOF_MTK_COMMON) += mtk-adsp-common.o
-obj-$(CONFIG_SND_SOC_SOF_MT8195) += mt8195/
-obj-$(CONFIG_SND_SOC_SOF_MT8186) += mt8186/
+version https://git-lfs.github.com/spec/v1
+oid sha256:08d03d1ce9f152a4fc0e893bb4e8c4d90af3249c06894e063b0aa5a84d240b02
+size 204

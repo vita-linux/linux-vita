@@ -1,8 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-#
-# Makefile for the DMA sound driver
-#
-
-obj-$(CONFIG_DMASOUND_ATARI)	+= dmasound_core.o dmasound_atari.o
-obj-$(CONFIG_DMASOUND_PAULA)	+= dmasound_core.o dmasound_paula.o
-obj-$(CONFIG_DMASOUND_Q40)	+= dmasound_core.o dmasound_q40.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:abf3c0846ecc134385a4b0fa18ce7e3781399fa9c0091df974ffc81771597aa3
+size 272

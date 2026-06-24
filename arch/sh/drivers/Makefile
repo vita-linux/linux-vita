@@ -1,10 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-#
-# Makefile for the Linux SuperH-specific device drivers.
-#
-
-obj-y		+= dma/ platform_early.o
-
-obj-$(CONFIG_PCI)		+= pci/
-obj-$(CONFIG_PUSH_SWITCH)	+= push-switch.o
-obj-$(CONFIG_HEARTBEAT)		+= heartbeat.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:172e76c774b4dab3957568697f33b5e1ad6d79a2a5ee6687cc1ef05d54fd4d92
+size 240

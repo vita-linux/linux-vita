@@ -1,9 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-#
-# Makefile for the Linux Bluetooth RFCOMM layer.
-#
-
-obj-$(CONFIG_BT_RFCOMM) += rfcomm.o
-
-rfcomm-y			:= core.o sock.o
-rfcomm-$(CONFIG_BT_RFCOMM_TTY)	+= tty.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:175711ffa08e69c3b5ac5aef1bb27b7a1fb2386f1eacdf072c66bddb68c10196
+size 199

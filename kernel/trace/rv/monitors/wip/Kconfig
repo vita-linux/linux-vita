@@ -1,14 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-#
-config RV_MON_WIP
-	depends on RV
-	depends on TRACE_PREEMPT_TOGGLE
-	select DA_MON_EVENTS_IMPLICIT
-	bool "wip monitor"
-	help
-	  Enable wip (wakeup in preemptive) sample monitor that illustrates
-	  the usage of per-cpu monitors, and one limitation of the
-	  preempt_disable/enable events.
-
-	  For further information, see:
-	    Documentation/trace/rv/monitor_wip.rst
+version https://git-lfs.github.com/spec/v1
+oid sha256:1ec7971ebbc42a69dc452dad976abf2410d120a42cae9d2954068620a84a73f6
+size 406

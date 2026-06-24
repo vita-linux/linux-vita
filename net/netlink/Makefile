@@ -1,9 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-#
-# Makefile for the netlink driver.
-#
-
-obj-y  				:= af_netlink.o genetlink.o policy.o
-
-obj-$(CONFIG_NETLINK_DIAG)	+= netlink_diag.o
-netlink_diag-y			:= diag.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:2125a19857c0c1637c86649e6c12dceec8554c757f1385008db9bdafa8956e7e
+size 201

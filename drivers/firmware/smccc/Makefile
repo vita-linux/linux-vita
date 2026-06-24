@@ -1,4 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-#
-obj-$(CONFIG_HAVE_ARM_SMCCC_DISCOVERY)	+= smccc.o kvm_guest.o
-obj-$(CONFIG_ARM_SMCCC_SOC_ID)	+= soc_id.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:365de0b7d4cfc566cf5b9942e78053393f922da1546474a15d916433fd5aedf9
+size 142

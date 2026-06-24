@@ -1,7 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-CFLAGS += -Wl,-no-as-needed -Wall
-CFLAGS += $(KHDR_INCLUDES)
-
-TEST_GEN_PROGS = map_test
-
-include ../lib.mk
+version https://git-lfs.github.com/spec/v1
+oid sha256:11543fdac2b39d43fa624cf0aa033db3aff0b50d77a0584dc998a6e3e1166805
+size 142

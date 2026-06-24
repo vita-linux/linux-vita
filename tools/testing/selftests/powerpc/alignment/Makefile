@@ -1,8 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-TEST_GEN_PROGS := copy_first_unaligned alignment_handler
-
-top_srcdir = ../../../../..
-include ../../lib.mk
-include ../flags.mk
-
-$(TEST_GEN_PROGS): ../harness.c ../utils.c
+version https://git-lfs.github.com/spec/v1
+oid sha256:0ce666f0d723e3c2d12d7dc5fd483cf3fcb746d91ea9bf783fbe9f4d77ad726a
+size 211

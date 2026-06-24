@@ -1,4 +1,3 @@
-# SPDX-License-Identifier: (GPL-2.0-only OR BSD-3-Clause)
-snd-sof-mt8186-y := mt8186.o mt8186-clk.o mt8186-loader.o
-obj-$(CONFIG_SND_SOC_SOF_MT8186) += snd-sof-mt8186.o
-
+version https://git-lfs.github.com/spec/v1
+oid sha256:e6907919db2ea3254c21fa90cb9747522bd761936954527f3ef462e1efe54338
+size 170

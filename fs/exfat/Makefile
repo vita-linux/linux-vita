@@ -1,8 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-or-later
-#
-# Makefile for the linux exFAT filesystem support.
-#
-obj-$(CONFIG_EXFAT_FS) += exfat.o
-
-exfat-y	:= inode.o namei.o dir.o super.o fatent.o cache.o nls.o misc.o \
-	   file.o balloc.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:01d0e8e2e0e4f4259b98f87428c048cd58564a881fb03a36115ec80c7e5aff20
+size 227

@@ -1,8 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0+
-# Renoir platform Support
-snd-rn-pci-acp3x-y	:= rn-pci-acp3x.o
-snd-acp3x-pdm-dma-y	:= acp3x-pdm-dma.o
-snd-acp3x-rn-y		:= acp3x-rn.o
-obj-$(CONFIG_SND_SOC_AMD_RENOIR)	+= snd-rn-pci-acp3x.o
-obj-$(CONFIG_SND_SOC_AMD_RENOIR)	+= snd-acp3x-pdm-dma.o
-obj-$(CONFIG_SND_SOC_AMD_RENOIR_MACH)	+= snd-acp3x-rn.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:dcd98cccab459638e00373aa8a1b77be8e183c0ba2cc9e01d00a501fa50ad730
+size 335

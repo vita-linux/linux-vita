@@ -1,6 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-#
-# Makefile for the 7343 SolutionEngine specific parts of the kernel
-#
-
-obj-y	 := setup.o irq.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:cf73a3d2b9c378d531269e70e525eb289ce27d6d663eef19db631a3b224d12bf
+size 132

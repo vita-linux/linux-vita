@@ -1,2 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0+
-dtb-$(CONFIG_ARCH_BLAIZE) += blaize-blzp1600-cb2.dtb
+version https://git-lfs.github.com/spec/v1
+oid sha256:ce5581b60fc2d270e22d4652a59eb094705e774213005836d8519e7c8d593ffa
+size 89

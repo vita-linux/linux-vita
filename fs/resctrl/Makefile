@@ -1,6 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-obj-$(CONFIG_RESCTRL_FS)		+= rdtgroup.o ctrlmondata.o monitor.o
-obj-$(CONFIG_RESCTRL_FS_PSEUDO_LOCK)	+= pseudo_lock.o
-
-# To allow define_trace.h's recursive include:
-CFLAGS_monitor.o = -I$(src)
+version https://git-lfs.github.com/spec/v1
+oid sha256:268cca3716efe14ad577a8c92879c8835b81b1149b5b0deaa3e4c00a13a078ea
+size 229

@@ -1,6 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-#
-CFLAGS += -I../ $(KHDR_INCLUDES)
-TEST_GEN_PROGS := media_device_test media_device_open video_device_test
-
-include ../lib.mk
+version https://git-lfs.github.com/spec/v1
+oid sha256:54c5c88fa0fa81e7127fab6a6343fad9aef6d411b58c94c4fb03d9cd8913f776
+size 161

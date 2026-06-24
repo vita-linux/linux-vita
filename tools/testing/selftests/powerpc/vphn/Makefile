@@ -1,11 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-TEST_GEN_PROGS := test-vphn
-
-top_srcdir = ../../../../..
-include ../../lib.mk
-include ../flags.mk
-
-CFLAGS += -m64 -I$(CURDIR) -fno-strict-aliasing
-
-$(TEST_GEN_PROGS): ../harness.c
-
+version https://git-lfs.github.com/spec/v1
+oid sha256:2ce7f4d297b2a72a7a98e1cf93f6219557db33077a125e5c878cb169713c5d86
+size 221

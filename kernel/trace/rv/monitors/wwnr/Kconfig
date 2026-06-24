@@ -1,13 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-#
-config RV_MON_WWNR
-	depends on RV
-	select DA_MON_EVENTS_ID
-	bool "wwnr monitor"
-	help
-	  Enable wwnr (wakeup while not running) sample monitor, this is a
-	  sample monitor that illustrates the usage of per-task monitor.
-	  The model is borken on purpose: it serves to test reactors.
-
-	  For further information, see:
-	    Documentation/trace/rv/monitor_wwnr.rst
+version https://git-lfs.github.com/spec/v1
+oid sha256:0b5c33da7768d87974248e12d7f637dcdf0d3ac9e90e922e9de2f4ca271a35ff
+size 404

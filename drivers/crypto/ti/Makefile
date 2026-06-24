@@ -1,3 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-obj-$(CONFIG_CRYPTO_DEV_TI_DTHEV2) += dthev2.o
-dthev2-objs := dthev2-common.o dthev2-aes.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:9b1db4167b23149cb0a86bb5118d4450a2ff2a2535a30306ef4e3f8534c2fb4c
+size 131

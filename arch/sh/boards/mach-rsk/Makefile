@@ -1,5 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-obj-y				:= setup.o
-obj-$(CONFIG_SH_RSK7203)	+= devices-rsk7203.o
-obj-$(CONFIG_SH_RSK7264)	+= devices-rsk7264.o
-obj-$(CONFIG_SH_RSK7269)	+= devices-rsk7269.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:a0740dc49af31febf582ff2998cc3dfff947e4f7883d9cb1cdee2e06a539a57f
+size 193

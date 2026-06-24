@@ -1,16 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-KASAN_SANITIZE_actions-common.o := n
-KASAN_SANITIZE_actions-arm.o := n
-KASAN_SANITIZE_actions-thumb.o := n
-obj-$(CONFIG_KPROBES)		+= core.o actions-common.o checkers-common.o
-obj-$(CONFIG_ARM_KPROBES_TEST)	+= test-kprobes.o
-test-kprobes-objs		:= test-core.o
-
-ifdef CONFIG_THUMB2_KERNEL
-obj-$(CONFIG_KPROBES)		+= actions-thumb.o checkers-thumb.o
-test-kprobes-objs		+= test-thumb.o
-else
-obj-$(CONFIG_KPROBES)		+= actions-arm.o checkers-arm.o
-obj-$(CONFIG_OPTPROBES)		+= opt-arm.o
-test-kprobes-objs		+= test-arm.o
-endif
+version https://git-lfs.github.com/spec/v1
+oid sha256:797e2413d095d990bede63e6b2bffdf7c387bc7be4caaffaf8fe32c54950780a
+size 552

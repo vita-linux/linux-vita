@@ -1,9 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-#
-# Joshua Henderson, <joshua.henderson@microchip.com>
-# Copyright (C) 2015 Microchip Technology, Inc.  All rights reserved.
-#
-obj-y			:= config.o early_clk.o init.o time.o
-
-obj-$(CONFIG_EARLY_PRINTK)	+= early_console.o      \
-				   early_pin.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:3c591260d3e66fcca9c2553b807a4d3eb528f5e2c17b56d065624df67c50732f
+size 286

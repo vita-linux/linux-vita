@@ -1,6 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-userprogs-always-y += bpf-fancy dropper bpf-direct user-trap
-
-bpf-fancy-objs := bpf-fancy.o bpf-helper.o
-
-userccflags += -I usr/include
+version https://git-lfs.github.com/spec/v1
+oid sha256:d3adfa3cfd4e4f9d05d31e361d59a82b0bfd6b7342118e4622e02e9a5bfddcb5
+size 171

@@ -1,8 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-dtb-$(CONFIG_ARCH_HISI) += hi3660-hikey960.dtb
-dtb-$(CONFIG_ARCH_HISI) += hi3670-hikey970.dtb
-dtb-$(CONFIG_ARCH_HISI) += hi3798cv200-poplar.dtb
-dtb-$(CONFIG_ARCH_HISI) += hi6220-hikey.dtb
-dtb-$(CONFIG_ARCH_HISI) += hip05-d02.dtb
-dtb-$(CONFIG_ARCH_HISI) += hip06-d03.dtb
-dtb-$(CONFIG_ARCH_HISI) += hip07-d05.dtb
+version https://git-lfs.github.com/spec/v1
+oid sha256:003f8414fc2ed2730656bc96b9f349e2c3f397e3e6a26dbc764fa6f1d33d9010
+size 346

@@ -1,4 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-
-obj-$(CONFIG_DRM_ACCEL_ARM_ETHOSU) := ethosu.o
-ethosu-y += ethosu_drv.o ethosu_gem.o ethosu_job.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:94ca59cede5ab00c4ab595fae918edd6a109ee4dbcf033f183809c4c8e6228a1
+size 139

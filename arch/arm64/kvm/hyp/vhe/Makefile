@@ -1,13 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-#
-# Makefile for Kernel-based Virtual Machine module, HYP/VHE part
-#
-
-asflags-y := -D__KVM_VHE_HYPERVISOR__
-ccflags-y := -D__KVM_VHE_HYPERVISOR__
-
-CFLAGS_switch.o += -Wno-override-init
-
-obj-y := timer-sr.o sysreg-sr.o debug-sr.o switch.o tlb.o
-obj-y += ../vgic-v3-sr.o ../aarch32.o ../vgic-v2-cpuif-proxy.o ../entry.o \
-	 ../fpsimd.o ../hyp-entry.o ../exception.o ../vgic-v5-sr.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:c6171b646f806246620ab42cf73454b6a681b6d87158275e58ceb2201693ddbd
+size 415

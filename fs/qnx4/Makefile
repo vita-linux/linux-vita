@@ -1,8 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-#
-# Makefile for the linux qnx4-filesystem routines.
-#
-
-obj-$(CONFIG_QNX4FS_FS) += qnx4.o
-
-qnx4-objs := inode.o dir.o namei.o bitmap.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:af604363235278a642eb17af2df5501bc59bcf69f1ba2d9ab1d9558b06ba42e2
+size 175

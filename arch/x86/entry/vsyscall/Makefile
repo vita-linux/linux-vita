@@ -1,6 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-#
-# Makefile for the x86 low level vsyscall code
-#
-obj-$(CONFIG_X86_VSYSCALL_EMULATION)	+= vsyscall_64.o vsyscall_emu_64.o
-
+version https://git-lfs.github.com/spec/v1
+oid sha256:0c10301a59656ac752a5986c66671fbc5c7b1e20626df6d39b40bb05effa4832
+size 164

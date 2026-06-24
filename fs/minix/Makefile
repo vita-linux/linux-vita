@@ -1,8 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-#
-# Makefile for the Linux minix filesystem routines.
-#
-
-obj-$(CONFIG_MINIX_FS) += minix.o
-
-minix-objs := bitmap.o itree_v1.o itree_v2.o namei.o inode.o file.o dir.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:6c9a2f4338593685d2eee84c6d1e0e685bff0ae8e1cf08ca70ab55e6c8ecabeb
+size 206

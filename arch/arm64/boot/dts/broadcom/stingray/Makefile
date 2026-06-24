@@ -1,5 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-dtb-$(CONFIG_ARCH_BCM_IPROC) += bcm958742k.dtb
-dtb-$(CONFIG_ARCH_BCM_IPROC) += bcm958742t.dtb
-
-dtb-$(CONFIG_ARCH_BCM_IPROC) += bcm958802a802x.dtb
+version https://git-lfs.github.com/spec/v1
+oid sha256:ab72fde2c867391bf6d2f06d5ecbb748d868d92f3836c8c0eb520ac9679f709a
+size 181

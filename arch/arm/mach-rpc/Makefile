@@ -1,9 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-#
-# Makefile for the linux kernel.
-#
-
-# Object file lists.
-
-obj-y	:=dma.o ecard.o ecard-loader.o fiq.o floppydma.o io-acorn.o irq.o \
-	  riscpc.o time.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:e49fc09dbc622f7f32743751738b4d75213ab1a8d62a794138b1c5378737c3f3
+size 193

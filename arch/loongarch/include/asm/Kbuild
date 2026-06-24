@@ -1,15 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-syscall-y += syscall_table_32.h
-syscall-y += syscall_table_64.h
-generated-y += orc_hash.h
-
-generic-y += mcs_spinlock.h
-generic-y += parport.h
-generic-y += early_ioremap.h
-generic-y += qrwlock.h
-generic-y += user.h
-generic-y += ioctl.h
-generic-y += mmzone.h
-generic-y += ring_buffer.h
-generic-y += statfs.h
-generic-y += text-patching.h
+version https://git-lfs.github.com/spec/v1
+oid sha256:70a6b5f10ef2a9e5b8c716bb13b6dc0e1c7a304f3935ab5da596910e77067530
+size 370

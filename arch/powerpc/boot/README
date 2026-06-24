@@ -1,11 +1,3 @@
-
-To extract the kernel vmlinux, System.map, .config or initrd from the zImage binary:
-
-objcopy -j .kernel:vmlinux -O binary zImage vmlinux.gz
-objcopy -j .kernel:System.map -O binary zImage System.map.gz
-objcopy -j .kernel:.config -O binary zImage config.gz
-objcopy -j .kernel:initrd -O binary zImage.initrd initrd.gz
-
-
-	Peter
-
+version https://git-lfs.github.com/spec/v1
+oid sha256:b271971d596bd833224e9d5647b40af7009d20a2d7b7e37a3d2da6772d33762a
+size 327

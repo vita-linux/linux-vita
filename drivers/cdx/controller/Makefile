@@ -1,9 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-#
-# Makefile for CDX controller drivers
-#
-# Copyright (C) 2022-2023, Advanced Micro Devices, Inc.
-#
-
-obj-$(CONFIG_CDX_CONTROLLER) += cdx-controller.o
-cdx-controller-objs := cdx_controller.o cdx_rpmsg.o mcdi.o mcdi_functions.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:7587a1725149c01d66bcb63549308f3f1d73c694344fea0fae4d1a69e1ab883e
+size 266

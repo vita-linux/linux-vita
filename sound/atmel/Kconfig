@@ -1,13 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-menu "Atmel devices (AT91)"
-	depends on ARCH_AT91
-
-config SND_ATMEL_AC97C
-	tristate "Atmel AC97 Controller (AC97C) driver"
-	select SND_PCM
-	select SND_AC97_CODEC
-	depends on ARCH_AT91
-	help
-	  ALSA sound driver for the Atmel AC97 controller.
-
-endmenu
+version https://git-lfs.github.com/spec/v1
+oid sha256:b6bf007edbe59a5157eae8acfb6851bb87560036e2335cc56c2272c6ac47b332
+size 291

@@ -1,20 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-menu "StarFive"
-	depends on COMPILE_TEST || ARCH_STARFIVE
-	depends on HAVE_CLK
-
-config SND_SOC_JH7110_PWMDAC
-	tristate "JH7110 PWM-DAC device driver"
-	select SND_SOC_GENERIC_DMAENGINE_PCM
-	select SND_SOC_SPDIF
-	help
-	 Say Y or M if you want to add support for StarFive JH7110
-	 PWM-DAC driver.
-
-config SND_SOC_JH7110_TDM
-	tristate "JH7110 TDM device driver"
-	select SND_SOC_GENERIC_DMAENGINE_PCM
-	help
-	  Say Y or M if you want to add support for StarFive TDM driver.
-
-endmenu
+version https://git-lfs.github.com/spec/v1
+oid sha256:d8a71b8cd7d83ccb8c58a63aadd661a27bc3b547ec8f8af420a5eb56852ce20e
+size 517

@@ -1,11 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-#
-# Makefile for encrypted keys
-#
-
-obj-$(CONFIG_ENCRYPTED_KEYS) += encrypted-keys.o
-
-encrypted-keys-y := encrypted.o ecryptfs_format.o
-masterkey-$(CONFIG_TRUSTED_KEYS) := masterkey_trusted.o
-masterkey-$(CONFIG_TRUSTED_KEYS)-$(CONFIG_ENCRYPTED_KEYS) := masterkey_trusted.o
-encrypted-keys-y += $(masterkey-y) $(masterkey-m-m)
+version https://git-lfs.github.com/spec/v1
+oid sha256:76d345fd548680177139838385e6c5c372598eed44f1caf751b33a7fa847a228
+size 359

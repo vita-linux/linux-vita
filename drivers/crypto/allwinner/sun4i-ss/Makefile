@@ -1,4 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-obj-$(CONFIG_CRYPTO_DEV_SUN4I_SS) += sun4i-ss.o
-sun4i-ss-y += sun4i-ss-core.o sun4i-ss-hash.o sun4i-ss-cipher.o
-sun4i-ss-$(CONFIG_CRYPTO_DEV_SUN4I_SS_PRNG) += sun4i-ss-prng.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:3813d80a80fda5dadc3fa121c357bb4eb311b0d34cde49eeeff3fec1244dc14f
+size 215

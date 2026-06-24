@@ -1,6 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-#
-# Makefile for Linux arch/m68k/mvme16x source directory
-#
-
-obj-y		:= config.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:645b4786173ae811f929499f81d47d370d46455e9a03f5d2a045b8014955cedc
+size 120

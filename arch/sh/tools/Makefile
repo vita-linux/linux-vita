@@ -1,16 +1,3 @@
-#
-# arch/sh/tools/Makefile
-#
-# Copyright (C) 2003  Paul Mundt
-#
-# This file is subject to the terms and conditions of the GNU General Public
-# License.  See the file "COPYING" in the main directory of this archive
-# for more details.
-#
-# Shamelessly cloned from ARM.
-#
-
-include/generated/machtypes.h: $(src)/gen-mach-types $(src)/mach-types
-	@echo '  Generating $@'
-	$(Q)mkdir -p $(dir $@)
-	$(Q)LC_ALL=C $(AWK) -f $^ > $@
+version https://git-lfs.github.com/spec/v1
+oid sha256:f340ca60bdf989b4a8ab15c8de8aea86130555e52bfb89479be307e61f884e81
+size 422

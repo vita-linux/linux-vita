@@ -1,6 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-obj-$(CONFIG_XZ_DEC) += xz_dec.o
-xz_dec-y := xz_dec_syms.o xz_dec_stream.o xz_dec_lzma2.o
-xz_dec-$(CONFIG_XZ_DEC_BCJ) += xz_dec_bcj.o
-
-obj-$(CONFIG_XZ_DEC_TEST) += xz_dec_test.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:1e89805e33c6b3f541a0a9b67a58813d3ead1a5d2bd3ac82c4f10a6ade063d3b
+size 218

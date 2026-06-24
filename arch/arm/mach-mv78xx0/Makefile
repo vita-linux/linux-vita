@@ -1,5 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-ccflags-y := -I$(srctree)/arch/arm/plat-orion/include
-
-obj-y				+= common.o mpp.o irq.o pcie.o
-obj-$(CONFIG_MACH_TERASTATION_WXL) += buffalo-wxl-setup.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:0121630d80286371496c9fa2e4d7771f7beae705feaae92e4b3f55cbc3945891
+size 188

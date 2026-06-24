@@ -1,7 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-#
-# Makefile for the ia32 kernel emulation subsystem.
-#
-
-audit-class-$(CONFIG_AUDIT) := audit.o
-obj-$(CONFIG_IA32_EMULATION) += $(audit-class-y)
+version https://git-lfs.github.com/spec/v1
+oid sha256:9cde0b0550b96936e6a7285dca2b23400c98616118f4b0947e7024e22d5507c2
+size 185

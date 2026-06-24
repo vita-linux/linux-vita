@@ -1,14 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-
-config TENSTORRENT_ATLANTIS_PRCM
-	tristate "Support for Tenstorrent Atlantis PRCM Clock Controller"
-	depends on ARCH_TENSTORRENT || COMPILE_TEST
-	default ARCH_TENSTORRENT
-	select REGMAP_MMIO
-	select AUXILIARY_BUS
-	select MFD_SYSCON
-	help
-	  Say yes here to support the different clock
-	  controllers found in the Tenstorrent Atlantis SoC.
-	  This includes the clocks from the RCPU, HSIO, MMIO
-	  and PCIE domain.
+version https://git-lfs.github.com/spec/v1
+oid sha256:9db4a17e9959f90323200ca031320868030c772a8543c8dd4b23cf905faa8de9
+size 454

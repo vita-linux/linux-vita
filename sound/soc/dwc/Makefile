@@ -1,6 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-# SYNOPSYS Platform Support
-obj-$(CONFIG_SND_DESIGNWARE_I2S) += designware_i2s.o
-
-designware_i2s-y := dwc-i2s.o
-designware_i2s-$(CONFIG_SND_DESIGNWARE_PCM) += dwc-pcm.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:ddd827713e9579d72c60d4403fd3772abd05709a2855e63f2f612c95b33684af
+size 209

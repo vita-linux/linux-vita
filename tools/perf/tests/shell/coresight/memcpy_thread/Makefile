@@ -1,33 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-# Carsten Haitzler <carsten.haitzler@arm.com>, 2021
-include ../Makefile.miniconfig
-
-# Binary to produce
-BIN=memcpy_thread
-# Any linking/libraries needed for the binary - empty if none needed
-LIB=-pthread
-
-all: $(BIN)
-
-$(BIN): $(BIN).c
-ifdef CORESIGHT
-ifeq ($(ARCH),arm64)
-# Build line
-	$(Q)$(CC) $(BIN).c -o $(BIN) $(LIB)
-endif
-endif
-
-install-tests: all
-ifdef CORESIGHT
-ifeq ($(ARCH),arm64)
-# Install the test tool in the right place
-	$(call QUIET_INSTALL, tests) \
-		$(INSTALL) -d -m 755 '$(DESTDIR_SQ)$(perfexec_instdir_SQ)/$(INSTDIR_SUB)/$(BIN)'; \
-		$(INSTALL) $(BIN) '$(DESTDIR_SQ)$(perfexec_instdir_SQ)/$(INSTDIR_SUB)/$(BIN)/$(BIN)'
-endif
-endif
-
-clean:
-	$(Q)$(RM) -f $(BIN)
-
-.PHONY: all clean install-tests
+version https://git-lfs.github.com/spec/v1
+oid sha256:fee241fbfc7074b1382a7377813c81d4c3d9b0f2972f0513bf1657f852bbdfe8
+size 748

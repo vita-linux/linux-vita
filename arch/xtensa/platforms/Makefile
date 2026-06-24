@@ -1,4 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-obj-$(CONFIG_XTENSA_PLATFORM_XT2000)	+= xt2000/
-obj-$(CONFIG_XTENSA_PLATFORM_ISS)	+= iss/
-obj-$(CONFIG_XTENSA_PLATFORM_XTFPGA)	+= xtfpga/
+version https://git-lfs.github.com/spec/v1
+oid sha256:363fd3bddaa5e4fe643b277694ef9e05d95f66a6932b0cfe4ede0ab385c77b2b
+size 178

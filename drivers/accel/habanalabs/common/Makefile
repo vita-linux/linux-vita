@@ -1,20 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-
-include $(src)/common/mmu/Makefile
-habanalabs-y += $(HL_COMMON_MMU_FILES)
-
-include $(src)/common/pci/Makefile
-habanalabs-y += $(HL_COMMON_PCI_FILES)
-
-HL_COMMON_FILES := common/habanalabs_drv.o common/device.o common/context.o \
-		common/asid.o common/habanalabs_ioctl.o \
-		common/command_buffer.o common/hw_queue.o common/irq.o \
-		common/sysfs.o common/hwmon.o common/memory.o \
-		common/command_submission.o common/firmware_if.o \
-		common/security.o common/state_dump.o \
-		common/memory_mgr.o common/decoder.o
-
-# Conditionally add HLDIO support
-ifdef CONFIG_HL_HLDIO
-HL_COMMON_FILES += common/hldio.o
-endif
+version https://git-lfs.github.com/spec/v1
+oid sha256:30a015e18fe9a3ad9c5cc395bc4401a03a43068be7fcab0abd308a37b5e7ebbe
+size 652

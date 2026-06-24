@@ -1,19 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-#
-# Makefile for Qualcomm Cloud AI accelerators driver
-#
-
-obj-$(CONFIG_DRM_ACCEL_QAIC)	:= qaic.o
-
-qaic-y := \
-	mhi_controller.o \
-	qaic_control.o \
-	qaic_data.o \
-	qaic_drv.o \
-	qaic_ras.o \
-	qaic_ssr.o \
-	qaic_sysfs.o \
-	qaic_timesync.o \
-	sahara.o
-
-qaic-$(CONFIG_DEBUG_FS) += qaic_debugfs.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:06a1acb29e26c66ca67492d3c1514215d15f1d443fe5f0b4f7013cf1a131be27
+size 333

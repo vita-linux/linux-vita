@@ -1,6 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-obj-$(CONFIG_KPROBES)		+= kprobes.o decode-insn.o	\
-				   kprobes_trampoline.o		\
-				   simulate-insn.o
-obj-$(CONFIG_UPROBES)		+= uprobes.o decode-insn.o	\
-				   simulate-insn.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:a1a7f055827b1d985b55dcd52410485a8be805bbb7527f488dada3bbff9815e7
+size 216

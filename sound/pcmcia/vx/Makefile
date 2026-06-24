@@ -1,9 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-#
-# Makefile for ALSA
-# Copyright (c) 2001 by Jaroslav Kysela <perex@perex.cz>
-#
-
-snd-vxpocket-y := vxpocket.o vxp_ops.o vxp_mixer.o
-
-obj-$(CONFIG_SND_VXPOCKET) += snd-vxpocket.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:6fd2fb88606474af52fb97b85a208ddedcf73422914a10f83af33c58f1483239
+size 219

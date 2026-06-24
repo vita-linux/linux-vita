@@ -1,16 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-or-later
-#
-# Copyright (C) 2016 Imagination Technologies
-# Author: Paul Burton <paul.burton@mips.com>
-#
-
-obj-$(CONFIG_MACH_GENERIC_CORE) += init.o
-obj-$(CONFIG_MACH_GENERIC_CORE) += irq.o
-obj-$(CONFIG_MACH_GENERIC_CORE) += proc.o
-
-obj-$(CONFIG_YAMON_DT_SHIM)		+= yamon-dt.o
-obj-$(CONFIG_LEGACY_BOARD_SEAD3)	+= board-sead3.o
-obj-$(CONFIG_LEGACY_BOARD_OCELOT)	+= board-ocelot.o
-obj-$(CONFIG_MACH_INGENIC)			+= board-ingenic.o
-obj-$(CONFIG_VIRT_BOARD_RANCHU)		+= board-ranchu.o
-obj-$(CONFIG_MACH_REALTEK_RTL)		+= board-realtek.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:06a7a7c7eaac6141d727df55db5390f860396a76d5117f132afa3b24946cc939
+size 561

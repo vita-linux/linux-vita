@@ -1,2 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-dtb-$(CONFIG_ARCH_BST) += bstc1200-cdcu1.0-adas_4c2g.dtb
+version https://git-lfs.github.com/spec/v1
+oid sha256:b7f4cb691b9c81960747039981431c28d99fb9809c0a50c4829ea428e53c7180
+size 92

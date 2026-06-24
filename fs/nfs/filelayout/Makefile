@@ -1,6 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-#
-# Makefile for the pNFS Files Layout Driver kernel module
-#
-obj-$(CONFIG_PNFS_FILE_LAYOUT) += nfs_layout_nfsv41_files.o
-nfs_layout_nfsv41_files-y := filelayout.o filelayoutdev.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:19fe9a9183d0ef6c2ece52ba7ebf51b0e028508646cdcacb7b315af176f90750
+size 220

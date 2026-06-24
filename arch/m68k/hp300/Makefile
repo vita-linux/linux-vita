@@ -1,6 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-#
-# Makefile for Linux arch/m68k/hp300 source directory
-#
-
-obj-y		:= config.o time.o reboot.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:2a91bb8a6a236a9db6987e6deace7b187fa3fa905ec865fe4752f27cf68ffa2f
+size 134

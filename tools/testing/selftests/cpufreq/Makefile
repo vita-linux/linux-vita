@@ -1,10 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-all:
-
-TEST_PROGS := main.sh
-TEST_FILES := cpu.sh cpufreq.sh governor.sh module.sh special-tests.sh
-EXTRA_CLEAN := cpufreq_selftest.dmesg_cpufreq.txt cpufreq_selftest.dmesg_full.txt cpufreq_selftest.txt
-
-include ../lib.mk
-
-clean:
+version https://git-lfs.github.com/spec/v1
+oid sha256:1e4a89de232cc0a4b0e43f036b0f4e78a1ac92892fbc2501466d80b1d8436b57
+size 264

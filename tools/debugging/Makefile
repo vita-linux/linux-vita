@@ -1,16 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-# Makefile for debugging tools
-
-PREFIX ?= /usr
-BINDIR ?= bin
-INSTALL ?= install
-
-TARGET = kernel-chktaint
-
-all: $(TARGET)
-
-clean:
-
-install: kernel-chktaint
-	$(INSTALL) -D -m 755 $(TARGET) $(DESTDIR)$(PREFIX)/$(BINDIR)/$(TARGET)
-
+version https://git-lfs.github.com/spec/v1
+oid sha256:8e086eb18adb513c943f3ee31607303008f2ee819bf4dbed3c2ef1449e1aefd4
+size 264

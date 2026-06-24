@@ -1,12 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-config CLK_TEGRA_BPMP
-	def_bool y
-	depends on TEGRA_BPMP
-
-config TEGRA_CLK_DFLL
-	depends on ARCH_TEGRA_114_SOC || ARCH_TEGRA_124_SOC || ARCH_TEGRA_210_SOC
-	select PM_OPP
-	def_bool y
-
-config TEGRA124_CLK_EMC
-	bool
+version https://git-lfs.github.com/spec/v1
+oid sha256:3db4995e9ceb963cdfd658fd878fb925494ef91e7ddef69a99ff1cb6d9b2c561
+size 253

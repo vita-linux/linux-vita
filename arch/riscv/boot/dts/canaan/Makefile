@@ -1,7 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-dtb-$(CONFIG_ARCH_CANAAN) += canaan_kd233.dtb
-dtb-$(CONFIG_ARCH_CANAAN) += k210_generic.dtb
-dtb-$(CONFIG_ARCH_CANAAN) += sipeed_maix_bit.dtb
-dtb-$(CONFIG_ARCH_CANAAN) += sipeed_maix_dock.dtb
-dtb-$(CONFIG_ARCH_CANAAN) += sipeed_maix_go.dtb
-dtb-$(CONFIG_ARCH_CANAAN) += sipeed_maixduino.dtb
+version https://git-lfs.github.com/spec/v1
+oid sha256:b439fb70746bfe3599b9bccd6c2ae053f894f9920931dd4c20161e6b1664b4bb
+size 324

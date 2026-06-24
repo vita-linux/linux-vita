@@ -1,9 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-#
-# Makefile for the Linux NFC HCI layer.
-#
-
-obj-$(CONFIG_NFC_HCI) += hci.o
-
-hci-y			:= core.o hcp.o command.o llc.o llc_nop.o
-hci-$(CONFIG_NFC_SHDLC) += llc_shdlc.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:18f2191bb6b2c3eca73b25f8a49a0e5ee7918219858e5988f5f6473ab4113289
+size 206

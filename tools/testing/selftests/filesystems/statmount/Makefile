@@ -1,10 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-or-later
-
-CFLAGS += -Wall -O2 -g $(KHDR_INCLUDES) $(TOOLS_INCLUDES)
-LDLIBS += -lcap
-
-TEST_GEN_PROGS := statmount_test statmount_test_ns listmount_test
-
-include ../../lib.mk
-
-$(OUTPUT)/statmount_test_ns: ../utils.c
+version https://git-lfs.github.com/spec/v1
+oid sha256:0393d5b37689c921e44f8af409f33174ce176d33766c60dee00149d537ef8f54
+size 249

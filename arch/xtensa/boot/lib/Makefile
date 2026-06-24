@@ -1,34 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-#
-# Makefile for some libs needed by zImage.
-#
-
-zlib	:= inffast.c inflate.c inftrees.c
-
-lib-y	+= $(zlib:.c=.o) zmem.o
-
-ccflags-y	:= -I $(srctree)/lib/zlib_inflate
-ifdef CONFIG_FUNCTION_TRACER
-CFLAGS_REMOVE_inflate.o = -pg
-CFLAGS_REMOVE_zmem.o = -pg
-CFLAGS_REMOVE_inftrees.o = -pg
-CFLAGS_REMOVE_inffast.o = -pg
-endif
-
-KASAN_SANITIZE := n
-KCSAN_SANITIZE := n
-KCOV_INSTRUMENT := n
-GCOV_PROFILE := n
-
-CFLAGS_REMOVE_inflate.o += -fstack-protector -fstack-protector-strong
-CFLAGS_REMOVE_zmem.o += -fstack-protector -fstack-protector-strong
-CFLAGS_REMOVE_inftrees.o += -fstack-protector -fstack-protector-strong
-CFLAGS_REMOVE_inffast.o += -fstack-protector -fstack-protector-strong
-
-quiet_cmd_copy_zlib = COPY    $@
-      cmd_copy_zlib = cat $< > $@
-
-$(addprefix $(obj)/,$(zlib)): $(obj)/%: $(srctree)/lib/zlib_inflate/%
-	$(call cmd,copy_zlib)
-
-clean-files	:= $(zlib)
+version https://git-lfs.github.com/spec/v1
+oid sha256:9d612ce9825267f1324062e588046d96a85df223081fec05264a7bafdd0c0dcc
+size 896

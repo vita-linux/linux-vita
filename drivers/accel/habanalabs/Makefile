@@ -1,20 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-#
-# Makefile for HabanaLabs AI accelerators driver
-#
-
-obj-$(CONFIG_DRM_ACCEL_HABANALABS) := habanalabs.o
-
-include $(src)/common/Makefile
-habanalabs-y += $(HL_COMMON_FILES)
-
-include $(src)/gaudi2/Makefile
-habanalabs-y += $(HL_GAUDI2_FILES)
-
-include $(src)/gaudi/Makefile
-habanalabs-y += $(HL_GAUDI_FILES)
-
-include $(src)/goya/Makefile
-habanalabs-y += $(HL_GOYA_FILES)
-
-habanalabs-$(CONFIG_DEBUG_FS) += common/debugfs.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:7dd5da4a4db128bb1dfe726df22684d634182528bf1ea480d2c274c32f7d9cfd
+size 458

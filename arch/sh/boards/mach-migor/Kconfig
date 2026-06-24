@@ -1,16 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-if SH_MIGOR
-
-choice
-	prompt "Migo-R LCD Panel Board Selection"
-	default SH_MIGOR_QVGA
-
-config SH_MIGOR_QVGA
-	bool "QVGA (320x240)"
-
-config SH_MIGOR_RTA_WVGA
-	bool "RTA WVGA (800x480)"
-
-endchoice
-
-endif
+version https://git-lfs.github.com/spec/v1
+oid sha256:9ab243fb7dd7c408d855e41573d763fcfccd5278eb5457ef995b203912ac1afb
+size 237

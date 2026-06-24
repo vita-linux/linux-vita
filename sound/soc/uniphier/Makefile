@@ -1,11 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-snd-soc-uniphier-aio-cpu-y := aio-core.o aio-dma.o aio-cpu.o aio-compress.o
-snd-soc-uniphier-aio-ld11-y := aio-ld11.o
-snd-soc-uniphier-aio-pxs2-y := aio-pxs2.o
-
-obj-$(CONFIG_SND_SOC_UNIPHIER_AIO) += snd-soc-uniphier-aio-cpu.o
-obj-$(CONFIG_SND_SOC_UNIPHIER_LD11) += snd-soc-uniphier-aio-ld11.o
-obj-$(CONFIG_SND_SOC_UNIPHIER_PXS2) += snd-soc-uniphier-aio-pxs2.o
-
-snd-soc-uniphier-evea-y := evea.o
-obj-$(CONFIG_SND_SOC_UNIPHIER_EVEA_CODEC) += snd-soc-uniphier-evea.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:93af535578d4079eb70a2c9243fc0b1482e21ce21bc04d0a1f5a3b6222205767
+size 499

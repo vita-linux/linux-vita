@@ -1,12 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-syscall-y += syscall_table_32.h
-
-generic-y += extable.h
-generic-y += kvm_para.h
-generic-y += parport.h
-generic-y += spinlock_types.h
-generic-y += spinlock.h
-generic-y += qrwlock_types.h
-generic-y += qrwlock.h
-generic-y += ring_buffer.h
-generic-y += user.h
+version https://git-lfs.github.com/spec/v1
+oid sha256:e81069b6f315c60db97fa93eb2758ad51d8b7cd0a464fb90e58c2d3569ee923c
+size 291

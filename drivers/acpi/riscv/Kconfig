@@ -1,7 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-#
-# ACPI Configuration for RISC-V
-#
-
-config ACPI_RIMT
-	bool
+version https://git-lfs.github.com/spec/v1
+oid sha256:3caffb29b7a35d62067c2736e1e3ce8653a80df5330033779cb1dac2267ce035
+size 100

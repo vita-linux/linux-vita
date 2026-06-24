@@ -1,5 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-dtb-$(CONFIG_ARCH_LAN969X) += lan9696-ev23x71a.dtb
-dtb-$(CONFIG_ARCH_SPARX5) += sparx5_pcb125.dtb
-dtb-$(CONFIG_ARCH_SPARX5) += sparx5_pcb134.dtb sparx5_pcb134_emmc.dtb
-dtb-$(CONFIG_ARCH_SPARX5) += sparx5_pcb135.dtb sparx5_pcb135_emmc.dtb
+version https://git-lfs.github.com/spec/v1
+oid sha256:96b053dd34059de9c14752c276d67b0724b3d1b14b959cb94257069c70960420
+size 273

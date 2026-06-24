@@ -1,7 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-
-TEST_PROGS := run_fat_tests.sh
-TEST_GEN_PROGS_EXTENDED := rename_exchange
-CFLAGS += -O2 -g -Wall $(KHDR_INCLUDES)
-
-include ../../lib.mk
+version https://git-lfs.github.com/spec/v1
+oid sha256:d00b8617240ce7bda095637f02d58871f423212e0d796b6decd6adbe4bab301a
+size 172

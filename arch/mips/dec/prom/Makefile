@@ -1,9 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-#
-# Makefile for the DECstation prom monitor library routines
-# under Linux.
-#
-
-lib-y			+= init.o memory.o cmdline.o identify.o console.o
-
-lib-$(CONFIG_CPU_R3000)	+= locore.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:a9bc9b0d4034a2db425456a9e91b6b8e111e8c5828f6d8d5e1492bd6af74cbe2
+size 215

@@ -1,6 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-obj-$(CONFIG_HSU_DMA)		+= hsu_dma.o
-hsu_dma-objs		:= hsu.o
-
-obj-$(CONFIG_HSU_DMA_PCI)	+= hsu_dma_pci.o
-hsu_dma_pci-objs	:= pci.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:234208b4e1cf400c6ea930891d8433666c96cc18dfb00456d8508aad617c6374
+size 169

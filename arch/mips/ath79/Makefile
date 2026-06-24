@@ -1,11 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-#
-# Makefile for the Atheros AR71XX/AR724X/AR913X specific parts of the kernel
-#
-# Copyright (C) 2008-2011 Gabor Juhos <juhosg@openwrt.org>
-# Copyright (C) 2008 Imre Kaloz <kaloz@openwrt.org>
-#
-
-obj-y	:= prom.o setup.o common.o clock.o
-
-obj-$(CONFIG_EARLY_PRINTK)		+= early_printk.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:81be7d2f5a88e5d518676d365ba10d859d9bbcf7bcb1df02c0fa1d3980f11843
+size 323

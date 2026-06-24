@@ -1,5 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-
-menu "Accelerated Cryptographic Algorithms for CPU (loongarch)"
-
-endmenu
+version https://git-lfs.github.com/spec/v1
+oid sha256:4273e1f8c600342117791b38e620ca071a92b9e42d4d868311d4c9f8a32364c0
+size 109

@@ -1,15 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-#
-# psample packet sampling configuration
-#
-
-menuconfig PSAMPLE
-	tristate "Packet-sampling netlink channel"
-	default n
-	help
-	  Say Y here to add support for packet-sampling netlink channel
-	  This netlink channel allows transferring packets alongside some
-	  metadata to userspace.
-
-	  To compile this support as a module, choose M here: the module will
-	  be called psample.
+version https://git-lfs.github.com/spec/v1
+oid sha256:312d44aebf9bc4643150d4449bdbe15c3f53d6d04092fed34026247a7e7e039a
+size 417

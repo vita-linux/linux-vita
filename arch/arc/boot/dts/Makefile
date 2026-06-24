@@ -1,9 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-
-dtb-y	:= $(addsuffix .dtb, $(CONFIG_BUILTIN_DTB_NAME))
-
-# for CONFIG_OF_ALL_DTBS test
-dtb-	:= $(patsubst $(src)/%.dts,%.dtb, $(wildcard $(src)/*.dts))
-
-# board-specific dtc flags
-DTC_FLAGS_hsdk += --pad 20
+version https://git-lfs.github.com/spec/v1
+oid sha256:e13b70c8a6e1d19b4ef64278deacfce822307363e4cd177f32e4d1170d8134a1
+size 242

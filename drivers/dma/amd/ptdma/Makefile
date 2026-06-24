@@ -1,10 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-#
-# AMD Passthru DMA driver
-#
-
-obj-$(CONFIG_AMD_PTDMA) += ptdma.o
-
-ptdma-objs := ptdma-dev.o ptdma-dmaengine.o ptdma-debugfs.o
-
-ptdma-$(CONFIG_PCI) += ptdma-pci.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:fdb5ed1931257259f174108d6095456f528b7f872442166a95369feade1abcf3
+size 203

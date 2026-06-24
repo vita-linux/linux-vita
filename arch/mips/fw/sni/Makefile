@@ -1,6 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-#
-# Makefile for the SNI prom monitor routines under Linux.
-#
-
-lib-$(CONFIG_FW_SNIPROM)	+= sniprom.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:9eb931a5bfecc7dfa4088d9fe84f0a695f015ecb861561aad530c6c4d42110ad
+size 141

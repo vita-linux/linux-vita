@@ -1,14 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-menu "ST SPEAr"
-
-config SND_SPEAR_SOC
-	tristate
-	select SND_SOC_GENERIC_DMAENGINE_PCM
-
-config SND_SPEAR_SPDIF_OUT
-	tristate
-
-config SND_SPEAR_SPDIF_IN
-	tristate
-
-endmenu
+version https://git-lfs.github.com/spec/v1
+oid sha256:a496aa10378a45c74de262db312b29fa4c60159c9dd472760512f306b4113356
+size 210

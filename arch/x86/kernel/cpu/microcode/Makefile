@@ -1,5 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-microcode-y				:= core.o
-obj-$(CONFIG_MICROCODE)			+= microcode.o
-microcode-$(CONFIG_CPU_SUP_INTEL)	+= intel.o
-microcode-$(CONFIG_CPU_SUP_AMD)		+= amd.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:9bedb156b5300d76f06e24be27fc47339e1fe370c708b205d72b9eccd4463b5f
+size 193

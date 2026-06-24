@@ -1,9 +1,3 @@
-// SPDX-License-Identifier: GPL-2.0-only
-// SPDX-FileCopyrightText: Copyright (c) 2023 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
-
-tegra-se-objs := tegra-se-key.o tegra-se-main.o
-
-tegra-se-y += tegra-se-aes.o
-tegra-se-y += tegra-se-hash.o
-
-obj-$(CONFIG_CRYPTO_DEV_TEGRA) += tegra-se.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:24f228b6200d47b5c20a847a3463a2bfd20a4b9a9db46dc0687d9f3730726567
+size 296

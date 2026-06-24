@@ -1,16 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-menuconfig ARCH_ACTIONS
-	bool "Actions Semi SoCs"
-	depends on ARCH_MULTI_V7
-	select ARM_AMBA
-	select ARM_GIC
-	select ARM_GLOBAL_TIMER
-	select CACHE_L2X0
-	select CLKSRC_ARM_GLOBAL_TIMER_SCHED_CLOCK
-	select GENERIC_IRQ_CHIP
-	select HAVE_ARM_SCU if SMP
-	select HAVE_ARM_TWD if SMP
-	select OWL_PM_DOMAINS_HELPER
-	select OWL_TIMER
-	help
-	  This enables support for the Actions Semiconductor S500 SoC family.
+version https://git-lfs.github.com/spec/v1
+oid sha256:b3de447d7ec6d1ef6d4e1651bad6c3aabde1ad917f556bc8f852b8dc2f60ef23
+size 438

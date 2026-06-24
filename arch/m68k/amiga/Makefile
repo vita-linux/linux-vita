@@ -1,8 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-#
-# Makefile for Linux arch/m68k/amiga source directory
-#
-
-obj-y		:= config.o amiints.o cia.o chipram.o amisound.o platform.o
-
-obj-$(CONFIG_AMIGA_PCMCIA)	+= pcmcia.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:c704d2d04ae5a0025f94253d1f4358e54ab61b46021747b5607453591050fd58
+size 206

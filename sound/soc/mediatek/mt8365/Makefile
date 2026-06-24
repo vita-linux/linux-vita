@@ -1,15 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-
-# MTK Platform driver
-snd-soc-mt8365-pcm-y := \
-	mt8365-afe-clk.o \
-	mt8365-afe-pcm.o \
-	mt8365-dai-adda.o \
-	mt8365-dai-dmic.o \
-	mt8365-dai-i2s.o \
-	mt8365-dai-pcm.o
-
-obj-$(CONFIG_SND_SOC_MT8365) += snd-soc-mt8365-pcm.o
-
-# Machine driver
-obj-$(CONFIG_SND_SOC_MT8365_MT6357) += mt8365-mt6357.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:01092066769cee9d6f98f054036d6423c04392fe77bc401138f5ce0dd9869138
+size 331

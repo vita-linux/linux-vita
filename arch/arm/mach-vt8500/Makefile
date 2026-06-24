@@ -1,2 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-obj-$(CONFIG_ARCH_VT8500) += vt8500.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:bc0bbf29c827d360058e2489c3c003033d3a0da4fbe916e89f4339d42df659fd
+size 78

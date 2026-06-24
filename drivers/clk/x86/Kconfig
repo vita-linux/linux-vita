@@ -1,9 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-config CLK_LGM_CGU
-	depends on OF && HAS_IOMEM && (X86 || COMPILE_TEST)
-	select MFD_SYSCON
-	select OF_EARLY_FLATTREE
-	bool "Clock driver for Lightning Mountain(LGM) platform"
-	help
-	  Clock Generation Unit(CGU) driver for MaxLinear's x86 based
-	  Lightning Mountain(LGM) network processor SoC.
+version https://git-lfs.github.com/spec/v1
+oid sha256:890940a4b2cbbd70446c837a43bf87b90dc40ae34bf163ba5b468b24594a2769
+size 334

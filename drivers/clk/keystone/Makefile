@@ -1,4 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-obj-$(CONFIG_COMMON_CLK_KEYSTONE)	+= pll.o gate.o
-obj-$(CONFIG_TI_SCI_CLK)		+= sci-clk.o
-obj-$(CONFIG_TI_SYSCON_CLK)		+= syscon-clk.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:18c672e5594af9abae369fb26589e7b146fc6d8999dfefe0abaa863c023ab068
+size 174

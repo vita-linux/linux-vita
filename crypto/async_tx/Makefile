@@ -1,7 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-obj-$(CONFIG_ASYNC_CORE) += async_tx.o
-obj-$(CONFIG_ASYNC_MEMCPY) += async_memcpy.o
-obj-$(CONFIG_ASYNC_XOR) += async_xor.o
-obj-$(CONFIG_ASYNC_PQ) += async_pq.o
-obj-$(CONFIG_ASYNC_RAID6_RECOV) += async_raid6_recov.o
-obj-$(CONFIG_ASYNC_RAID6_TEST) += raid6test.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:ad082092c11165dc3f8294a8c71d38f790ca511bc898ff643ffcda3e875f8a0b
+size 296

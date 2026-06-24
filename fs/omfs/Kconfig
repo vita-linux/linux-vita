@@ -1,15 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-config OMFS_FS
-	tristate "SonicBlue Optimized MPEG File System support"
-	depends on BLOCK
-	select BUFFER_HEAD
-	select CRC_ITU_T
-	help
-	  This is the proprietary file system used by the Rio Karma music
-	  player and ReplayTV DVR.  Despite the name, this filesystem is not
-	  more efficient than a standard FS for MPEG files, in fact likely
-	  the opposite is true.  Say Y if you have either of these devices
-	  and wish to mount its disk.
-
-	  To compile this file system support as a module, choose M here: the
-	  module will be called omfs.  If unsure, say N.
+version https://git-lfs.github.com/spec/v1
+oid sha256:5a0a70d622af890e7fbafc6e20db0c38831f9194601ed6f5ca8bc2ddf96eb7fa
+size 600

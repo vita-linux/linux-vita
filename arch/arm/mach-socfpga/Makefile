@@ -1,10 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-#
-# Makefile for the linux kernel.
-#
-
-obj-y					:= socfpga.o
-obj-$(CONFIG_SMP)	+= headsmp.o platsmp.o
-obj-$(CONFIG_SOCFPGA_SUSPEND)	+= pm.o self-refresh.o
-obj-$(CONFIG_EDAC_ALTERA_L2C)	+= l2_cache.o
-obj-$(CONFIG_EDAC_ALTERA_OCRAM)	+= ocram.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:b81d71433d04da5b3b04130b23cc28051938f6fc0e1cbb45845fabf52755a146
+size 277

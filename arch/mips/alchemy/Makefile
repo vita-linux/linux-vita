@@ -1,4 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-obj-$(CONFIG_MIPS_GPR) += board-gpr.o
-obj-$(CONFIG_MIPS_MTX1) += board-mtx1.o
-obj-$(CONFIG_MIPS_XXS1500) += board-xxs1500.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:88ccf5b985a81329878b3939a77acaa511fb880e197f13965b673d5b5d7dc47b
+size 164

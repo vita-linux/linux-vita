@@ -1,8 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-# platform driver
-snd-soc-mt2701-afe-y := mt2701-afe-pcm.o mt2701-afe-clock-ctrl.o
-obj-$(CONFIG_SND_SOC_MT2701) += snd-soc-mt2701-afe.o
-
-# machine driver
-obj-$(CONFIG_SND_SOC_MT2701_CS42448) += mt2701-cs42448.o
-obj-$(CONFIG_SND_SOC_MT2701_WM8960) += mt2701-wm8960.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:d7d4d7f7c4d7ec43669bf2c183999376d9feadb1d32a20849b7a879b31a7b443
+size 301

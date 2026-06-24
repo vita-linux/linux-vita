@@ -1,5 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-obj-$(CONFIG_STM32_DMA) += stm32-dma.o
-obj-$(CONFIG_STM32_DMAMUX) += stm32-dmamux.o
-obj-$(CONFIG_STM32_MDMA) += stm32-mdma.o
-obj-$(CONFIG_STM32_DMA3) += stm32-dma3.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:47b74b0cd39b42d8026d7bff65a3c7edfadf18e0364bf0c60a88d4acf9fb89e6
+size 206

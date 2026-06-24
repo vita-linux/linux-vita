@@ -1,2 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-dtb-$(CONFIG_DTB_ECONET_SMARTFIBER_XP8421_B)	+= en751221_smartfiber_xp8421-b.dtb
+version https://git-lfs.github.com/spec/v1
+oid sha256:c920dfed1fa41dac4f2239c2d07f1fd9e79cfa5d0eac7f4f6e9ae8441238efc5
+size 116

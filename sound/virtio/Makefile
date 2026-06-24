@@ -1,14 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0+
-
-obj-$(CONFIG_SND_VIRTIO) += virtio_snd.o
-
-virtio_snd-y := \
-	virtio_card.o \
-	virtio_chmap.o \
-	virtio_ctl_msg.o \
-	virtio_jack.o \
-	virtio_kctl.o \
-	virtio_pcm.o \
-	virtio_pcm_msg.o \
-	virtio_pcm_ops.o
-
+version https://git-lfs.github.com/spec/v1
+oid sha256:9379a64396372c4e523a71613faeabf211e7ad8a9087101819daeed8d659180a
+size 241

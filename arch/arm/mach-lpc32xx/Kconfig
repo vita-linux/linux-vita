@@ -1,13 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-
-config ARCH_LPC32XX
-	bool "NXP LPC32XX"
-	depends on ARCH_MULTI_V5
-	depends on CPU_LITTLE_ENDIAN
-	select ARM_AMBA
-	select CLKSRC_LPC32XX
-	select CPU_ARM926T
-	select GPIOLIB
-	select LPC32XX_DMAMUX if AMBA_PL08X
-	help
-	  Support for the NXP LPC32XX family of processors
+version https://git-lfs.github.com/spec/v1
+oid sha256:9550a82497c84067290231812b1de25d49653f38ebac1daa4832273f9e27227b
+size 308

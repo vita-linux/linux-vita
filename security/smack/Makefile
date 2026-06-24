@@ -1,9 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-#
-# Makefile for the SMACK LSM
-#
-
-obj-$(CONFIG_SECURITY_SMACK) := smack.o
-
-smack-y := smack_lsm.o smack_access.o smackfs.o
-smack-$(CONFIG_SECURITY_SMACK_NETFILTER) += smack_netfilter.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:c521c9b5576ee58adfc9e3a2295b68759996d62630af666738c9af654a8f654a
+size 225

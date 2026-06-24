@@ -1,21 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-#
-# io_uring configuration
-#
-
-config IO_URING_ZCRX
-	def_bool y
-	depends on IO_URING
-	depends on PAGE_POOL
-	depends on INET
-	depends on NET_RX_BUSY_POLL
-
-config IO_URING_BPF
-	def_bool y
-	depends on BPF
-	depends on NET
-
-config IO_URING_BPF_OPS
-	def_bool y
-	depends on IO_URING
-	depends on BPF_SYSCALL && BPF_JIT && DEBUG_INFO_BTF
+version https://git-lfs.github.com/spec/v1
+oid sha256:95860c058afe2d49b135916736bd753690d7093e8b72cfe0cfd9932f9d102fbb
+size 368

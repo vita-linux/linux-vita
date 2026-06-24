@@ -1,11 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-#
-# Makefile for the HITACHI UL SolutionEngine 7722 specific parts of the kernel
-#
-# This file is subject to the terms and conditions of the GNU General Public
-# License.  See the file "COPYING" in the main directory of this archive
-# for more details.
-#
-#
-
-obj-y	 := setup.o irq.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:757b73c6c0ca92c527efe8b23d56950942ea3260528ab4aa5ba8e2786f263522
+size 317

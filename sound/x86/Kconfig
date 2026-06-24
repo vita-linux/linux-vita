@@ -1,18 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-menuconfig SND_X86
-	bool "X86 sound devices"
-	depends on X86
-	default y
-	help
-	  X86 sound devices that don't fall under SoC or PCI categories
-
-if SND_X86
-
-config HDMI_LPE_AUDIO
-	tristate "HDMI audio without HDAudio on Intel Atom platforms"
-	depends on DRM_I915
-	select SND_PCM
-	help
-	 Choose this option to support HDMI LPE Audio mode
-
-endif	# SND_X86
+version https://git-lfs.github.com/spec/v1
+oid sha256:091a5826f213c8b297e83068c785712a0f288d2f1a6fbdda89f0213abca256ad
+size 393

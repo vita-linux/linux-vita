@@ -1,8 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-
-CONTEXT_ANALYSIS := y
-
-obj-y := core.o report.o
-
-CFLAGS_kfence_test.o := -fno-omit-frame-pointer -fno-optimize-sibling-calls
-obj-$(CONFIG_KFENCE_KUNIT_TEST) += kfence_test.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:c2cee6bfb47a20c27ab538d1dd7ac6f758b9208e26e42561dc5374599222682d
+size 210

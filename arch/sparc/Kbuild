@@ -1,14 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-#
-# core part of the sparc kernel
-#
-
-obj-y += kernel/
-obj-y += mm/
-obj-y += math-emu/
-obj-y += net/
-obj-y += crypto/
-obj-$(CONFIG_SPARC64) += vdso/
-
-# for cleaning
-subdir- += boot
+version https://git-lfs.github.com/spec/v1
+oid sha256:dff0af262e1ee291e7d933659ccc9460bb5192796ee5b9262bcf63dc1044226e
+size 215

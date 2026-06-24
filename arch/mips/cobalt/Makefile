@@ -1,8 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-#
-# Makefile for the Cobalt micro systems family specific parts of the kernel
-#
-
-obj-y := buttons.o irq.o lcd.o led.o mtd.o reset.o rtc.o serial.o setup.o time.o
-
-obj-$(CONFIG_PCI)		+= pci.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:265bf702fd22e004580af6674ff01c8f674cd0d618bd9d59d2a48b7e7ec0e9d2
+size 231

@@ -1,12 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-#
-# Makefile for the Highlander specific parts of the kernel
-#
-obj-y				:= setup.o
-obj-$(CONFIG_SH_R7780RP)	+= irq-r7780rp.o
-obj-$(CONFIG_SH_R7780MP)	+= irq-r7780mp.o
-obj-$(CONFIG_SH_R7785RP)	+= irq-r7785rp.o pinmux-r7785rp.o
-
-ifneq ($(CONFIG_SH_R7785RP),y)
-obj-$(CONFIG_PUSH_SWITCH)	+= psw.o
-endif
+version https://git-lfs.github.com/spec/v1
+oid sha256:ef561fa20d8442142d00fabedc7191a26f57ce0c4379399aafa4425288243d60
+size 334

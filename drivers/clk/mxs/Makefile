@@ -1,9 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-#
-# Makefile for mxs specific clk
-#
-
-obj-y += clk.o clk-pll.o clk-ref.o clk-div.o clk-frac.o clk-ssp.o
-
-obj-$(CONFIG_SOC_IMX23) += clk-imx23.o
-obj-$(CONFIG_SOC_IMX28) += clk-imx28.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:5c114a72d08a556e86ca34fe2e53b35bedcab95677f78748858dce4643d84d26
+size 222

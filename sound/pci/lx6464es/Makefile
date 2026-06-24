@@ -1,3 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-snd-lx6464es-y := lx6464es.o lx_core.o
-obj-$(CONFIG_SND_LX6464ES) += snd-lx6464es.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:5e6d1fae2366ab9e62ce5401d605ebe15a0e9454a41473b4bdc8d33251037c94
+size 124

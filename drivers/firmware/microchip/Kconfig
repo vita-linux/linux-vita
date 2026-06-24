@@ -1,12 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-
-config POLARFIRE_SOC_AUTO_UPDATE
-	tristate "Microchip PolarFire SoC AUTO UPDATE"
-	depends on POLARFIRE_SOC_SYS_CTRL
-	select FW_LOADER
-	select FW_UPLOAD
-	help
-	  Support for reprogramming PolarFire SoC from within Linux, using the
-	  Auto Upgrade feature of the system controller.
-
-	  If built as a module, it will be called mpfs-auto-update.
+version https://git-lfs.github.com/spec/v1
+oid sha256:cee69c46ae0300786b093c702fb6964e96f561b37c32aec4e948d878c9a524ae
+size 383

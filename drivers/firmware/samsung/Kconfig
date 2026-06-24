@@ -1,14 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-
-config EXYNOS_ACPM_PROTOCOL
-	tristate "Exynos Alive Clock and Power Manager (ACPM) Message Protocol"
-	depends on ARCH_EXYNOS || COMPILE_TEST
-	depends on MAILBOX
-	help
-	  Alive Clock and Power Manager (ACPM) Message Protocol is defined for
-	  the purpose of communication between the ACPM firmware and masters
-	  (AP, AOC, ...). ACPM firmware operates on the Active Power Management
-	  (APM) module that handles overall power activities.
-
-	  This protocol driver provides interface for all the client drivers
-	  making use of the features offered by the APM.
+version https://git-lfs.github.com/spec/v1
+oid sha256:345fc0882178b5c4e887a1cb21c10a186b57c925427a05aa65e37a0a2eea54b9
+size 599

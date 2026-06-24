@@ -1,10 +1,3 @@
-#
-# Makefile for Intel Keem Bay OCS Crypto API Linux drivers
-#
-obj-$(CONFIG_CRYPTO_DEV_KEEMBAY_OCS_AES_SM4) += keembay-ocs-aes.o
-keembay-ocs-aes-objs := keembay-ocs-aes-core.o ocs-aes.o
-
-obj-$(CONFIG_CRYPTO_DEV_KEEMBAY_OCS_ECC) += keembay-ocs-ecc.o
-
-obj-$(CONFIG_CRYPTO_DEV_KEEMBAY_OCS_HCU) += keembay-ocs-hcu.o
-keembay-ocs-hcu-objs := keembay-ocs-hcu-core.o ocs-hcu.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:bae868780d35e66c60c77a3d54d9b4e860e3a619cb721f50d03606fa622c478e
+size 369

@@ -1,10 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-#
-# Makefile for Hisilicon processors family
-#
-
-CFLAGS_platmcpm.o	:= -march=armv7-a
-
-obj-y	+= hisilicon.o
-obj-$(CONFIG_MCPM)		+= platmcpm.o
-obj-$(CONFIG_SMP)		+= platsmp.o hotplug.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:9f4cb36f452b5e19587e2bde1cbd115c37bf5f93c1db2244d4fe0b4805451654
+size 222

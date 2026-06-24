@@ -1,8 +1,3 @@
-obj-$(CONFIG_ACPI)	+= acpi-x86.o
-acpi-x86-y		+= apple.o
-acpi-x86-y		+= cmos_rtc.o
-acpi-x86-$(CONFIG_PCI)	+= lpss.o
-acpi-x86-y		+= s2idle.o
-acpi-x86-y		+= utils.o
-
-obj-$(CONFIG_X86)	+= blacklist.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:174df240bf09ef1d101634f8c42b6445464e895dece46fbe1586c0e96ab4331d
+size 196

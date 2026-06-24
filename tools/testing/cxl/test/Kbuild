@@ -1,14 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-ccflags-y := -I$(srctree)/drivers/cxl/ -I$(srctree)/drivers/cxl/core
-
-obj-m += cxl_test.o
-obj-m += cxl_mock.o
-obj-m += cxl_mock_mem.o
-obj-m += cxl_translate.o
-
-cxl_test-y := cxl.o
-cxl_test-y += hmem_test.o
-cxl_mock-y := mock.o
-cxl_mock_mem-y := mem.o
-
-KBUILD_CFLAGS := $(filter-out -Wmissing-prototypes -Wmissing-declarations, $(KBUILD_CFLAGS))
+version https://git-lfs.github.com/spec/v1
+oid sha256:306699e6d41f355cd8f22f350f87b98525fda8f2118a41dbb9e2e2e08c765bde
+size 380

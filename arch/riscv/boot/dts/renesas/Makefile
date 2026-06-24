@@ -1,2 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-dtb-$(CONFIG_ARCH_R9A07G043) += r9a07g043f01-smarc.dtb
+version https://git-lfs.github.com/spec/v1
+oid sha256:3b5d6349af0b224d38e95b080854065a61d89f7137fcfacbd69a4fc630cc234b
+size 90

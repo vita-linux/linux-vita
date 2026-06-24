@@ -1,17 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-config PPC_XICS
-	def_bool n
-	select PPC_SMP_MUXED_IPI
-	select HARDIRQS_SW_RESEND
-
-config PPC_ICP_NATIVE
-	def_bool n
-
-config PPC_ICP_HV
-	def_bool n
-
-config PPC_ICS_RTAS
-	def_bool n
-
-config PPC_ICS_NATIVE
-	def_bool n
+version https://git-lfs.github.com/spec/v1
+oid sha256:49f82e5c5de91d063b3fc101184a3c0a1710f1dd839c1dae145dc46641fca7b2
+size 250

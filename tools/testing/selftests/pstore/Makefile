@@ -1,14 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-# Makefile for pstore selftests.
-# Expects pstore backend is registered.
-
-all:
-
-TEST_PROGS := pstore_tests pstore_post_reboot_tests
-TEST_FILES := common_tests pstore_crash_test
-EXTRA_CLEAN := logs/* *uuid
-
-include ../lib.mk
-
-run_crash:
-	@sh pstore_crash_test || { echo "pstore_crash_test: [FAIL]"; exit 1; }
+version https://git-lfs.github.com/spec/v1
+oid sha256:2ce600cc128407eca99a7da780fcb3e53d215274512e58c7dac233906b856ba2
+size 343

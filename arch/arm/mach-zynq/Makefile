@@ -1,8 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-#
-# Makefile for the linux kernel.
-#
-
-# Common support
-obj-y				:= common.o slcr.o pm.o
-obj-$(CONFIG_SMP)		+= headsmp.o platsmp.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:ba6b236840edf6a3b3baf13e1184af240fffe1d1060854e37ba791bde72fc09b
+size 170

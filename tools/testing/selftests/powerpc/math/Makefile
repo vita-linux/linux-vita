@@ -1,22 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-TEST_GEN_PROGS := fpu_syscall fpu_preempt fpu_signal fpu_denormal vmx_syscall vmx_preempt vmx_signal vsx_preempt mma
-
-top_srcdir = ../../../../..
-include ../../lib.mk
-include ../flags.mk
-
-$(TEST_GEN_PROGS): ../harness.c
-$(TEST_GEN_PROGS): CFLAGS += -O2 -g -pthread -m64 -maltivec
-
-$(OUTPUT)/fpu_syscall: fpu_asm.S
-$(OUTPUT)/fpu_preempt: fpu_asm.S
-$(OUTPUT)/fpu_signal:  fpu_asm.S
-
-$(OUTPUT)/vmx_syscall: vmx_asm.S ../utils.c
-$(OUTPUT)/vmx_preempt: vmx_asm.S ../utils.c
-$(OUTPUT)/vmx_signal: vmx_asm.S ../utils.c
-
-$(OUTPUT)/vsx_preempt: CFLAGS += -mvsx
-$(OUTPUT)/vsx_preempt: vsx_asm.S ../utils.c
-
-$(OUTPUT)/mma: mma.c mma.S ../utils.c
+version https://git-lfs.github.com/spec/v1
+oid sha256:8ebef80fd0802f6f9dc19f0ee344c36b3b3178ab3576f4492f18eed34c200510
+size 670

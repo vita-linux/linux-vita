@@ -1,7 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-
-LIBBPF_INCLUDE = $(srctree)/tools/lib
-
-obj-$(CONFIG_BPF_PRELOAD_UMD) += bpf_preload.o
-CFLAGS_bpf_preload_kern.o += -I$(LIBBPF_INCLUDE)
-bpf_preload-objs += bpf_preload_kern.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:07b9a366feaeb6f980141d7bcf5f7bc26d6dd3ae3f4c5943ca504f51a7608b74
+size 210

@@ -1,6 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-dtb-$(CONFIG_ARCH_BERLIN) += \
-	berlin2-sony-nsz-gs7.dtb \
-	berlin2cd-google-chromecast.dtb \
-	berlin2cd-valve-steamlink.dtb \
-	berlin2q-marvell-dmp.dtb
+version https://git-lfs.github.com/spec/v1
+oid sha256:14a7d8dfbde1667aa42ac70e33f2e01b8e916e1bd40019fbcca053431ac3c82a
+size 188

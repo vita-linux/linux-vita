@@ -1,6 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-ccflags-y += -O3
-
-obj-$(CONFIG_LZ4_COMPRESS) += lz4_compress.o
-obj-$(CONFIG_LZ4HC_COMPRESS) += lz4hc_compress.o
-obj-$(CONFIG_LZ4_DECOMPRESS) += lz4_decompress.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:d6da54b4827a3b8eeee03d8d5f26703b56ce0b8227bb3fe62e88d7731d1853d6
+size 201

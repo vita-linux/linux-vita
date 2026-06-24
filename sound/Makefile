@@ -1,20 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-# Makefile for the Linux sound card driver
-#
-
-obj-$(CONFIG_SOUND) += soundcore.o
-obj-$(CONFIG_DMASOUND) += oss/dmasound/
-obj-$(CONFIG_SND) += core/ i2c/ drivers/ isa/ pci/ ppc/ arm/ sh/ synth/ usb/ \
-	firewire/ sparc/ spi/ parisc/ pcmcia/ mips/ soc/ atmel/ hda/ x86/ xen/ \
-	virtio/
-obj-$(CONFIG_SND_AOA) += aoa/
-
-# This one must be compilable even if sound is configured out
-obj-$(CONFIG_AC97_BUS) += ac97_bus.o
-obj-$(CONFIG_AC97_BUS_NEW) += ac97/
-
-ifeq ($(CONFIG_SND),y)
-  obj-y += last.o
-endif
-
-soundcore-y  := sound_core.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:59cc8a50bfaea505ee7a7f96661d5860284ed28d862657a3acc82c83a2fcccea
+size 562

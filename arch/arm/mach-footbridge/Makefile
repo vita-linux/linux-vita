@@ -1,18 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-#
-# Makefile for the linux kernel.
-#
-
-# Object file lists.
-
-obj-y			:= common.o isa-irq.o isa.o isa-rtc.o dma-isa.o
-
-pci-y			+= dc21285.o
-pci-$(CONFIG_ARCH_EBSA285) += ebsa285-pci.o
-pci-$(CONFIG_ARCH_NETWINDER) += netwinder-pci.o
-
-obj-$(CONFIG_ARCH_EBSA285) += ebsa285.o dc21285-timer.o
-obj-$(CONFIG_ARCH_NETWINDER) += netwinder-hw.o isa-timer.o
-
-obj-$(CONFIG_PCI)	+=$(pci-y)
-
+version https://git-lfs.github.com/spec/v1
+oid sha256:861949e8498049911ef1c09f9355c2c77021098216059ec51ed94d8b2121dcaf
+size 412

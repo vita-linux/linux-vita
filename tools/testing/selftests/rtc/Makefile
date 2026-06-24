@@ -1,9 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-CFLAGS += -O3 -Wl,-no-as-needed -Wall -I$(top_srcdir)/usr/include
-LDLIBS += -lrt -lpthread -lm
-
-TEST_GEN_PROGS = rtctest
-
-TEST_FILES := settings
-
-include ../lib.mk
+version https://git-lfs.github.com/spec/v1
+oid sha256:bba725518976f40eec4e76fa3dc1da5af2aaeab84b283649a544190d5e402dd9
+size 199

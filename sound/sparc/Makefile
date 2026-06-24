@@ -1,13 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-#
-# Makefile for ALSA
-# Copyright (c) 2002 by David S. Miller <davem@redhat.com>
-#
-
-snd-sun-amd7930-y := amd7930.o
-snd-sun-cs4231-y := cs4231.o
-snd-sun-dbri-y := dbri.o
-
-obj-$(CONFIG_SND_SUN_AMD7930) += snd-sun-amd7930.o
-obj-$(CONFIG_SND_SUN_CS4231) += snd-sun-cs4231.o
-obj-$(CONFIG_SND_SUN_DBRI) += snd-sun-dbri.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:591325e5f32bc1e77ee7cf878ee69bada070dd8830b3e6934205ff69b7b3b601
+size 350

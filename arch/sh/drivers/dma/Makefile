@@ -1,9 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-#
-# Makefile for the SuperH DMA specific kernel interface routines under Linux.
-#
-
-obj-$(CONFIG_SH_DMA_API)	+= dma-sh.o dma-api.o dma-sysfs.o
-obj-$(CONFIG_PVR2_DMA)		+= dma-pvr2.o
-obj-$(CONFIG_G2_DMA)		+= dma-g2.o
-obj-$(CONFIG_SH_DMABRG)		+= dmabrg.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:91c20a0dcd2e7fc67e154f5a02de3391b740166575deeda6fe4d40314a9930a5
+size 286

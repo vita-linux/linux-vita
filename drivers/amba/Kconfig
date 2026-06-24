@@ -1,15 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-config ARM_AMBA
-	bool
-
-if ARM_AMBA
-
-config TEGRA_AHB
-	bool "Enable AHB driver for NVIDIA Tegra SoCs" if COMPILE_TEST
-	default y if ARCH_TEGRA
-	help
-	  Adds AHB configuration functionality for NVIDIA Tegra SoCs,
-	  which controls AHB bus master arbitration and some performance
-	  parameters (priority, prefetch size).
-
-endif
+version https://git-lfs.github.com/spec/v1
+oid sha256:5c272bd4dfc61888d8f4cd04e27edcc21459fa4cc8d15df1983681f686099081
+size 360

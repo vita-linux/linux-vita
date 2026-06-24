@@ -1,14 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-#
-# Makefile for the Linux fat filesystem support.
-#
-
-obj-$(CONFIG_FAT_FS) += fat.o
-obj-$(CONFIG_VFAT_FS) += vfat.o
-obj-$(CONFIG_MSDOS_FS) += msdos.o
-
-fat-y := cache.o dir.o fatent.o file.o inode.o misc.o nfs.o
-vfat-y := namei_vfat.o
-msdos-y := namei_msdos.o
-
-obj-$(CONFIG_FAT_KUNIT_TEST) += fat_test.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:5764ea22e71cdb246d7a03ef7c1ab4975a317515ffd20720fcc0fc4bef4dfadb
+size 338

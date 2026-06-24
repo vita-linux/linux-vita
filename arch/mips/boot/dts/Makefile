@@ -1,17 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-subdir-y	+= brcm
-subdir-y	+= cavium-octeon
-subdir-y	+= econet
-subdir-y	+= mobileye
-subdir-y	+= img
-subdir-y	+= ingenic
-subdir-y	+= lantiq
-subdir-y	+= loongson
-subdir-y	+= mscc
-subdir-y	+= mti
-subdir-y	+= ni
-subdir-y	+= pic32
-subdir-y	+= qca
-subdir-y	+= ralink
-subdir-y	+= realtek
-subdir-y	+= xilfpga
+version https://git-lfs.github.com/spec/v1
+oid sha256:4127d0e869246eb0a4e26bda3de23377ac5a4124a29d8dc48fe366c6c11ff380
+size 335

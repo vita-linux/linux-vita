@@ -1,8 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-#
-# Arch-specific network modules
-#
-obj-$(CONFIG_BPF_JIT) += bpf_jit_comp_$(BITS).o
-ifeq ($(BITS),32)
-obj-$(CONFIG_BPF_JIT) += bpf_jit_asm_32.o
-endif
+version https://git-lfs.github.com/spec/v1
+oid sha256:20d722d3c455036a1ea994f81b8a455b7b849ae11602e4f0fc2ff2e14bcfe50e
+size 190

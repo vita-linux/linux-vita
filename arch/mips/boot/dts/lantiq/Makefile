@@ -1,2 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-dtb-$(CONFIG_DT_EASY50712)	+= danube_easy50712.dtb
+version https://git-lfs.github.com/spec/v1
+oid sha256:71e24170961e23210637a200adec033fc5db8a8ed139cc2e3bf0e2edcee90257
+size 86

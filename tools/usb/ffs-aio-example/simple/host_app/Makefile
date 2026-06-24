@@ -1,14 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-CC = gcc
-LIBUSB_CFLAGS = $(shell pkg-config --cflags libusb-1.0)
-LIBUSB_LIBS = $(shell pkg-config --libs libusb-1.0)
-WARNINGS = -Wall -Wextra
-CFLAGS = $(LIBUSB_CFLAGS) $(WARNINGS)
-LDFLAGS = $(LIBUSB_LIBS)
-
-all: test
-%: %.c
-	$(CC) $(CFLAGS) -o $@ $^ $(LDFLAGS)
-
-clean:
-	$(RM) test
+version https://git-lfs.github.com/spec/v1
+oid sha256:4afbc4eef16abd8a522bb946d841bd389ba7415ddc54b6ded71d237d28534e64
+size 320

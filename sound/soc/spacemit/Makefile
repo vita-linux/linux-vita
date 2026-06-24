@@ -1,5 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-# K1 Platform Support
-snd-soc-k1-i2s-y := k1_i2s.o
-
-obj-$(CONFIG_SND_SOC_K1_I2S) += snd-soc-k1-i2s.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:d2e6bbf632bddc5fad5089b96659c0ec76f4be78c70d8c9c27905d0a0be1f785
+size 136

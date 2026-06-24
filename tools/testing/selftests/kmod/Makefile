@@ -1,12 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-# Makefile for kmod loading selftests
-
-# No binaries, but make sure arg-less "make" doesn't trigger "run_tests"
-all:
-
-TEST_PROGS := kmod.sh
-
-include ../lib.mk
-
-# Nothing to clean up.
-clean:
+version https://git-lfs.github.com/spec/v1
+oid sha256:bb0aad53d09ad7fc8fc0147359ded3572029f66dc28931b08f284400fd137a72
+size 230

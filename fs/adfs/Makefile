@@ -1,8 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-#
-# Makefile for the linux adfs filesystem routines.
-#
-
-obj-$(CONFIG_ADFS_FS) += adfs.o
-
-adfs-objs := dir.o dir_f.o dir_fplus.o file.o inode.o map.o super.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:4a0d6af4fe47b87f556bcca67fc127fc0d67cb82a5800531e7106902b97dd5f1
+size 197

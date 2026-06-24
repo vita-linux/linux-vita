@@ -1,3 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-dtb-$(CONFIG_MACH_REALTEK_RTL)	+= cisco_sg220-26.dtb
-dtb-$(CONFIG_MACH_REALTEK_RTL)	+= cameo-rtl9302c-2x-rtl8224-2xge.dtb
+version https://git-lfs.github.com/spec/v1
+oid sha256:f568320f8eec15e309821134c5ed1a3a0389e1e94c4cd63c506554696fb30c3a
+size 157

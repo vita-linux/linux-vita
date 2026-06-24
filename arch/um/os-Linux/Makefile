@@ -1,23 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-# 
-# Copyright (C) 2000 - 2007 Jeff Dike (jdike@{addtoit,linux.intel}.com)
-#
-
-# Don't instrument UML-specific code
-KCOV_INSTRUMENT                := n
-
-obj-y = elf_aux.o execvp.o file.o helper.o irq.o main.o mem.o process.o \
-	registers.o sigio.o signal.o start_up.o time.o tty.o \
-	umid.o user_syms.o util.o skas/
-
-CFLAGS_signal.o += -Wframe-larger-than=4096
-
-CFLAGS_main.o += -Wno-frame-larger-than
-
-obj-$(CONFIG_SMP) += smp.o
-
-USER_OBJS := $(user-objs-y) elf_aux.o execvp.o file.o helper.o irq.o \
-	main.o mem.o process.o registers.o sigio.o signal.o start_up.o time.o \
-	tty.o umid.o util.o smp.o
-
-include $(srctree)/arch/um/scripts/Makefile.rules
+version https://git-lfs.github.com/spec/v1
+oid sha256:d64b01045457911c55a2c72543e069948fc4d5c6bc4f3804e206538914cb4f5c
+size 687

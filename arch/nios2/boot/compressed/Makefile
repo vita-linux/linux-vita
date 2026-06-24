@@ -1,19 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-#
-# create a compressed vmlinux image from the original vmlinux
-#
-
-targets		:= vmlinux head.o misc.o piggy.o vmlinux.lds
-asflags-y	:=
-
-OBJECTS = $(obj)/head.o $(obj)/misc.o
-
-LDFLAGS_vmlinux := -T
-
-$(obj)/vmlinux: $(obj)/vmlinux.lds $(OBJECTS) $(obj)/piggy.o FORCE
-	$(call if_changed,ld)
-
-LDFLAGS_piggy.o := -r --format binary --oformat elf32-littlenios2 -T
-
-$(obj)/piggy.o: $(obj)/vmlinux.scr $(obj)/../vmlinux.gz FORCE
-	$(call if_changed,ld)
+version https://git-lfs.github.com/spec/v1
+oid sha256:0dd0e921e0381dc01a1cf69366b4d38c3e552d86900cdaba1c9de8c5b69162e4
+size 478

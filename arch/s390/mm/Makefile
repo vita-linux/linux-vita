@@ -1,15 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-#
-# Makefile for the linux s390-specific parts of the memory manager.
-#
-
-obj-y		:= init.o fault.o extmem.o mmap.o vmem.o maccess.o
-obj-y		+= page-states.o pageattr.o pgtable.o pgalloc.o extable.o
-
-obj-$(CONFIG_CMM)		+= cmm.o
-obj-$(CONFIG_DEBUG_VIRTUAL)	+= physaddr.o
-obj-$(CONFIG_HUGETLB_PAGE)	+= hugetlbpage.o
-obj-$(CONFIG_PTDUMP)		+= dump_pagetables.o
-obj-$(CONFIG_PFAULT)		+= pfault.o
-
-obj-$(subst m,y,$(CONFIG_KVM))	+= gmap_helpers.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:bd2ec657019792368f337971daeee319870387e60945c242f8f3f7bd1cf85aa7
+size 473

@@ -1,18 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-menuconfig SND_AOA
-	tristate "Apple Onboard Audio driver"
-	depends on PPC_PMAC
-	select SND_PCM
-	help
-	This option enables the new driver for the various
-	Apple Onboard Audio components.
-
-if SND_AOA
-
-source "sound/aoa/fabrics/Kconfig"
-
-source "sound/aoa/codecs/Kconfig"
-
-source "sound/aoa/soundbus/Kconfig"
-
-endif	# SND_AOA
+version https://git-lfs.github.com/spec/v1
+oid sha256:2bcada4f4a70e3d1569dcc4d4593634431f90152f157b72aaa8516c73b4eac36
+size 363

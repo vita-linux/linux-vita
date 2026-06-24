@@ -1,12 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-#
-# Makefile for ALSA
-# Copyright (c) 2001 by Jaroslav Kysela <perex@perex.cz>
-#
-
-snd-opl4-lib-y := opl4_lib.o opl4_mixer.o
-snd-opl4-lib-$(CONFIG_SND_PROC_FS) += opl4_proc.o
-snd-opl4-synth-y := opl4_seq.o opl4_synth.o yrw801.o
-
-obj-$(CONFIG_SND_OPL4_LIB) += snd-opl4-lib.o
-obj-$(CONFIG_SND_OPL4_LIB_SEQ) += snd-opl4-synth.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:395b47459fa90b1f0975ba86889de5cc9d785a1d9311602eb0cf6f17cbd29171
+size 359

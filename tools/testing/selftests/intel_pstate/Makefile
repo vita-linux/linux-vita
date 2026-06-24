@@ -1,16 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0
-CFLAGS := $(CFLAGS) -Wall
-LDLIBS += -lm
-
-ARCH ?= $(shell uname -m 2>/dev/null || echo not)
-ARCH_PROCESSED := $(shell echo $(ARCH) | sed -e s/i.86/x86/ -e s/x86_64/x86/)
-
-ifeq (x86,$(ARCH_PROCESSED))
-TEST_GEN_FILES := msr aperf
-endif
-
-TEST_PROGS := run.sh
-
-include ../lib.mk
-
-$(TEST_GEN_FILES): $(HEADERS)
+version https://git-lfs.github.com/spec/v1
+oid sha256:a90d5e40b7647de2cb57948bb9cb56cc53396b392acbe882f11c03d3450fdd6c
+size 340

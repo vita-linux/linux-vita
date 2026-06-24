@@ -1,8 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-#
-# Makefile for the packet AF.
-#
-
-obj-$(CONFIG_PACKET) += af_packet.o
-obj-$(CONFIG_PACKET_DIAG) += af_packet_diag.o
-af_packet_diag-y += diag.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:2b18a1d729f75b39dec3e8e9f64e3ecf0d3a26a6287718e08265e838eb4fd001
+size 184

@@ -1,9 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-#
-# Makefile for ALSA
-# Copyright (c) 2001 by Jaroslav Kysela <perex@perex.cz>
-#
-
-snd-vx222-y := vx222.o vx222_ops.o
-
-obj-$(CONFIG_SND_VX222) += snd-vx222.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:61d1031c91301bb1f44e061c5544ebb6d101b2e58a1b4a2ef7b29bf368cde539
+size 197

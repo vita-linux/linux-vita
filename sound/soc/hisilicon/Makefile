@@ -1,2 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-obj-$(CONFIG_SND_I2S_HI6210_I2S) += hi6210-i2s.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:a9c03d956d6131569f5c4d588753ba2cf3ff072b848be361509f0414ab97bb2b
+size 89

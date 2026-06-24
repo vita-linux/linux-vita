@@ -1,8 +1,3 @@
-# SPDX-License-Identifier: GPL-2.0-only
-#
-# Makefile for the SGI specific kernel interface routines
-# under Linux.
-#
-
-obj-y	+= ip32-berr.o ip32-irq.o ip32-platform.o ip32-setup.o ip32-reset.o \
-	   crime.o ip32-memory.o ip32-dma.o
+version https://git-lfs.github.com/spec/v1
+oid sha256:e550c12b332934a7c8f15f6fc5078db85ece93c0d6fa1e8700820fb1421ac7f1
+size 231
