@@ -1,7 +1,7 @@
 From f385b62c9eeecfadc605af9ea0ed028dcf00b590 Mon Sep 17 00:00:00 2001
 From: Piotr Gorski <lucjan.lucjanov@gmail.com>
 Date: Mon, 4 May 2026 07:56:28 +0200
-Subject: [PATCH] bore-cachy
+Subject: [PATCH] bore-vita
 
 Signed-off-by: Piotr Gorski <lucjan.lucjanov@gmail.com>
 ---
@@ -889,7 +889,7 @@ index 28c28695e..44078ec17 100644
 + * (default min_base_slice = 2000000 constant, units: nanoseconds)
 + * EEVDF: default 0.70 msec * (1 + ilog(ncpus)), units: nanoseconds
   */
--#ifdef CONFIG_CACHY
+-#ifdef CONFIG_VITA
 -unsigned int sysctl_sched_base_slice			= 400000ULL;
 -static unsigned int normalized_sysctl_sched_base_slice	= 400000ULL;
 -#else
@@ -900,10 +900,10 @@ index 28c28695e..44078ec17 100644
 +#else /* !CONFIG_SCHED_BORE */
  unsigned int sysctl_sched_base_slice			= 700000ULL;
  static unsigned int normalized_sysctl_sched_base_slice	= 700000ULL;
--#endif /* CONFIG_CACHY */
+-#endif /* CONFIG_VITA */
 +#endif /* CONFIG_SCHED_BORE */
  
--#ifdef CONFIG_CACHY
+-#ifdef CONFIG_VITA
 -__read_mostly unsigned int sysctl_sched_migration_cost	= 400000UL;
 -#else
  __read_mostly unsigned int sysctl_sched_migration_cost	= 500000UL;

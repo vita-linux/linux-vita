@@ -1,115 +1,76 @@
 # linux-vita
 
-Your custom Arch Linux kernel with the BORE scheduler and additional patches.
+A custom Linux kernel built from vanilla kernel.org source with BORE scheduler.
 
 ## Features
 
 - **BORE Scheduler**: Burst-Oriented Response Enhancer for improved desktop responsiveness
-- **vhba-module support**: Virtual SCSI host adapter module for CDEmu support
-- **Customizable**: Easy to add your own patches and configuration
+- **Vanilla base**: Built directly from kernel.org source (7.1.1)
+- **Clean approach**: Only BORE scheduler patch applied, no other modifications
 
-## Prerequisites
+## Download
+
+Pre-built tarball: [linux-vita-7.1.1.tar.xz](releases/7.1.1/linux-vita-7.1.1.tar.xz)
+
+## Build Instructions
+
+### Using PKGBUILD (Arch Linux)
 
 ```bash
-sudo pacman -Syu base-devel bc binutils cpio gettext libelf libgcc openssl pahole perl python rust rust-bindgen rust-src tar xxhash xz zlib zstd graphviz imagemagick python-sphinx python-yaml texlive-latexextra
+# Clone the repository
+git clone https://github.com/yourusername/linux-vita.git
+cd linux-vita
+
+# Build the package
+makepkg -si
 ```
 
-## Building
+### Manual Build
 
 ```bash
-cd linux
-makepkg -sf
-```
+# Download the tarball
+curl -LO https://github.com/yourusername/linux-vita/releases/download/v7.1.1/linux-vita-7.1.1.tar.xz
 
-This will:
-1. Download the Arch Linux kernel source
-2. Apply the BORE scheduler patch
-3. Build the kernel with your custom configuration
-4. Create installable packages
-
-## Installation
-
-```bash
-sudo pacman -U linux-vita-*.pkg.tar.zst
-```
-
-After installation, update your initramfs:
-
-```bash
+# Extract and build
+tar -xf linux-vita-7.1.1.tar.xz
+cd linux-7.1.1
+make defconfig
+./scripts/config -e SCHED_BORE
+make -j$(nproc)
+sudo make modules_install
+sudo make install
 sudo mkinitcpio -P
+sudo grub-mkconfig -o /boot/grub/grub.cfg
 ```
 
-## Adding More Patches
+## Verify BORE Scheduler
 
-1. Place patch files in the `patches/` directory
-2. Add them to the `source` array in `PKGBUILD`
-3. They will be applied automatically during `prepare()`
-
-## Adding More Modules (like vhba-module)
-
-The `vhba-module` package can be built separately against this kernel:
+After installing and rebooting:
 
 ```bash
-# Install vhba-module from AUR or build manually
-# It will automatically rebuild when you update this kernel
+# Check kernel version
+uname -r
+
+# Verify BORE is enabled
+cat /proc/sys/kernel/sched_bore  # Should output 1
+
+# Check BORE statistics
+cat /proc/schedstat | grep -i bore
 ```
 
-## Kernel Config Options
+## Patch Details
 
-The kernel is configured with:
-- `CONFIG_SCHED_BORE=y` - BORE scheduler enabled
-- `CONFIG_MIN_BASE_SLICE_NS=2000000` - Minimum base slice for BORE
-- `CONFIG_HZ_1000=y` - 1000Hz tick rate for better responsiveness
+The kernel includes the BORE scheduler patch with modifications:
+- Replaced "cachy" references with "vita"
+- Fixed compilation issues for kernel 7.1.1
+- Clean integration with vanilla kernel source
 
-## Customizing Configuration
+## License
 
-To customize the kernel config:
-
-```bash
-cd linux
-make menuconfig
-# or
-make nconfig
-# or
-make xconfig
-```
-
-Then rebuild:
-
-```bash
-makepkg -sf
-```
-
-## BORE Scheduler Tuning
-
-BORE has several tunable parameters accessible via sysctl:
-
-| Parameter | Default | Description |
-|-----------|---------|-------------|
-| `sched_bore` | 1 | Enable/disable BORE scheduler |
-| `sched_burst_inherit_type` | 2 | Burst inheritance (0=off, 1=parent, 2=ancestor) |
-| `sched_burst_smoothness` | 1 | Penalty smoothing factor |
-| `sched_burst_penalty_offset` | 24 | Penalty offset threshold |
-| `sched_burst_penalty_scale` | 1536 | Penalty scaling factor |
-| `sched_burst_cache_lifetime` | 75000000 | Cache lifetime in nanoseconds |
-
-## Troubleshooting
-
-### Kernel doesn't boot
-- Try booting with `init=/bin/bash` to debug
-- Check `dmesg` for errors after boot
-- Verify `config.x86_64` is correct
-
-### Modules not loading
-- Ensure `linux-vita-headers` is installed
-- Rebuild external modules with `make clean && make`
-
-### BORE not working
-- Verify `CONFIG_SCHED_BORE=y` in `.config`
-- Check `cat /proc/sys/kernel/sched_bore`
+GPL-2.0 (same as Linux kernel)
 
 ## Credits
 
-- Arch Linux kernel maintainers
+- Linux kernel maintainers
 - BORE scheduler by Masahito Suzuki <firelzrd@gmail.com>
-- CachyOS for the BORE patch implementation
+- CachyOS for patch reference
