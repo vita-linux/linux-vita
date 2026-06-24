@@ -1,0 +1,5 @@
+block filter=lfs diff=lfs merge=lfs -text
+certs filter=lfs diff=lfs merge=lfs -text
+crypto filter=lfs diff=lfs merge=lfs -text
+Documentation filter=lfs diff=lfs merge=lfs -text
+arch filter=lfs diff=lfs merge=lfs -text
