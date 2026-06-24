@@ -1,6 +1,6 @@
 # linux-vita
 
-Your custom Arch Linux kernel with the BORE scheduler and additional patches.
+Vita-OS custom Arch Linux kernel with the BORE scheduler and additional patches.
 
 ## Features
 
@@ -24,7 +24,7 @@ makepkg -sf
 This will:
 1. Download the Arch Linux kernel source
 2. Apply the BORE scheduler patch
-3. Build the kernel with your custom configuration
+3. Build the kernel with the custom configuration
 4. Create installable packages
 
 ## Installation
